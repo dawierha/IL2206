@@ -16,18 +16,16 @@ check_defined = $(foreach 1, $1, $(call $(if $(value $1),, \
 
 # imports the current path of the configuration file. Defines the
 # $(CFG) variable.
+ifneq ("$(wildcard Makefile.conf)","") # if Makefile.conf exists
 include Makefile.conf
 
 # The project-specific configuration file should contain the
 # definitions for the variables: $(APP_NAME), $(CORE_FILE),
 # $(SOF_FILE), $(JDI_FILE), $(BSP_PATH), $(CPU_NAME) $(BSP_TYPE)
 # $(NIOS2_BSP_COMMANDS) and $(MAKEFILE_COMMANDS).
-
 ifneq ("$(wildcard $(CFG))","")  # if $(CFG) points to an existing file
 include $(CFG)
 $(call check_defined, APP_NAME CORE_FILE SOF_FILE JDI_FILE BSP_PATH CPU_NAME BSP_TYPE NIOS2_BSP_COMMANDS MAKEFILE_COMMANDS)
-endif
-
 
 ELF_FILE  := $(APP_NAME)/$(APP_NAME).elf
 BSP_FILE  := $(BSP_PATH)/settings.bsp
@@ -84,16 +82,6 @@ $(MAKE_FILE) : $(BSP_FILE) $(CFG)
 		--src-dir $(SRC_PATH) \
 		$(MAKEFILE_COMMANDS)
 
-# Command for configuring this Makefile to compile and run a different
-# application by updating the Makefile.conf file. It needs to be
-# called with the CFG variable set to point to the new application
-# configuration file.
-config :
-	@echo "CFG := $(CFG)" > Makefile.conf
-	@echo "* Configured 'make' to load $(CFG)\n* Run the 'make' command again."
-	exit 0
-
-
 # cleans all generated file for the current application.
 clean:
 	$(MAKE) -C $(APP_NAME) clean
@@ -103,6 +91,18 @@ clean:
 # Shows the current target application.
 show:
 	@echo $(APP_NAME)
+
+endif # $(CFG)
+endif # Makefile.conf
+
+# Command for configuring this Makefile to compile and run a different
+# application by updating the Makefile.conf file. It needs to be
+# called with the CFG variable set to point to the new application
+# configuration file.
+config :
+	@echo "CFG := $(CFG)" > Makefile.conf
+	@echo "* Configured 'make' to load $(CFG)\n* Run the 'make' command again."
+	exit 0
 
 # prints a help message with the main rules and their usage.
 help:
