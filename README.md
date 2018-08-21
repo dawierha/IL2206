@@ -3,30 +3,24 @@
 This repository contains the source files needed to get started with the IL2206 lab. You need to acquire them in one of the following way:
 
  * download a `.zip` archive by clicking _Clone or download_ -> _Download ZIP_. 
- * create an own repository and attach a remote to this one. The [instructions on the course home page](https://kth.instructure.com/courses/6446/pages/setting-up-a-git-repositorty) present one (recommended) way to do that on your VM. 
- * alternatively, if you are **not** planning to use Git for versioning and managing your code, you can simply clone this repository by typing in the commands:
-
-        cd path/to/workfolder
-        git clone git@gits-15.sys.kth.se:ugeorge/il2206-lab.git
+ * create an own repository and attach a remote to this one as presented in the [instructions on the course home page](https://kth.instructure.com/courses/6446/pages/setting-up-a-git-repositorty). 
 
 ## Contents 
 
 This repository is organized as follows:
 
  * `app` contains source files for the lab applications, grouped in subfolders by project. It also contains a `Makefile` which is a build automation script for helping with the lab tasks. 
- * `bsp` is an empty folder which might contain the generated Board Support Packages in case you are using our build scripts.
+ * `bsp` is an empty folder which might contain the generated Board Support Packages for different configurations in case you are using our build scripts.
  * `hardware` contains files describing the pre-built hardware cores. 
 
 ### Choosing a work style
 
 Unless specifically stated, the instructions in the lab manuals do not impose what tools to use in order to write an application and deliver any specific task. In this sense you have two alternatives to choose from:
 
- * use (mainly) the Eclipse IDE provided by Altera with its associated GUI tools. In this case the work flow is documented in the Altera documentation referenced in Lab 1 manual and you mainly need only the source files, which can be copied and included in your IDE projects. Thus you can **ignore** the following:
-   - the next section
-   - folder `bsp`
-   - the script at `app/Makefile`
-   - all configuration files associated with each project (e.g. `app/lab1-io/configuration`)
- * use your favorite code editor and use CLI tools for performing the tasks. In this case we have provided a bunch of automation scripts which can be used "as-is" or as inspiration for your own automation flow. To make full use of the provided material, you need to follow the instructions in the next section.
+ * use (mainly) the Eclipse IDE provided by Altera with its associated GUI tools. In this case the work flow is documented in the [Nios2 Eclipse Tutorial](https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/tt/tt_my_first_nios_sw.pdf) and you mainly need only the source files, which can be copied and included in your IDE projects. Thus you will be interested ***only** in the following files, ignoring the rest:
+   - the source files (`.c`, `.h` or `.s`) found in `app/<project>/src/`
+   - the pre-built hardware files found in `hardware/<your-board>/`
+ * use your favorite code editor and use CLI tools for performing the tasks. In this case we have provided a bunch of automation scripts which can be used "as-is" or as inspiration for your own automation flow. We recommend that you go through the [Nios2 CLI tutorial](https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/nios2/n2sw_nii52014.pdf) 
 
 ## Using our automation scripts
 
