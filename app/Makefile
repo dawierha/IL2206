@@ -9,7 +9,8 @@
 # application. The application can be changed by running the command
 # 'make conf' (check 'make help' for instructions on usage).
 
-# Check if Makefile.conf has been properly loaded. You can ignore this part.
+# Function that checks if a list of variables has been properly
+# loaded. You can ignore this part.
 check_defined = $(foreach 1, $1, $(call $(if $(value $1),, \
 	$(error Undefined variable $1. Make sure it is defined in the application configuration file))))
 
@@ -19,11 +20,14 @@ include Makefile.conf
 
 # The project-specific configuration file should contain the
 # definitions for the variables: $(APP_NAME), $(CORE_FILE),
-# $(SOF_FILE), $(JDI_FILE), $(BSP_PATH), $(CPU) $(NIOS2_BSP_COMMANDS)
-# and $(MAKEFILE_COMMANDS).
-include $(CFG)
+# $(SOF_FILE), $(JDI_FILE), $(BSP_PATH), $(CPU_NAME) $(BSP_TYPE)
+# $(NIOS2_BSP_COMMANDS) and $(MAKEFILE_COMMANDS).
 
-$(call check_defined, APP_NAME CORE_FILE SOF_FILE JDI_FILE BSP_PATH CPU NIOS2_BSP_COMMANDS MAKEFILE_COMMANDS)
+ifneq ("$(wildcard $(CFG))","")  # if $(CFG) points to an existing file
+include $(CFG)
+$(call check_defined, APP_NAME CORE_FILE SOF_FILE JDI_FILE BSP_PATH CPU_NAME BSP_TYPE NIOS2_BSP_COMMANDS MAKEFILE_COMMANDS)
+endif
+
 
 ELF_FILE  := $(APP_NAME)/$(APP_NAME).elf
 BSP_FILE  := $(BSP_PATH)/settings.bsp
@@ -41,8 +45,8 @@ compile: $(ELF_FILE)
 run: $(ELF_FILE)
 	nios2-configure-sof $(SOF_FILE)
 	@echo "Starting a new Nios II terminal..."
-	xterm -title "$(CPU)" -e "nios2-terminal"
-	nios2-download -g $(APP_NAME).elf --cpu_name $(CPU) --jdi $(JDI_FILE)
+	(xterm -title "$(CPU_NAME)" -e "nios2-terminal -i 0" &)
+	nios2-download -g $(ELF_FILE) --cpu_name $(CPU_NAME) --jdi $(JDI_FILE)
 
 # Rule which states that the target in the rhs is dependent on the
 # prerequisites in the lhs. In case the rhs does not exist or the lhs
@@ -63,8 +67,8 @@ $(ELF_FILE) : $(BSP_FILE) $(MAKE_FILE)
 #       $< returns the first prerequisite (lhs)
 #       $(@D) returns the parent directory of the rhs
 $(BSP_FILE) : $(CORE_FILE) $(CFG)
-	nios2-bsp hal $(@D) $< \
-		--cpu-name $(CPU) \
+	nios2-bsp $(BSP_TYPE) $(@D) $< \
+		--cpu-name $(CPU_NAME) \
 		$(NIOS2_BSP_COMMANDS)
 
 # This rule invokes the command 'nios2-app-generate-makefile' from
@@ -77,7 +81,7 @@ $(MAKE_FILE) : $(BSP_FILE) $(CFG)
 	&& nios2-app-generate-makefile \
 		--bsp-dir ../$(<D) \
 		--elf-name $(APP_NAME).elf \
-		--src-dir . \
+		--src-dir $(SRC_PATH) \
 		$(MAKEFILE_COMMANDS)
 
 # Command for configuring this Makefile to compile and run a different
