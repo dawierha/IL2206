@@ -25,6 +25,12 @@ CPU_NAME=nios2
 BSP_PATH=../../bsp/il2206-pre-built
 SRC_PATH=./src
 
+# Project internal folders
+GEN=gen
+BIN=bin
+mkdir -p $GEN
+mkdir -p $BIN
+
 echo -e "\n******************************************"
 echo -e   "Building the BSP and compiling the program"
 echo -e   "******************************************\n"
@@ -36,13 +42,15 @@ nios2-bsp hal $BSP_PATH $CORE_FILE \
 	  --set hal.enable_sopc_sysid_check 1 \
 	  --set hal.max_file_descriptors 4
 
+cd $GEN
 nios2-app-generate-makefile \
-    --bsp-dir $BSP_PATH \
-    --elf-name $APP_NAME.elf \
-    --src-dir $SRC_PATH \
+    --bsp-dir ../$BSP_PATH \
+    --elf-name ../$BIN/$APP_NAME.elf \
+    --src-dir ../$SRC_PATH \
     --set APP_CFLAGS_OPTIMIZATION -O0
 
 make 3>&1 1>>log.txt 2>&1
+cd ..
 
 echo -e "\n**************************"
 echo -e  "Download hardware to board"
@@ -50,14 +58,13 @@ echo -e  "**************************\n"
 
 nios2-configure-sof $SOF_FILE
 
-
 echo -e "\n**************************"
 echo -e   "Download software to board"
 echo -e   "**************************\n"
 
 xterm -e "nios2-terminal -i 0" &
-nios2-download -g $APP_NAME.elf --cpu_name $CPU_NAME --jdi $JDI_FILE
+nios2-download -g $BIN/$APP_NAME.elf --cpu_name $CPU_NAME --jdi $JDI_FILE
 
 
 echo ""
-echo "Code compilation errors are logged in 'log.txt'"
+echo "Code compilation errors are logged in 'gen/log.txt'"

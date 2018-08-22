@@ -14,22 +14,18 @@
 check_defined = $(foreach 1, $1, $(call $(if $(value $1),, \
 	$(error Undefined variable $1. Make sure it is defined in the application configuration file))))
 
-# imports the current path of the configuration file. Defines the
-# $(CFG) variable.
-ifneq ("$(wildcard Makefile.conf)","") # if Makefile.conf exists
-include Makefile.conf
-
 # The project-specific configuration file should contain the
 # definitions for the variables: $(APP_NAME), $(CORE_FILE),
-# $(SOF_FILE), $(JDI_FILE), $(BSP_PATH), $(CPU_NAME) $(BSP_TYPE)
-# $(NIOS2_BSP_COMMANDS) and $(MAKEFILE_COMMANDS).
-ifneq ("$(wildcard $(CFG))","")  # if $(CFG) points to an existing file
-include $(CFG)
-$(call check_defined, APP_NAME CORE_FILE SOF_FILE JDI_FILE BSP_PATH CPU_NAME BSP_TYPE NIOS2_BSP_COMMANDS MAKEFILE_COMMANDS)
+# $(SOF_FILE), $(JDI_FILE), $(BSP_PATH), $(SRC_PATH), $(BIN_PATH),
+# $(CPU_NAME) $(BSP_TYPE) $(NIOS2_BSP_COMMANDS) and
+# $(MAKEFILE_COMMANDS).
+$(call check_defined, \
+	APP_NAME CORE_FILE SOF_FILE JDI_FILE BSP_PATH SRC_PATH BIN_PATH \
+	CPU_NAME BSP_TYPE NIOS2_BSP_COMMANDS MAKEFILE_COMMANDS)
 
-ELF_FILE  := $(APP_NAME)/$(APP_NAME).elf
+ELF_FILE  := $(BIN_PATH)/$(APP_NAME).elf
 BSP_FILE  := $(BSP_PATH)/settings.bsp
-MAKE_FILE := $(APP_NAME)/Makefile
+MAKE_FILE := $(GEN_PATH)/Makefile
 
 # Default rule. Checks if an executable binary has been compiled by
 # visiting the rule associated with its only prerequisite (see rules
@@ -56,7 +52,7 @@ run: $(ELF_FILE)
 # C application into an executable binary by executing the 'make'
 # command on the generated makefile.
 $(ELF_FILE) : $(BSP_FILE) $(MAKE_FILE)
-	$(MAKE) -C $(APP_NAME)
+	$(MAKE) -C $(GEN_PATH)
 
 # This rule invokes the command 'nios2-bsp'. Check documentation for
 # argument description.
@@ -64,7 +60,7 @@ $(ELF_FILE) : $(BSP_FILE) $(MAKE_FILE)
 # Note: $@ returns the target (rhs)
 #       $< returns the first prerequisite (lhs)
 #       $(@D) returns the parent directory of the rhs
-$(BSP_FILE) : $(CORE_FILE) $(CFG)
+$(BSP_FILE) : $(CORE_FILE) Makefile
 	nios2-bsp $(BSP_TYPE) $(@D) $< \
 		--cpu-name $(CPU_NAME) \
 		$(NIOS2_BSP_COMMANDS)
@@ -74,35 +70,28 @@ $(BSP_FILE) : $(CORE_FILE) $(CFG)
 # description.
 #
 # Note: $(<D) returns the parent directory of the first prerequisite
-$(MAKE_FILE) : $(BSP_FILE) $(CFG)
-	cd $(APP_NAME) \
+$(MAKE_FILE) : $(BSP_FILE) $(GEN_PATH) $(BIN_PATH)
+	cd $(GEN_PATH) \
 	&& nios2-app-generate-makefile \
 		--bsp-dir ../$(<D) \
-		--elf-name $(APP_NAME).elf \
-		--src-dir $(SRC_PATH) \
+		--elf-name ../$(ELF_FILE) \
+		--src-dir ../$(SRC_PATH) \
 		$(MAKEFILE_COMMANDS)
+
+# This rule checks if the $(GEN_PATH) directory exists and if not,
+# creates it.
+$(GEN_PATH):
+	mkdir -p $(GEN_PATH)
+
+# This rule checks if the $(BIN_PATH) directory exists and if not,
+# creates it.
+$(BIN_PATH):
+	mkdir -p $(BIN_PATH)
 
 # cleans all generated file for the current application.
 clean:
-	$(MAKE) -C $(APP_NAME) clean
-	rm -rf $(BSP_PATH)
-	rm -f $(MAKE_FILE)
-
-# Shows the current target application.
-show:
-	@echo $(APP_NAME)
-
-endif # $(CFG)
-endif # Makefile.conf
-
-# Command for configuring this Makefile to compile and run a different
-# application by updating the Makefile.conf file. It needs to be
-# called with the CFG variable set to point to the new application
-# configuration file.
-config :
-	@echo "CFG := $(CFG)" > Makefile.conf
-	@echo "* Configured 'make' to load $(CFG)\n* Run the 'make' command again."
-	exit 0
+	$(MAKE) -C $(GEN_PATH) clean
+	rm -rf $(BSP_PATH) $(GEN_PATH) $(BIN_PATH)
 
 # prints a help message with the main rules and their usage.
 help:
@@ -110,14 +99,10 @@ help:
 	@echo "Rules:"
 	@echo "  compile : default rule. compiles an application downto binary."
 	@echo "  run     : downloads and runs an application on the DE2 board."
-	@echo "  config  : configures the current make script to run a different"
-	@echo "            application. It requires the variable 'CFG' to point to"
-	@echo "            the configuration file of the new application."
 	@echo "  clean   : cleans the generated files for the current application."
-	@echo "  show    : prints the current application."
 	@echo "  help    : prints this help message."
 
-.PHONY: config clean compile run show help
+.PHONY: clean compile run help
 
 # Include auto-generated dependencies
 -include *.d
