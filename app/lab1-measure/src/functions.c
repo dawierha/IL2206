@@ -3,6 +3,7 @@
 
   Ingo Sander, 2005-10-04
   Johan Wennlund, 2008-09-19
+  George Ungureanu, 2018-08-27
 
 */
 
@@ -12,17 +13,12 @@
 #include <sys/alt_timestamp.h>
 #include "alt_types.h"
 
-#define N 8192
-
-#define M 32
+#define M 64
 
 int matrix[M][M]; 
 
 /* Initialize the matrix */
 
-void initArray  (int x[], int n);
-void incArray   (int *array, int size);
-int  sumArray   (int array[], int size);
 void initMatrix (int matrix[][M]);
 int  sumMatrix  (int matrix[][M], int size);
 
@@ -50,9 +46,8 @@ void stop_measurement()
 
 int main ()
 {
-  int w[8192];
   
-  int a, b;
+  int a;
   
   printf("Processor Type: %s\n", NIOS2_CPU_IMPLEMENTATION);
 
@@ -61,10 +56,6 @@ int main ()
     printf("No timestamp device available!");
   else
     {
-      /* Print Information about the system */
-      printf("Information about the system:\n");
-      printf("\n");
-
       /* Print frequency and period */
       printf("Timestamp frequency: %3.1f MHz\n", (float)alt_timestamp_freq()/1000000.0);
       printf("Timestamp period:    %f ms\n\n", 1000.0/(float)alt_timestamp_freq());  
@@ -83,30 +74,13 @@ int main ()
       printf("Timer overhead in ticks: %d\n", (int) timer_overhead);
       printf("Timer overhead in ms:    %f\n\n", 
 	     1000.0 * (float)timer_overhead/(float)alt_timestamp_freq());
-
-      printf("Measuring incArray...\n");
-      initArray(w, N);    
-      start_measurement();
-      incArray(w, N);
-      stop_measurement();
-      printf("%5.2f us", (float) microseconds(ticks - timer_overhead));
-      printf("(%d ticks)\n", (int) (ticks - timer_overhead));               
-
-      printf("Measuring sumArray...");
-      initArray(w, N);    
-      start_measurement();
-      a = sumArray (w, N);
-      stop_measurement(); 
-      printf("Result: %d\n", a);
-      printf("%5.2f us", microseconds(ticks - timer_overhead));
-      printf("(%d ticks)\n", (int) (ticks - timer_overhead)); 
     
       printf("Measuring sumMatrix...");
       initMatrix(matrix);     
       start_measurement();
-      b = sumMatrix (matrix, M);
+      a = sumMatrix (matrix, M);
       stop_measurement();    
-      printf("Result: %d\n", b);
+      printf("Result: %d\n", a);
       printf("%5.2f us", microseconds(ticks - timer_overhead));
       printf("(%d ticks)\n", (int) (ticks - timer_overhead)); 
 
@@ -115,34 +89,6 @@ int main ()
     }    
   return 0;
 }
-
-void initArray(int x[], int n)
-{
-  int i;
-  
-  for(i = 0; i < n; i++)
-    x[i] = i;
-}
-
-int sumArray (int array[N], int size)
-{
-  int i, Sum = 0;
-
-  for (i = 0; i < size; i ++) {
-    Sum += array[i];
-  }
-  return Sum;
-}
-
-void incArray (int* array, int size)
-{
-  int i, Sum = 0;
-
-  for (i = 0; i < size; i ++) {
-    array[i]++;
-  }
-}
-
 
 void initMatrix (int matrix[M][M]){
   int i, j;
