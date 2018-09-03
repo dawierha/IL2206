@@ -1,5 +1,5 @@
 
-        .equ    delaycount,     0 #set right delay value here!
+        .equ    delaycount,  850 #set right delay value here!
         .text                   # Instructions follow
         .global delay           # Makes "main" globally known
 

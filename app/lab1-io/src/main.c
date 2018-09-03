@@ -15,7 +15,22 @@ int main ()
     
     while (TRUE)
     {
+		delay(1000);
         puttime (&timeloc);
+		timeloc++;
+		if ((timeloc&0x000F) == 0x000A){ 
+			timeloc = (timeloc&0xFFF0)+0x0010;
+
+			if ((timeloc&0x00F0) == 0x0060) 
+				timeloc = (timeloc&0xFFF0)+0x00A0;
+
+			if ((timeloc&0x0F00) == 0x0A00) 
+				timeloc = (timeloc&0xFF00)+0x0600;
+
+			if ((timeloc&0xF000) == 0x6000) 
+				timeloc = 0;
+		}
+
     }
     
     return 0;
