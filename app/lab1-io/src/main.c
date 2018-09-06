@@ -11,17 +11,9 @@ extern int hexasc(int invalue);
 #define TRUE 1
 
 int timeloc = 0x5957; /* startvalue given in hexadecimal/BCD-code */
-int swaggerblink = 0;
 
+void tick(int *timeloc){
 
-int main ()
-{
-    
-    while (TRUE)
-    {
-		delay(1000);
-        puttime (&timeloc);
-		timeloc++;
 		if ((timeloc&0x000F) == 0x000A){ 
 			timeloc = (timeloc&0xFFF0)+0x0010;
 
@@ -34,8 +26,21 @@ int main ()
 			if ((timeloc&0xF000) == 0x6000) 
 				timeloc = 0;
 		}
-	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,swaggerblink);
-	swaggerblink = (swaggerblink<<1)+1;
+}
+
+
+
+int main ()
+{
+    
+    while (TRUE)
+    {
+		delay(1000);
+        puttime (&timeloc);
+		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,timeloc);
+		timeloc++;
+		tick(&timeloc);
+
 
     }
     
