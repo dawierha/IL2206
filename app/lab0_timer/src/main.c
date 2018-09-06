@@ -4,6 +4,7 @@
 #include "alt_types.h"
 #include "sys/alt_irq.h"
 #include "sys/alt_alarm.h"
+#include <math.h>
 
 
 extern void puttime(int* timeloc);
@@ -20,6 +21,28 @@ int pushedkey2 = 0;
 int buttonflag= 0;
 int timeflag = 0;
 int alarmflag = 0;
+
+void print(int n)
+{
+    // If number is smaller than 0, put a - sign and
+    // change number to positive
+    if (n < 0) {
+        putchar('-');
+        n = -n;
+    }
+ 
+    // If number is 0
+    if (n == 0)
+        putchar('0');
+ 
+    // Remove the last digit and recur
+    if (n/10)
+        print(n/10);
+ 
+    // Print the last digit
+    putchar(n%10 + '0');
+}
+ 
 
 void pollkey(){
 	int key = IORD_ALTERA_AVALON_PIO_DATA(D2_PIO_KEYS4_BASE);
@@ -65,9 +88,19 @@ alt_u32 Alarm_Callback(void* context){
   return alt_ticks_per_second();
 }
 
+int nextPrime(int intVal) {
+	int i;
+	for(i = 2; i <= (int) sqrt(intVal) + 1; i++) {
+		if(intVal%i == 0) {
+			nextPrime(intVal++);
+		}
+	}
+	return intVal;
+}
+
 int main ()
 {
-	int counter = 0;
+	int prime = 2;
 
      /* set interrupt capability for the Button PIO. */
     IOWR_ALTERA_AVALON_PIO_IRQ_MASK(D2_PIO_KEYS4_BASE, 0xf);
@@ -96,7 +129,10 @@ int main ()
 		if (alarmflag){
 			puthex(timeloc);	
 			puttime (&timeloc);
-			alarmflag = 0;		
+			alarmflag = 0;
+			putchar(0x9);
+			print(prime);
+			prime = nextPrime(prime);		
 		}
 
 		if ((timeloc&0x000F) == 0x000A){ 
