@@ -139,7 +139,7 @@ ACDS_VERSION := 13.0sp1
 # Define path to the application ELF. 
 # It may be used by the makefile fragments so is defined before including them. 
 # 
-ELF := lab1-io.elf
+ELF := ../bin/lab1-io.elf
 
 # Paths to C, C++, and assembly source files.
 C_SRCS :=
@@ -149,10 +149,9 @@ ASM_SRCS :=
 # Variables for source paths as specified by --src-dir and 
 # --src-rdir commands.  Source files found in those directories as listed below 
 # using those SRC_DIR variables.
-SRC_DIR_01 := $(call adjust-path,src)
+SRC_DIR_01 := $(call adjust-path,../src)
 
 SDIR_C_SRCS += $(SRC_DIR_01)/main.c
-SDIR_C_SRCS += $(SRC_DIR_01)/puthex.c
 SDIR_C_SRCS += $(SRC_DIR_01)/puttime.c
 SDIR_C_SRCS += $(SRC_DIR_01)/tick.c
 SDIR_CXX_SRCS :=
@@ -189,7 +188,7 @@ CRT0 :=
 SYS_LIB :=
 
 # Define path to the root of the BSP.
-BSP_ROOT_DIR := ../../bsp/il2206-pre-built/
+BSP_ROOT_DIR := ../../../bsp/il2206-pre-built/
 
 # List of application specific include directories, library directories and library names
 APP_INCLUDE_DIRS :=

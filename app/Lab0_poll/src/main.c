@@ -8,24 +8,42 @@ extern void tick(int* timeloc);
 extern void delay (int millisec);
 extern int hexasc(int invalue);
 
+
+
 #define TRUE 1
 
-int timeloc = 0x5957; /* startvalue given in hexadecimal/BCD-code */
-int swaggerblink = 0;
+int run = 0;
+int timeloc = 0x0000; /* startvalue given in hexadecimal/BCD-code */
 
-
-
-
+void pollkey(){
+	int key = IORD_ALTERA_AVALON_PIO_DATA(D2_PIO_KEYS4_BASE);
+		switch (key){
+			case 14:
+				run = 1;
+				break;
+			case 13:
+				run = 0;
+				break;
+			case 11:
+				timeloc++;
+				break;
+			case 7:
+				timeloc = 0x0000;
+				break;
+		}
+}
 int main ()
 {
-
     while (TRUE)
     {
 		delay(1000);
         puttime (&timeloc);
 		puthex(timeloc);
+		pollkey();
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,timeloc);
-		timeloc++;
+		
+		if (run)
+			timeloc++;
 		
 		if ((timeloc&0x000F) == 0x000A){ 
 			timeloc = (timeloc&0xFFF0)+0x0010;
