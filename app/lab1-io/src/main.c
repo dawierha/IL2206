@@ -7,12 +7,15 @@ extern void puthex(int time);
 extern void tick(int* timeloc);
 extern void delay (int millisec);
 extern int hexasc(int invalue);
+extern void puthex(int inval);
 
 #define TRUE 1
 
 int timeloc = 0x5957; /* startvalue given in hexadecimal/BCD-code */
-int swaggerblink = 0;
 
+void ticks(int *val){
+
+		int timeloc = *val;
 
 
 
@@ -39,8 +42,6 @@ int main ()
 			if ((timeloc&0xF000) == 0x6000) 
 				timeloc = 0;
 		}
-
-
 
     }
     
