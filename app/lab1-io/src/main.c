@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
 
 extern void puttime(int* timeloc);
 extern void puthex(int time);
@@ -9,6 +11,8 @@ extern int hexasc(int invalue);
 #define TRUE 1
 
 int timeloc = 0x5957; /* startvalue given in hexadecimal/BCD-code */
+int swaggerblink = 0;
+
 
 int main ()
 {
@@ -30,6 +34,8 @@ int main ()
 			if ((timeloc&0xF000) == 0x6000) 
 				timeloc = 0;
 		}
+	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,swaggerblink);
+	swaggerblink = (swaggerblink<<1)+1;
 
     }
     
