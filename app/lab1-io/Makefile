@@ -152,6 +152,7 @@ ASM_SRCS :=
 SRC_DIR_01 := $(call adjust-path,src)
 
 SDIR_C_SRCS += $(SRC_DIR_01)/main.c
+SDIR_C_SRCS += $(SRC_DIR_01)/puthex.c
 SDIR_C_SRCS += $(SRC_DIR_01)/puttime.c
 SDIR_C_SRCS += $(SRC_DIR_01)/tick.c
 SDIR_CXX_SRCS :=

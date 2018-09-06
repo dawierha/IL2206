@@ -78,12 +78,13 @@ void puthex( int inval )
 
 int main ()
 {
-    
+    int in;
     while (TRUE)
     {
 		delay(1000);
         puttime (&timeloc);
-		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,timeloc);
+		in = IORD_ALTERA_AVALON_PIO_DATA(D2_PIO_KEYS4_BASE);
+		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,in);
 		puthex(timeloc);
 		timeloc++;
 		ticks(&timeloc);
