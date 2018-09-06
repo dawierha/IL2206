@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "system.h"
 #include "altera_avalon_pio_regs.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+
 
 extern void puttime(int* timeloc);
 extern void puthex(int time);
@@ -14,41 +17,66 @@ extern int hexasc(int invalue);
 
 int run = 0;
 int timeloc = 0x0000; /* startvalue given in hexadecimal/BCD-code */
-int pushed = 0;
+int pushedkey2 = 0;
+int buttonflag= 0;
+
 void pollkey(){
 	int key = IORD_ALTERA_AVALON_PIO_DATA(D2_PIO_KEYS4_BASE);
 		switch (key){
 			case 14:
-				run = 1;
+				run = !run;
 				break;
 			case 13:
-				run = 0;
-				break;
-			case 11:
-				if (!pushed){
-					pushed = 1;
+				if (!pushedkey2){
+					pushedkey2 = 1;
 					timeloc++;
 				}
 				break;
-			case 7:
+			case 11:
 				timeloc = 0x0000;
 				break;
+			case 7:
+				timeloc = 0x5957;
+				break;
 			default:
-				pushed = 0;
+				pushedkey2 = 0;
 				break;
 		}
 }
+
+
+void Key_InterruptHandler(){
+    buttonflag = 1;
+    /* Write to the edge capture register to reset it. */
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(D2_PIO_KEYS4_BASE, 0);
+    /* reset interrupt capability for the Button PIO. */
+    IOWR_ALTERA_AVALON_PIO_IRQ_MASK(D2_PIO_KEYS4_BASE, 0xf);
+}
+
+
 int main ()
 {
 	int counter = 0;
+
+     /* set interrupt capability for the Button PIO. */
+    IOWR_ALTERA_AVALON_PIO_IRQ_MASK(D2_PIO_KEYS4_BASE, 0xf);
+     /* Reset the edge capture register. */
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(D2_PIO_KEYS4_BASE, 0x0);
+    // Register the ISR for buttons
+    alt_irq_register(D2_PIO_KEYS4_IRQ, NULL, Key_InterruptHandler);
+
     while (TRUE)
     {
 		delay(1);
 		counter++;
-		pollkey();
 		puthex(timeloc);
 
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,timeloc);
+
+		if (buttonflag){
+			pollkey();
+			buttonflag = 0;
+		}
 
 		if (counter == 1000){
 			counter = 0;
