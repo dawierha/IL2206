@@ -13,7 +13,9 @@ extern void puthex(int inval);
 
 int timeloc = 0x5957; /* startvalue given in hexadecimal/BCD-code */
 
-void tick(int *timeloc){
+void ticks(int *val){
+
+		int timeloc = *val;
 
 		if ((timeloc&0x000F) == 0x000A){ 
 			timeloc = (timeloc&0xFFF0)+0x0010;
@@ -27,6 +29,8 @@ void tick(int *timeloc){
 			if ((timeloc&0xF000) == 0x6000) 
 				timeloc = 0;
 		}
+		
+		*val = timeloc;
 }
 
 
@@ -82,7 +86,7 @@ int main ()
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE,timeloc);
 		puthex(timeloc);
 		timeloc++;
-		tick(&timeloc);
+		ticks(&timeloc);
 
 
     }
