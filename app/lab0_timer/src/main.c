@@ -16,7 +16,7 @@ extern int hexasc(int invalue);
 #define TRUE 1
 
 int run = 0;
-int timeloc = 0x0000; /* startvalue given in hexadecimal/BCD-code */
+int timeloc = 0x5957; /* startvalue given in hexadecimal/BCD-code */
 int pushedkey2 = 0;
 int buttonflag= 0;
 int timeflag = 0;
@@ -89,26 +89,24 @@ alt_u32 Alarm_Callback(void* context){
 }
 
 
-/*
+
 int nextPrime(int intVal) {
-	int testPrime = intVal;
-	int primeNotFound = 0;
-	while(1) {
-		testPrime = testPrime+1;
-		if(testPrime%2 == 0) continue;
-		//print(testPrime);
-		int i;		
-		for(i = 1; i <=(int) sqrt(testPrime); i=i+2) {
-			if(i==1) continue;
-			if(testPrime%i == 0) {
-				primeNotFound = 1;
-				break;		
-			}		
+	int testPrime = intVal + 2;
+
+	int primesearch = 0;
+
+	int devider = sqrt(testPrime)+1;
+	int val;
+	while(!primesearch){
+	
+		val = testPrime%devider;
+		devider--;
+		if (val == 0){
+			primesearch = 1;
+			return testPrime;
 		}
-		if (!primeNotFound) return testPrime;		
 	}
 }
-*/
 
 void tickcheck(int *val){
 	int timeloc = *val;
@@ -130,7 +128,7 @@ void tickcheck(int *val){
 
 int main ()
 {
-	int prime = 2;
+	int prime = 1;
 
      /* set interrupt capability for the Button PIO. */
     IOWR_ALTERA_AVALON_PIO_IRQ_MASK(D2_PIO_KEYS4_BASE, 0xf);
@@ -163,8 +161,8 @@ int main ()
 			puttime (&timeloc);
 			alarmflag = 0;
 			putchar(0x9);
+			prime = nextPrime(prime);
 			print(prime);
-			//prime = nextPrime(prime);		
 		}
 
 
