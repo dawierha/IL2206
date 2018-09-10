@@ -88,6 +88,8 @@ alt_u32 Alarm_Callback(void* context){
   return alt_ticks_per_second();
 }
 
+
+/*
 int nextPrime(int intVal) {
 	int testPrime = intVal;
 	int primeNotFound = 0;
@@ -106,6 +108,25 @@ int nextPrime(int intVal) {
 		if (!primeNotFound) return testPrime;		
 	}
 }
+*/
+
+void tickcheck(int *val){
+	int timeloc = *val;
+	if ((timeloc&0x000F) == 0x000A){ 
+		timeloc = (timeloc&0xFFF0)+0x0010;
+
+		if ((timeloc&0x00F0) == 0x0060) 
+			timeloc = (timeloc&0xFFF0)+0x00A0;
+	
+		if ((timeloc&0x0F00) == 0x0A00) 
+			timeloc = (timeloc&0xFF00)+0x0600;
+	
+		if ((timeloc&0xF000) == 0x6000) 
+			timeloc = 0;
+	}
+	*val = timeloc;
+}
+
 
 int main ()
 {
@@ -136,26 +157,17 @@ int main ()
 		}
 
 		if (alarmflag){
+
+			tickcheck(&timeloc);
 			puthex(timeloc);	
 			puttime (&timeloc);
 			alarmflag = 0;
 			putchar(0x9);
 			print(prime);
-			prime = nextPrime(prime);		
+			//prime = nextPrime(prime);		
 		}
 
-		if ((timeloc&0x000F) == 0x000A){ 
-			timeloc = (timeloc&0xFFF0)+0x0010;
 
-			if ((timeloc&0x00F0) == 0x0060) 
-				timeloc = (timeloc&0xFFF0)+0x00A0;
-
-			if ((timeloc&0x0F00) == 0x0A00) 
-				timeloc = (timeloc&0xFF00)+0x0600;
-
-			if ((timeloc&0xF000) == 0x6000) 
-				timeloc = 0;
-		}
 
     }
     
