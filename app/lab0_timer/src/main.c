@@ -89,13 +89,22 @@ alt_u32 Alarm_Callback(void* context){
 }
 
 int nextPrime(int intVal) {
-	int i;
-	for(i = 2; i <= (int) sqrt(intVal) + 1; i++) {
-		if(intVal%i == 0) {
-			nextPrime(intVal++);
+	int testPrime = intVal;
+	int primeNotFound = 0;
+	while(1) {
+		testPrime = testPrime+1;
+		if(testPrime%2 == 0) continue;
+		//print(testPrime);
+		int i;		
+		for(i = 1; i <=(int) sqrt(testPrime); i=i+2) {
+			if(i==1) continue;
+			if(testPrime%i == 0) {
+				primeNotFound = 1;
+				break;		
+			}		
 		}
+		if (!primeNotFound) return testPrime;		
 	}
-	return intVal;
 }
 
 int main ()
