@@ -3,7 +3,7 @@
 # Machine generated for CPU 'nios2_ht18_Eriksson_keyserlingk' in SOPC Builder design 'nios2_ht18_Eriksson_keyserlingk'
 # SOPC Builder design path: ../../nios2_ht18_Eriksson_keyserlingk.sopcinfo
 #
-# Generated: Fri Sep 21 13:58:35 CEST 2018
+# Generated: Sat Sep 22 17:42:17 CEST 2018
 
 # DO NOT MODIFY THIS FILE
 #
@@ -50,7 +50,7 @@
 memory 0x800000 0x1000000 cache
 
 # sram
-memory 0x1000000 0x1080000 cache
+memory 0x1080000 0x1100000 cache
 
 # onchip_memory
-memory 0x1082000 0x1084000 cache
+memory 0x1108000 0x110fd00 cache

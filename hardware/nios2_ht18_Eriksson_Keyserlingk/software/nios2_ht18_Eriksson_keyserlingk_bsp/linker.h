@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_ht18_Eriksson_keyserlingk' in SOPC Builder design 'nios2_ht18_Eriksson_keyserlingk'
  * SOPC Builder design path: ../../nios2_ht18_Eriksson_keyserlingk.sopcinfo
  *
- * Generated: Fri Sep 21 13:58:35 CEST 2018
+ * Generated: Sat Sep 22 17:42:17 CEST 2018
  */
 
 /*
@@ -65,13 +65,13 @@
  *
  */
 
-#define ONCHIP_MEMORY_REGION_BASE 0x1082000
-#define ONCHIP_MEMORY_REGION_SPAN 8192
+#define ONCHIP_MEMORY_REGION_BASE 0x1108000
+#define ONCHIP_MEMORY_REGION_SPAN 32000
 #define RESET_REGION_BASE 0x800000
 #define RESET_REGION_SPAN 32
 #define SDRAM_REGION_BASE 0x800020
 #define SDRAM_REGION_SPAN 8388576
-#define SRAM_REGION_BASE 0x1000000
+#define SRAM_REGION_BASE 0x1080000
 #define SRAM_REGION_SPAN 524288
 
 

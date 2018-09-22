@@ -1,0 +1,37 @@
+nios2-terminal: connected to hardware target using JTAG UART on cable
+nios2-terminal: "USB-Blaster [2-1]", device 1, instance 0
+nios2-terminal: (Use the IDE stop button or Ctrl-C to terminate)
+
+src: 0, dst: 1, time:  7.18
+src: 0, dst: 1, time:  9.70
+src: 0, dst: 1, time: 12.00
+src: 0, dst: 1, time: 13.96
+src: 0, dst: 1, time: 16.22
+src: 0, dst: 1, time: 18.46
+src: 0, dst: 1, time: 20.68
+src: 0, dst: 1, time: 22.66
+src: 0, dst: 1, time: 24.86
+src: 0, dst: 1, time: 26.90
+src: 0, dst: 1, time: 29.16
+src: 0, dst: 1, time: 31.32
+src: 0, dst: 1, time: 33.48
+src: 0, dst: 1, time: 35.78
+src: 0, dst: 1, time: 37.66
+src: 0, dst: 1, time: 39.98
+src: 0, dst: 1, time: 16.02
+src: 0, dst: 1, time: 18.40
+src: 0, dst: 1, time: 20.56
+src: 0, dst: 1, time: 160.46
+src: 0, dst: 1, time: 18.78
+src: 0, dst: 1, time: 21.14
+src: 0, dst: 1, time: 23.50
+src: 0, dst: 1, time: 25.66
+src: 0, dst: 1, time: 159.58
+src: 0, dst: 1, time: 23.80
+src: 0, dst: 1, time: 25.94
+src: 0, dst: 1, time: 28.10
+src: 0, dst: 1, time: 23.78
+src: 0, dst: 1, time: 26.48
+src: 0, dst: 1, time: 28.22
+src: 0, dst: 1, time: 30.56
+src: 0, dst: 1, time: 22.00

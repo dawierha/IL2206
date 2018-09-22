@@ -159,8 +159,8 @@ Memory Configuration
 Name             Origin             Length             Attributes
 reset            0x00800000         0x00000020
 sdram            0x00800020         0x007fffe0
-sram             0x01000000         0x00080000
-onchip_memory    0x01082000         0x00002000
+sram             0x01080000         0x00080000
+onchip_memory    0x01108000         0x00007d00
 *default*        0x00000000         0xffffffff
 
 Linker script and memory map
@@ -177,8 +177,8 @@ LOAD ../nios2_ht18_Eriksson_keyserlingk_bsp//libhal_bsp.a
 END GROUP
 LOAD /opt/altera/13.0sp1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul/libgcc.a
                 0x00800000                __alt_mem_sdram = 0x800000
-                0x01000000                __alt_mem_sram = 0x1000000
-                0x01082000                __alt_mem_onchip_memory = 0x1082000
+                0x01080000                __alt_mem_sram = 0x1080000
+                0x01108000                __alt_mem_onchip_memory = 0x1108000
 
 .entry          0x00800000       0x20
  *(.entry)
@@ -741,18 +741,18 @@ LOAD /opt/altera/13.0sp1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nio
                 0x00808de0                __alt_stack_base = ABSOLUTE (.)
                 0x00808de0                PROVIDE (_alt_partition_sdram_load_addr, LOADADDR (.sdram))
 
-.sram           0x01000000        0x0 load address 0x00808de0
-                0x01000000                PROVIDE (_alt_partition_sram_start, ABSOLUTE (.))
+.sram           0x01080000        0x0 load address 0x00808de0
+                0x01080000                PROVIDE (_alt_partition_sram_start, ABSOLUTE (.))
  *(.sram. sram.*)
-                0x01000000                . = ALIGN (0x4)
-                0x01000000                PROVIDE (_alt_partition_sram_end, ABSOLUTE (.))
+                0x01080000                . = ALIGN (0x4)
+                0x01080000                PROVIDE (_alt_partition_sram_end, ABSOLUTE (.))
                 0x00808de0                PROVIDE (_alt_partition_sram_load_addr, LOADADDR (.sram))
 
-.onchip_memory  0x01082000        0x0 load address 0x00808de0
-                0x01082000                PROVIDE (_alt_partition_onchip_memory_start, ABSOLUTE (.))
+.onchip_memory  0x01108000        0x0 load address 0x00808de0
+                0x01108000                PROVIDE (_alt_partition_onchip_memory_start, ABSOLUTE (.))
  *(.onchip_memory. onchip_memory.*)
-                0x01082000                . = ALIGN (0x4)
-                0x01082000                PROVIDE (_alt_partition_onchip_memory_end, ABSOLUTE (.))
+                0x01108000                . = ALIGN (0x4)
+                0x01108000                PROVIDE (_alt_partition_onchip_memory_end, ABSOLUTE (.))
                 0x00808de0                PROVIDE (_alt_partition_onchip_memory_load_addr, LOADADDR (.onchip_memory))
 
 .stab

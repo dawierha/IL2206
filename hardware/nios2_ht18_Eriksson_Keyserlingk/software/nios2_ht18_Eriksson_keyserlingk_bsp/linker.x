@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_ht18_Eriksson_keyserlingk' in SOPC Builder design 'nios2_ht18_Eriksson_keyserlingk'
  * SOPC Builder design path: ../../nios2_ht18_Eriksson_keyserlingk.sopcinfo
  *
- * Generated: Fri Sep 21 13:58:35 CEST 2018
+ * Generated: Sat Sep 22 17:42:17 CEST 2018
  */
 
 /*
@@ -52,14 +52,14 @@ MEMORY
 {
     reset : ORIGIN = 0x800000, LENGTH = 32
     sdram : ORIGIN = 0x800020, LENGTH = 8388576
-    sram : ORIGIN = 0x1000000, LENGTH = 524288
-    onchip_memory : ORIGIN = 0x1082000, LENGTH = 8192
+    sram : ORIGIN = 0x1080000, LENGTH = 524288
+    onchip_memory : ORIGIN = 0x1108000, LENGTH = 32000
 }
 
 /* Define symbols for each memory base-address */
 __alt_mem_sdram = 0x800000;
-__alt_mem_sram = 0x1000000;
-__alt_mem_onchip_memory = 0x1082000;
+__alt_mem_sram = 0x1080000;
+__alt_mem_onchip_memory = 0x1108000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
                "elf32-littlenios2",

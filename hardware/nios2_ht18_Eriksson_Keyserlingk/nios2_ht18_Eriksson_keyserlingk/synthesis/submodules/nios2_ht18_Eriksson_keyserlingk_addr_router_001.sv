@@ -137,26 +137,26 @@ module nios2_ht18_Eriksson_keyserlingk_addr_router_001
     // during address decoding
     // -------------------------------------------------------
     localparam PAD0 = log2ceil(64'h1000000 - 64'h800000); 
-    localparam PAD1 = log2ceil(64'h1080000 - 64'h1000000); 
-    localparam PAD2 = log2ceil(64'h1084000 - 64'h1082000); 
-    localparam PAD3 = log2ceil(64'h1085000 - 64'h1084800); 
-    localparam PAD4 = log2ceil(64'h1085080 - 64'h1085000); 
-    localparam PAD5 = log2ceil(64'h10850a0 - 64'h1085080); 
-    localparam PAD6 = log2ceil(64'h10850c0 - 64'h10850a0); 
-    localparam PAD7 = log2ceil(64'h10850d0 - 64'h10850c0); 
-    localparam PAD8 = log2ceil(64'h10850e0 - 64'h10850d0); 
-    localparam PAD9 = log2ceil(64'h10850f0 - 64'h10850e0); 
-    localparam PAD10 = log2ceil(64'h1085100 - 64'h10850f0); 
-    localparam PAD11 = log2ceil(64'h1085110 - 64'h1085100); 
-    localparam PAD12 = log2ceil(64'h1085120 - 64'h1085110); 
-    localparam PAD13 = log2ceil(64'h1085130 - 64'h1085128); 
-    localparam PAD14 = log2ceil(64'h1085138 - 64'h1085130); 
+    localparam PAD1 = log2ceil(64'h1100000 - 64'h1080000); 
+    localparam PAD2 = log2ceil(64'h1110000 - 64'h1108000); 
+    localparam PAD3 = log2ceil(64'h1111000 - 64'h1110800); 
+    localparam PAD4 = log2ceil(64'h1111080 - 64'h1111000); 
+    localparam PAD5 = log2ceil(64'h11110a0 - 64'h1111080); 
+    localparam PAD6 = log2ceil(64'h11110c0 - 64'h11110a0); 
+    localparam PAD7 = log2ceil(64'h11110d0 - 64'h11110c0); 
+    localparam PAD8 = log2ceil(64'h11110e0 - 64'h11110d0); 
+    localparam PAD9 = log2ceil(64'h11110f0 - 64'h11110e0); 
+    localparam PAD10 = log2ceil(64'h1111100 - 64'h11110f0); 
+    localparam PAD11 = log2ceil(64'h1111110 - 64'h1111100); 
+    localparam PAD12 = log2ceil(64'h1111120 - 64'h1111110); 
+    localparam PAD13 = log2ceil(64'h1111130 - 64'h1111128); 
+    localparam PAD14 = log2ceil(64'h1111138 - 64'h1111130); 
     // -------------------------------------------------------
     // Work out which address bits are significant based on the
     // address range of the slaves. If the required width is too
     // large or too small, we use the address field width instead.
     // -------------------------------------------------------
-    localparam ADDR_RANGE = 64'h1085138;
+    localparam ADDR_RANGE = 64'h1111138;
     localparam RANGE_ADDR_WIDTH = log2ceil(ADDR_RANGE);
     localparam OPTIMIZED_ADDR_H = (RANGE_ADDR_WIDTH > PKT_ADDR_W) ||
                                   (RANGE_ADDR_WIDTH == 0) ?
@@ -205,87 +205,87 @@ module nios2_ht18_Eriksson_keyserlingk_addr_router_001
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 11;
     end
 
-    // ( 0x1000000 .. 0x1080000 )
-    if ( {address[RG:PAD1],{PAD1{1'b0}}} == 25'h1000000   ) begin
-            src_channel = 15'b010000000000000;
+    // ( 0x1080000 .. 0x1100000 )
+    if ( {address[RG:PAD1],{PAD1{1'b0}}} == 25'h1080000   ) begin
+            src_channel = 15'b000000000010000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 12;
     end
 
-    // ( 0x1082000 .. 0x1084000 )
-    if ( {address[RG:PAD2],{PAD2{1'b0}}} == 25'h1082000   ) begin
+    // ( 0x1108000 .. 0x1110000 )
+    if ( {address[RG:PAD2],{PAD2{1'b0}}} == 25'h1108000   ) begin
             src_channel = 15'b000000000000010;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 9;
     end
 
-    // ( 0x1084800 .. 0x1085000 )
-    if ( {address[RG:PAD3],{PAD3{1'b0}}} == 25'h1084800   ) begin
+    // ( 0x1110800 .. 0x1111000 )
+    if ( {address[RG:PAD3],{PAD3{1'b0}}} == 25'h1110800   ) begin
             src_channel = 15'b000000000000001;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 8;
     end
 
-    // ( 0x1085000 .. 0x1085080 )
-    if ( {address[RG:PAD4],{PAD4{1'b0}}} == 25'h1085000   ) begin
+    // ( 0x1111000 .. 0x1111080 )
+    if ( {address[RG:PAD4],{PAD4{1'b0}}} == 25'h1111000   ) begin
             src_channel = 15'b100000000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 10;
     end
 
-    // ( 0x1085080 .. 0x10850a0 )
-    if ( {address[RG:PAD5],{PAD5{1'b0}}} == 25'h1085080   ) begin
-            src_channel = 15'b001000000000000;
+    // ( 0x1111080 .. 0x11110a0 )
+    if ( {address[RG:PAD5],{PAD5{1'b0}}} == 25'h1111080   ) begin
+            src_channel = 15'b010000000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 14;
     end
 
-    // ( 0x10850a0 .. 0x10850c0 )
-    if ( {address[RG:PAD6],{PAD6{1'b0}}} == 25'h10850a0   ) begin
-            src_channel = 15'b000100000000000;
+    // ( 0x11110a0 .. 0x11110c0 )
+    if ( {address[RG:PAD6],{PAD6{1'b0}}} == 25'h11110a0   ) begin
+            src_channel = 15'b001000000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 13;
     end
 
-    // ( 0x10850c0 .. 0x10850d0 )
-    if ( {address[RG:PAD7],{PAD7{1'b0}}} == 25'h10850c0   ) begin
-            src_channel = 15'b000010000000000;
+    // ( 0x11110c0 .. 0x11110d0 )
+    if ( {address[RG:PAD7],{PAD7{1'b0}}} == 25'h11110c0   ) begin
+            src_channel = 15'b000100000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 2;
     end
 
-    // ( 0x10850d0 .. 0x10850e0 )
-    if ( {address[RG:PAD8],{PAD8{1'b0}}} == 25'h10850d0   ) begin
-            src_channel = 15'b000001000000000;
+    // ( 0x11110d0 .. 0x11110e0 )
+    if ( {address[RG:PAD8],{PAD8{1'b0}}} == 25'h11110d0   ) begin
+            src_channel = 15'b000010000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 1;
     end
 
-    // ( 0x10850e0 .. 0x10850f0 )
-    if ( {address[RG:PAD9],{PAD9{1'b0}}} == 25'h10850e0   ) begin
-            src_channel = 15'b000000100000000;
+    // ( 0x11110e0 .. 0x11110f0 )
+    if ( {address[RG:PAD9],{PAD9{1'b0}}} == 25'h11110e0   ) begin
+            src_channel = 15'b000001000000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 4;
     end
 
-    // ( 0x10850f0 .. 0x1085100 )
-    if ( {address[RG:PAD10],{PAD10{1'b0}}} == 25'h10850f0   ) begin
-            src_channel = 15'b000000010000000;
+    // ( 0x11110f0 .. 0x1111100 )
+    if ( {address[RG:PAD10],{PAD10{1'b0}}} == 25'h11110f0   ) begin
+            src_channel = 15'b000000100000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 0;
     end
 
-    // ( 0x1085100 .. 0x1085110 )
-    if ( {address[RG:PAD11],{PAD11{1'b0}}} == 25'h1085100   ) begin
-            src_channel = 15'b000000001000000;
+    // ( 0x1111100 .. 0x1111110 )
+    if ( {address[RG:PAD11],{PAD11{1'b0}}} == 25'h1111100   ) begin
+            src_channel = 15'b000000010000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 5;
     end
 
-    // ( 0x1085110 .. 0x1085120 )
-    if ( {address[RG:PAD12],{PAD12{1'b0}}} == 25'h1085110   ) begin
-            src_channel = 15'b000000000100000;
+    // ( 0x1111110 .. 0x1111120 )
+    if ( {address[RG:PAD12],{PAD12{1'b0}}} == 25'h1111110   ) begin
+            src_channel = 15'b000000001000000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 3;
     end
 
-    // ( 0x1085128 .. 0x1085130 )
-    if ( {address[RG:PAD13],{PAD13{1'b0}}} == 25'h1085128   ) begin
+    // ( 0x1111128 .. 0x1111130 )
+    if ( {address[RG:PAD13],{PAD13{1'b0}}} == 25'h1111128   ) begin
             src_channel = 15'b000000000000100;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 6;
     end
 
-    // ( 0x1085130 .. 0x1085138 )
-    if ( {address[RG:PAD14],{PAD14{1'b0}}} == 25'h1085130   ) begin
-            src_channel = 15'b000000000010000;
+    // ( 0x1111130 .. 0x1111138 )
+    if ( {address[RG:PAD14],{PAD14{1'b0}}} == 25'h1111130   ) begin
+            src_channel = 15'b000000000100000;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 7;
     end
 

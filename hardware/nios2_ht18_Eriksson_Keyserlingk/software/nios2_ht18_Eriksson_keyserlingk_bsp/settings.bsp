@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Sep 21, 2018 1:58:59 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1537531139502</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Sep 22, 2018 5:42:52 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1537630972109</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/student/Documents/IL2206/hardware/nios2_ht18_Eriksson_Keyserlingk/software/nios2_ht18_Eriksson_keyserlingk_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../nios2_ht18_Eriksson_keyserlingk.sopcinfo</SopcDesignFile>
@@ -870,79 +870,79 @@
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sram</slaveDescriptor>
-                <addressRange>0x01000000 - 0x0107FFFF</addressRange>
+                <addressRange>0x01080000 - 0x010FFFFF</addressRange>
                 <addressSpan>524288</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>onchip_memory</slaveDescriptor>
-                <addressRange>0x01082000 - 0x01083FFF</addressRange>
-                <addressSpan>8192</addressSpan>
+                <addressRange>0x01108000 - 0x0110FCFF</addressRange>
+                <addressSpan>32000</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>p_counter</slaveDescriptor>
-                <addressRange>0x01085000 - 0x0108507F</addressRange>
+                <addressRange>0x01111000 - 0x0111107F</addressRange>
                 <addressSpan>128</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>timer_1</slaveDescriptor>
-                <addressRange>0x01085080 - 0x0108509F</addressRange>
+                <addressRange>0x01111080 - 0x0111109F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes>timer</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>timer_0</slaveDescriptor>
-                <addressRange>0x010850A0 - 0x010850BF</addressRange>
+                <addressRange>0x011110A0 - 0x011110BF</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes>timer</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>de2_pio_hex_low28</slaveDescriptor>
-                <addressRange>0x010850C0 - 0x010850CF</addressRange>
+                <addressRange>0x011110C0 - 0x011110CF</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>de2_pio_hex_high28</slaveDescriptor>
-                <addressRange>0x010850D0 - 0x010850DF</addressRange>
+                <addressRange>0x011110D0 - 0x011110DF</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>de2_pio_redled18</slaveDescriptor>
-                <addressRange>0x010850E0 - 0x010850EF</addressRange>
+                <addressRange>0x011110E0 - 0x011110EF</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>de2_pio_greenled9</slaveDescriptor>
-                <addressRange>0x010850F0 - 0x010850FF</addressRange>
+                <addressRange>0x011110F0 - 0x011110FF</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>de2_pio_toggles18</slaveDescriptor>
-                <addressRange>0x01085100 - 0x0108510F</addressRange>
+                <addressRange>0x01111100 - 0x0111110F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>de2_pio_keys</slaveDescriptor>
-                <addressRange>0x01085110 - 0x0108511F</addressRange>
+                <addressRange>0x01111110 - 0x0111111F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>ht18_Eriksson_keyserlingk</slaveDescriptor>
-                <addressRange>0x01085128 - 0x0108512F</addressRange>
+                <addressRange>0x01111128 - 0x0111112F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>jtag_uart_0</slaveDescriptor>
-                <addressRange>0x01085130 - 0x01085137</addressRange>
+                <addressRange>0x01111130 - 0x01111137</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

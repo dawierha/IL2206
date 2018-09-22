@@ -2,7 +2,7 @@ set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0sp1"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../nios2_ht18_Eriksson_keyserlingk.sopcinfo"]
-set_instance_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name SLD_INFO "QSYS_NAME nios2_ht18_Eriksson_keyserlingk HAS_SOPCINFO 1 GENERATION_ID 1537530846"
+set_instance_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name SLD_INFO "QSYS_NAME nios2_ht18_Eriksson_keyserlingk HAS_SOPCINFO 1 GENERATION_ID 1537626416"
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name MISC_FILE [file join $::quartus(qip_path) "../../nios2_ht18_Eriksson_keyserlingk.cmp"]
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name MISC_FILE [file join $::quartus(qip_path) "../../nios2_ht18_Eriksson_keyserlingk.qsys"]
@@ -15,7 +15,7 @@ set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVER
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_rsp_xbar_mux_001.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_rsp_xbar_mux.sv"]
-set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_004.sv"]
+set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_005.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_cmd_xbar_mux.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_cmd_xbar_demux_001.sv"]
@@ -24,8 +24,7 @@ set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name VERILOG_F
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_adapter.sv"]
-set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_id_router_013.sv"]
-set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_id_router_004.sv"]
+set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_id_router_005.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_id_router_003.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_id_router.sv"]
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/nios2_ht18_Eriksson_keyserlingk_addr_router_001.sv"]
@@ -73,9 +72,9 @@ set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_mux_001"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_mux" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_multiplexer"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_mux" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_mux" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_004" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_004" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_004" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_005" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_005" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux_005" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_rsp_xbar_demux" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
@@ -94,12 +93,9 @@ set_global_assignment -entity "altera_reset_controller" -library "nios2_ht18_Eri
 set_global_assignment -entity "altera_merlin_burst_adapter" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_burst_adapter"
 set_global_assignment -entity "altera_merlin_burst_adapter" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "altera_merlin_burst_adapter" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_013" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_router"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_013" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_013" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_004" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_router"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_004" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
-set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_004" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_005" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_005" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_005" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_003" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_NAME "altera_merlin_router"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_003" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk_id_router_003" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"

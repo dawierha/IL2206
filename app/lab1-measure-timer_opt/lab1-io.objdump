@@ -35,19 +35,19 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_pubnames 000015d5  00000000  00000000  000115e0  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_info   0002572d  00000000  00000000  00012bb5  2**0
+  9 .debug_info   00025731  00000000  00000000  00012bb5  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_abbrev 00008ab1  00000000  00000000  000382e2  2**0
+ 10 .debug_abbrev 00008ab1  00000000  00000000  000382e6  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_line   000154ad  00000000  00000000  00040d93  2**0
+ 11 .debug_line   000154ad  00000000  00000000  00040d97  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_frame  00001ae8  00000000  00000000  00056240  2**2
+ 12 .debug_frame  00001ae8  00000000  00000000  00056244  2**2
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_str    0000231a  00000000  00000000  00057d28  2**0
+ 13 .debug_str    0000231a  00000000  00000000  00057d2c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_loc    0000c6a2  00000000  00000000  0005a042  2**0
+ 14 .debug_loc    0000c6a2  00000000  00000000  0005a046  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_alt_sim_info 00000010  00000000  00000000  000666e4  2**2
+ 15 .debug_alt_sim_info 00000010  00000000  00000000  000666e8  2**2
                   CONTENTS, READONLY, DEBUGGING
  16 .debug_ranges 00000b40  00000000  00000000  000666f8  2**3
                   CONTENTS, READONLY, DEBUGGING
@@ -73,7 +73,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  27 .sopc_system_name 0000001f  00000000  00000000  0006a52a  2**0
                   CONTENTS, READONLY
- 28 .sopcinfo     000710f5  00000000  00000000  0006a549  2**0
+ 28 .sopcinfo     00071820  00000000  00000000  0006a549  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 00800000 l    d  .entry	00000000 .entry
@@ -254,7 +254,7 @@ SYMBOL TABLE:
 0080a668 g     F .text	00000088 __eqdf2
 00815540 g       *ABS*	00000000 __alt_heap_start
 00802060 g     F .text	00000044 printf
-01000000 g       *ABS*	00000000 __alt_mem_sram
+01080000 g       *ABS*	00000000 __alt_mem_sram
 00808df0 g     F .text	00000068 __sseek
 00805d0c g     F .text	000000a4 __sinit
 00806a18 g     F .text	00000084 _setlocale_r
@@ -335,7 +335,7 @@ SYMBOL TABLE:
 008076b0 g     F .text	00000070 __hi0bits
 0080aa08 g     F .text	000000d8 __fixdfsi
 0080f7e0 g       *ABS*	00000000 __ram_rwdata_end
-01082000 g       *ABS*	00000000 __alt_mem_onchip_memory
+01108000 g       *ABS*	00000000 __alt_mem_onchip_memory
 0080f7c0 g     O .rwdata	00000008 alt_dev_list
 0080b6c8 g     F .text	00000124 write
 0080c638 g     F .text	00000028 alt_timestamp_freq
@@ -12607,16 +12607,16 @@ Disassembly of section .text:
   80b884:	dfc00115 	stw	ra,4(sp)
   80b888:	df000015 	stw	fp,0(sp)
   80b88c:	d839883a 	mov	fp,sp
-  80b890:	01004234 	movhi	r4,264
-  80b894:	21142804 	addi	r4,r4,20640
+  80b890:	01004474 	movhi	r4,273
+  80b894:	21042804 	addi	r4,r4,4256
   80b898:	000b883a 	mov	r5,zero
   80b89c:	018001c4 	movi	r6,7
   80b8a0:	01c0fa04 	movi	r7,1000
   80b8a4:	080c4680 	call	80c468 <alt_avalon_timer_sc_init>
   80b8a8:	00c02074 	movhi	r3,129
   80b8ac:	18c49d04 	addi	r3,r3,4724
-  80b8b0:	00804234 	movhi	r2,264
-  80b8b4:	10942004 	addi	r2,r2,20608
+  80b8b0:	00804474 	movhi	r2,273
+  80b8b4:	10842004 	addi	r2,r2,4224
   80b8b8:	18800015 	stw	r2,0(r3)
   80b8bc:	00c02074 	movhi	r3,129
   80b8c0:	18c49e04 	addi	r3,r3,4728
@@ -12631,8 +12631,8 @@ Disassembly of section .text:
   80b8e4:	01002074 	movhi	r4,129
   80b8e8:	2139d004 	addi	r4,r4,-6336
   80b8ec:	080b9140 	call	80b914 <alt_dev_reg>
-  80b8f0:	00c04234 	movhi	r3,264
-  80b8f4:	18d40004 	addi	r3,r3,20480
+  80b8f0:	00c04474 	movhi	r3,273
+  80b8f4:	18c40004 	addi	r3,r3,4096
   80b8f8:	00800044 	movi	r2,1
   80b8fc:	18800035 	stwio	r2,0(r3)
   80b900:	e037883a 	mov	sp,fp

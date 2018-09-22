@@ -75,7 +75,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  28 .quartus_project_dir 00000047  00000000  00000000  0003e31c  2**0
                   CONTENTS, READONLY
- 29 .sopcinfo     000710f5  00000000  00000000  0003e363  2**0
+ 29 .sopcinfo     00071820  00000000  00000000  0003e363  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 00800000 l    d  .entry	00000000 .entry
@@ -199,7 +199,7 @@ SYMBOL TABLE:
 00802a78 g     F .text	00000078 _lseek_r
 008070b0 g       *ABS*	00000000 __flash_rwdata_start
 00808de0 g       *ABS*	00000000 __alt_heap_start
-01000000 g       *ABS*	00000000 __alt_mem_sram
+01080000 g       *ABS*	00000000 __alt_mem_sram
 00802644 g     F .text	00000068 __sseek
 00801bc4 g     F .text	000000a4 __sinit
 00801cc4 g     F .text	0000009c __sfmoreglue
@@ -246,7 +246,7 @@ SYMBOL TABLE:
 00805e70 g     O .rwdata	00000028 alt_dev_null
 008044b0 g     F .text	0000001c alt_dcache_flush_all
 008070b0 g       *ABS*	00000000 __ram_rwdata_end
-01082000 g       *ABS*	00000000 __alt_mem_onchip_memory
+01108000 g       *ABS*	00000000 __alt_mem_onchip_memory
 00807090 g     O .rwdata	00000008 alt_dev_list
 0080352c g     F .text	00000124 write
 00805668 g       *ABS*	00000000 __ram_rodata_end
@@ -4749,8 +4749,8 @@ void alt_sys_init( void )
   8036ec:	df000015 	stw	fp,0(sp)
   8036f0:	d839883a 	mov	fp,sp
     ALTERA_AVALON_TIMER_INIT ( TIMER_0, timer_0);
-  8036f4:	01004234 	movhi	r4,264
-  8036f8:	21142804 	addi	r4,r4,20640
+  8036f4:	01004474 	movhi	r4,273
+  8036f8:	21042804 	addi	r4,r4,4256
   8036fc:	000b883a 	mov	r5,zero
   803700:	018001c4 	movi	r6,7
   803704:	01c0fa04 	movi	r7,1000
@@ -4758,8 +4758,8 @@ void alt_sys_init( void )
     ALTERA_AVALON_TIMER_INIT ( TIMER_1, timer_1);
   80370c:	00c02074 	movhi	r3,129
   803710:	18e2c504 	addi	r3,r3,-29932
-  803714:	00804234 	movhi	r2,264
-  803718:	10942004 	addi	r2,r2,20608
+  803714:	00804474 	movhi	r2,273
+  803718:	10842004 	addi	r2,r2,4224
   80371c:	18800015 	stw	r2,0(r3)
   803720:	00c02074 	movhi	r3,129
   803724:	18e2c604 	addi	r3,r3,-29928
@@ -4776,8 +4776,8 @@ void alt_sys_init( void )
   80374c:	21180604 	addi	r4,r4,24600
   803750:	08037780 	call	803778 <alt_dev_reg>
     ALTERA_AVALON_PERFORMANCE_COUNTER_INIT ( P_COUNTER, p_counter);
-  803754:	00c04234 	movhi	r3,264
-  803758:	18d40004 	addi	r3,r3,20480
+  803754:	00c04474 	movhi	r3,273
+  803758:	18c40004 	addi	r3,r3,4096
   80375c:	00800044 	movi	r2,1
   803760:	18800035 	stwio	r2,0(r3)
     ALTERA_AVALON_SYSID_QSYS_INIT ( HT18_ERIKSSON_KEYSERLINGK, ht18_Eriksson_keyserlingk);
