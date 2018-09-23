@@ -2,31 +2,40 @@ import re
 import matplotlib.pyplot as plt
 import numpy as np
 
-filename = "output_sdram.txt"
-plotdata = open(filename)
+filenames = ["output_sdram.txt", "output_onchip_memory.txt","output_sram.txt"]
 
-plotdata.readline()
-plotdata.readline()
-plotdata.readline()
-plotdata.readline()
+for filename in filenames:
 
-linenum = 0
-time = []
-for line in plotdata:
-    if linenum == 511:
-        break
-    data = re.split(r'\t',plotdata.readline())
-    tmp = (re.split('\s',data[3])[2])
-    if tmp != "":
-        time.append(float(tmp))
-    linenum += 1
+    plotdata = open(filename)
 
-#print(time)
-size = np.arange(1,linenum-1)
-plotdata.close()
+    plotdata.readline()
+    plotdata.readline()
+    plotdata.readline()
+    plotdata.readline()
 
+    linenum = 0
+    time = []
+    size = []
 
-#fig, ax = plt.subplot(1)
-#ax.xaxis.set_major_locator(plt.MaxNLocator(3))
-plt.plot(size,time,'ro')
+    dotindex = 0
+    dots = ['r.', 'b.','g.','k.','c.','m.']
+
+    plt.figure()
+    for line in plotdata:
+        if linenum == 511:
+            linenum = 0
+            plt.plot(size,time,dots[dotindex])
+            time = []
+            size = []
+            dotindex += 1
+        data = re.split(r'\t',line)
+        tmp = (re.split('\s',data[3])[2])
+        tmp2 = (re.split('\s',data[0])[1])
+        if tmp != "":
+            time.append(int(tmp))
+            size.append(int(tmp2))
+        linenum += 1
+
+    plotdata.close()
+
 plt.show()
