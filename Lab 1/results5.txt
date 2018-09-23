@@ -1,0 +1,51 @@
+####################### 5.1 Time measurment ####################################
+
+Timespamt timer:
+Average time 		= 54070.73 us
+Mean average error 	= 29.20 us
+
+Performance timer;
+Average time 		=  54935.62us
+Mean average error 	=  90.6us
+
+
+####################### 5.2 Compiler optimizations #############################
+
++-----------+---------------+---------------+
+|	Flag	|	Time (us)	|	Size (Kb)	|
++-----------+---------------+---------------+
+|	-O0		|	54141.13	|		78		|
+|	-O1		|	12281.22	|		78		|
+|	-O2		|	10732.97	|		78		|
+|	-O3		|	-11.01		|		78		|
+|	-Os		|	10811.75	|		78		|
++-----------+---------------+---------------+
+
+####################### 5.3 Memory Technologies ################################
+
+0)
++-----------+-------------------+-------------------+-----------+
+|	SDRAM	|	External SRAM	|	On-chip RAM 	|	Cache	|
++-----------+-------------------+-------------------+-----------+
+|	17ns	|	0.5-4 ns		|					|	20ns	|
++-----------+-------------------+-------------------+-----------+
+
+1)
+It is cheaper and the space it takes up is smaller than SRAM. 
+
+2)
+The functions needs to read and write many times from memory, this would be 
+faster if it read and writes to the cache memory (1 cyckle).
+ 
+3)
+A system that handels mostly input and output data the cache will not be used 
+in its full advantages since the systems main objectvie is to handle input/
+output data and thus do not need the cache. And it is hard to predict how long
+time it takes to fetch data from cache.
+
+4)
+When there is a hard constrain it is important to know the executon time for the
+program, since the time for cache is hard to predict and a on chip memory is 
+easier to predict.
+
+5)
