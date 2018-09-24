@@ -66,11 +66,14 @@ hardware.
 ####################### 3.3.1 PIO macros #######################################
 
 1)
+	a) Write: 	IOWR_ALTERA_AVALON_PIO_DATA(base, data)
+ 	b) Read: 	IORD_ALTERA_AVALON_PIO_DATA(base)
 
+2)	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18, 0xFFFFF)
 
-2)
+3) 	IORD_ALTERA_AVALON_PIO_DATA(D2_PIO_KEYS4)
 
-3)
+4)	altera_avalon_pio_regs.h
 
 
 ####################### 5.1 Time measurment ####################################
