@@ -1,5 +1,5 @@
 Flow report for nios2_ht18_Eriksson_keyserlingk
-Sat Sep 22 16:30:34 2018
+Mon Sep 24 13:29:04 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Sat Sep 22 16:30:34 2018            ;
+; Flow Status                        ; Successful - Mon Sep 24 13:29:04 2018            ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; nios2_ht18_Eriksson_keyserlingk                  ;
 ; Top-level Entity Name              ; nios2_ht18_Eriksson_keyserlingk                  ;
 ; Family                             ; Cyclone II                                       ;
 ; Device                             ; EP2C35F672C6                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 4,892 / 33,216 ( 15 % )                          ;
-;     Total combinational functions  ; 4,511 / 33,216 ( 14 % )                          ;
+; Total logic elements               ; 4,889 / 33,216 ( 15 % )                          ;
+;     Total combinational functions  ; 4,506 / 33,216 ( 14 % )                          ;
 ;     Dedicated logic registers      ; 3,011 / 33,216 ( 9 % )                           ;
 ; Total registers                    ; 3079                                             ;
 ; Total pins                         ; 183 / 475 ( 39 % )                               ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------------------+
 ; Option            ; Setting                         ;
 +-------------------+---------------------------------+
-; Start date & time ; 09/22/2018 16:29:32             ;
+; Start date & time ; 09/24/2018 13:28:01             ;
 ; Main task         ; Compilation                     ;
 ; Revision Name     ; nios2_ht18_Eriksson_keyserlingk ;
 +-------------------+---------------------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------+----------------+
 ; Assignment Name                     ; Value                                                                                    ; Default Value ; Entity Name                                                     ; Section Id     ;
 +-------------------------------------+------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 0.153762657203043                                                                        ; --            ; --                                                              ; --             ;
+; COMPILER_SIGNATURE_ID               ; 0.153778848024915                                                                        ; --            ; --                                                              ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                                                     ; --            ; --                                                              ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                                                   ; <None>        ; --                                                              ; --             ;
 ; IP_TOOL_ENV                         ; Qsys                                                                                     ; --            ; altera_avalon_sc_fifo                                           ; --             ;
@@ -193,7 +193,7 @@ applicable agreement for further details.
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                                      ; --            ; --                                                              ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                    ; --            ; --                                                              ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                             ; --            ; --                                                              ; --             ;
-; SLD_INFO                            ; QSYS_NAME nios2_ht18_Eriksson_keyserlingk HAS_SOPCINFO 1 GENERATION_ID 1537626416        ; --            ; --                                                              ; --             ;
+; SLD_INFO                            ; QSYS_NAME nios2_ht18_Eriksson_keyserlingk HAS_SOPCINFO 1 GENERATION_ID 1537788412        ; --            ; --                                                              ; --             ;
 ; SOPCINFO_FILE                       ; nios2_ht18_Eriksson_keyserlingk/synthesis/../../nios2_ht18_Eriksson_keyserlingk.sopcinfo ; --            ; --                                                              ; --             ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                                                       ; --            ; --                                                              ; --             ;
 +-------------------------------------+------------------------------------------------------------------------------------------+---------------+-----------------------------------------------------------------+----------------+
@@ -204,12 +204,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:17     ; 1.0                     ; 449 MB              ; 00:00:16                           ;
-; Fitter                    ; 00:00:26     ; 1.0                     ; 527 MB              ; 00:00:24                           ;
+; Analysis & Synthesis      ; 00:00:20     ; 1.0                     ; 452 MB              ; 00:00:18                           ;
+; Fitter                    ; 00:00:25     ; 1.0                     ; 527 MB              ; 00:00:24                           ;
 ; Assembler                 ; 00:00:03     ; 1.0                     ; 357 MB              ; 00:00:02                           ;
 ; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 365 MB              ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 356 MB              ; 00:00:03                           ;
-; Total                     ; 00:00:52     ; --                      ; --                  ; 00:00:47                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 367 MB              ; 00:00:03                           ;
+; Total                     ; 00:00:54     ; --                      ; --                  ; 00:00:49                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

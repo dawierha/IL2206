@@ -55,7 +55,8 @@ echo -e "\n**************************"
 echo -e   "Download software to board"
 echo -e   "**************************\n"
 
-xterm -e "nios2-terminal -i 0 > ./output_sdram.txt" &
+#xterm -e "nios2-terminal -i 0 > ./output_onchip_memory.txt" &
+xterm -e "nios2-terminal -i 0" &
 nios2-download -g $APP_NAME.elf --cpu_name $CPU_NAME --jdi $JDI_FILE
 
 

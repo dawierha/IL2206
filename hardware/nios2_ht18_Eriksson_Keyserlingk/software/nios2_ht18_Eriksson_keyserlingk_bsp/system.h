@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_ht18_Eriksson_keyserlingk' in SOPC Builder design 'nios2_ht18_Eriksson_keyserlingk'
  * SOPC Builder design path: ../../nios2_ht18_Eriksson_keyserlingk.sopcinfo
  *
- * Generated: Sat Sep 22 17:42:52 CEST 2018
+ * Generated: Mon Sep 24 13:32:33 CEST 2018
  */
 
 /*
@@ -354,7 +354,7 @@
 #define HT18_ERIKSSON_KEYSERLINGK_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define HT18_ERIKSSON_KEYSERLINGK_NAME "/dev/ht18_Eriksson_keyserlingk"
 #define HT18_ERIKSSON_KEYSERLINGK_SPAN 8
-#define HT18_ERIKSSON_KEYSERLINGK_TIMESTAMP 1537626416
+#define HT18_ERIKSSON_KEYSERLINGK_TIMESTAMP 1537788412
 #define HT18_ERIKSSON_KEYSERLINGK_TYPE "altera_avalon_sysid_qsys"
 
 

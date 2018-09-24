@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for nios2_ht18_Eriksson_keyserlingk
-Sat Sep 22 16:30:28 2018
+Mon Sep 24 13:28:58 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -75,8 +75,8 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                                                                                            ; Status ; Read at                  ;
 +--------------------------------------------------------------------------------------------------------------------------+--------+--------------------------+
-; nios2_ht18_Eriksson_keyserlingk/synthesis/submodules/altera_reset_controller.sdc                                         ; OK     ; Sat Sep 22 16:30:28 2018 ;
-; nios2_ht18_Eriksson_keyserlingk/synthesis/submodules/nios2_ht18_Eriksson_keyserlingk_nios2_ht18_Eriksson_keyserlingk.sdc ; OK     ; Sat Sep 22 16:30:28 2018 ;
+; nios2_ht18_Eriksson_keyserlingk/synthesis/submodules/altera_reset_controller.sdc                                         ; OK     ; Mon Sep 24 13:28:58 2018 ;
+; nios2_ht18_Eriksson_keyserlingk/synthesis/submodules/nios2_ht18_Eriksson_keyserlingk_nios2_ht18_Eriksson_keyserlingk.sdc ; OK     ; Mon Sep 24 13:28:58 2018 ;
 +--------------------------------------------------------------------------------------------------------------------------+--------+--------------------------+
 
 
@@ -283,7 +283,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Sat Sep 22 16:30:26 2018
+    Info: Processing started: Mon Sep 24 13:28:56 2018
 Info: Command: quartus_sta nios2_ht18_Eriksson_keyserlingk -c nios2_ht18_Eriksson_keyserlingk
 Info: qsta_default_script.tcl version: #1
 Info (20029): Only one processor detected - disabling parallel compilation
@@ -358,7 +358,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 8 warnings
     Info: Peak virtual memory: 365 megabytes
-    Info: Processing ended: Sat Sep 22 16:30:28 2018
+    Info: Processing ended: Mon Sep 24 13:28:58 2018
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

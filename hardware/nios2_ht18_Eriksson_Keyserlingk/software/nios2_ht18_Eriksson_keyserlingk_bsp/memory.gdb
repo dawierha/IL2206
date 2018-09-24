@@ -3,7 +3,7 @@
 # Machine generated for CPU 'nios2_ht18_Eriksson_keyserlingk' in SOPC Builder design 'nios2_ht18_Eriksson_keyserlingk'
 # SOPC Builder design path: ../../nios2_ht18_Eriksson_keyserlingk.sopcinfo
 #
-# Generated: Sat Sep 22 17:42:17 CEST 2018
+# Generated: Mon Sep 24 13:30:47 CEST 2018
 
 # DO NOT MODIFY THIS FILE
 #

@@ -36,7 +36,7 @@ module nios2_ht18_Eriksson_keyserlingk_ht18_Eriksson_keyserlingk (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1537626416 : 0;
+  assign readdata = address ? 1537796191 : 0;
 
 endmodule
 

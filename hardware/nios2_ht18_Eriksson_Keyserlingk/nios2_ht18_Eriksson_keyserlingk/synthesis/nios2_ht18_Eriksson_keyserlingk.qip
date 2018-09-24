@@ -2,7 +2,7 @@ set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_VERSION "13.0sp1"
 set_global_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../nios2_ht18_Eriksson_keyserlingk.sopcinfo"]
-set_instance_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name SLD_INFO "QSYS_NAME nios2_ht18_Eriksson_keyserlingk HAS_SOPCINFO 1 GENERATION_ID 1537626416"
+set_instance_assignment -entity "nios2_ht18_Eriksson_keyserlingk" -library "nios2_ht18_Eriksson_keyserlingk" -name SLD_INFO "QSYS_NAME nios2_ht18_Eriksson_keyserlingk HAS_SOPCINFO 1 GENERATION_ID 1537796191"
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name MISC_FILE [file join $::quartus(qip_path) "../../nios2_ht18_Eriksson_keyserlingk.cmp"]
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "nios2_ht18_Eriksson_keyserlingk" -name MISC_FILE [file join $::quartus(qip_path) "../../nios2_ht18_Eriksson_keyserlingk.qsys"]

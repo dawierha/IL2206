@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Sep 22, 2018 5:42:52 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1537630972109</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Sep 24, 2018 1:32:33 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1537788753261</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/student/Documents/IL2206/hardware/nios2_ht18_Eriksson_Keyserlingk/software/nios2_ht18_Eriksson_keyserlingk_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../nios2_ht18_Eriksson_keyserlingk.sopcinfo</SopcDesignFile>

@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sat Sep 22 16:29:50 2018
+Analysis & Synthesis Status : Successful - Mon Sep 24 13:28:21 2018
 Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : nios2_ht18_Eriksson_keyserlingk
 Top-level Entity Name : nios2_ht18_Eriksson_keyserlingk
 Family : Cyclone II
-Total logic elements : 5,209
-    Total combinational functions : 4,504
+Total logic elements : 5,204
+    Total combinational functions : 4,499
     Dedicated logic registers : 3,045
 Total registers : 3045
 Total pins : 183
