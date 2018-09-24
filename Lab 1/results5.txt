@@ -1,5 +1,7 @@
 
 
+
+
 ####################### 3.1 C and Assembler ####################################
 
 Calcualted to 12500 (4/50,000,000*count = 1/1000)
@@ -14,10 +16,10 @@ Flowcharts
 ####################### 3.2 Microcontroller architecture #######################
 
 1)
-BSP stands for Board Suport Package and it contains the HAL for the spesific
-hardware, drivers and macros. This means that it is possible to change the 
-hardware and use the same code so long as the BSP is changed for the "new" 
-hardware.
+	BSP stands for Board Suport Package and it contains the HAL for the spesific
+	hardware, drivers and macros. This means that it is possible to change the 
+	hardware and use the same code so long as the BSP is changed for the "new" 
+	hardware.
 
 2)
 	a) A soft core processor is implementad on a FPGA and it is possible change 
@@ -74,17 +76,48 @@ hardware.
 3) 	IORD_ALTERA_AVALON_PIO_DATA(D2_PIO_KEYS4)
 
 4)	altera_avalon_pio_regs.h
+	system.h
+
+
+####################### 3.6 Interrupt using HAL-functions ######################
+
+
+				+---------------------------+---------------+
+				|	Peripherals				|	IRQ level	|	
+				+---------------------------+---------------+
+				|	D2_PIO_KEYS4_IRQ 		|		8		|
+				|	DE2_PIO_TOGGLES18_IRQ 	|		6		|
+				|	JTAG_UART_0_IRQ 		|		5		|
+				|	TIMER_0_IRQ 			|		7		|
+				|	TIMER_1_IRQ 			|		9		|
+				+---------------------------+---------------+
 
 
 ####################### 5.1 Time measurment ####################################
 
-Timespamt timer:
-Average time 		= 54070.73 us
-Mean average error 	= 29.20 us
 
-Performance timer;
-Average time 		=  54935.62us
-Mean average error 	=  90.6us
+1)
+	
+	Performance counter is a register which counts up every clock cycle. When
+	PERF_BEGIN is called, it starts counting in a register. It only made for 
+	meassure execution time. It uses smaller overhead
+
+	Timestamp is a timer which needs to be initialated in c code to be used as 
+	execution timer.
+
+2)
+
+	Timestamp is a more general and could be used to other tasks besides 
+	measure execution time. The performance cunter taks more logic elements
+	to implement and one might not have room for that.  
+
+
+							+-----------------------+-----------------------+
+							|	Timespamt timer		|	Performance timer	|
+	+-----------------------+-----------------------+-----------------------+
+	|	Average time		|	54070.73 us			|	54935.62 us			|
+	|	Mean average error	|	29.20 us			|	90.6 us				|
+	+-----------------------+-----------------------+-----------------------+
 
 
 ####################### 5.2 Compiler optimizations #############################
@@ -108,21 +141,53 @@ Mean average error 	=  90.6us
 		+-----------+-------------------+-------------------+-----------+
 
 1)
-It is cheaper and the space it takes up is smaller than SRAM. 
+	It is cheaper and the space it takes up is smaller than SRAM. 
 
 2)
-The functions needs to read and write many times from memory, this would be 
-faster if it read and writes to the cache memory (1 cyckle).
+	The functions needs to read and write many times from memory, this would be 
+	faster if it read and writes to the cache memory (1 cyckle).
  
 3)
-A system that handels mostly input and output data the cache will not be used 
-in its full advantages since the systems main objectvie is to handle input/
-output data and thus do not need the cache. And it is hard to predict how long
-time it takes to fetch data from cache.
+	A system that handels mostly input and output data the cache will not be 
+	used in its full advantages since the systems main objectvie is to handle
+	input/output data and thus do not need the cache. And it is hard to predict
+	how long time it takes to fetch data from cache.
 
 4)
-When there is a hard constrain it is important to know the executon time for the
-program, since the time for cache is hard to predict and a on chip memory is 
-easier to predict.
+	When there is a hard constrain it is important to know the execution time 
+	for the program, since the time for cache is hard to predict and a on chip 
+	memory is easier to predict.
 
 5)
+	On-chip memory 
+		predictability
+			
+		scalability
+		access time
+			low latency (fast)
+		power/silicon
+			more expensive than DRAM
+		area efficiency
+		applications
+
+
+
+	Cache memory
+		predictability
+		scalability
+		access time
+		power/silicon
+		area efficiency
+		applications
+
+
+	Tightly-coupled memory
+		predictability
+		scalability
+		access time
+		power/silicon
+		area efficiency
+		applications
+	
+
+
