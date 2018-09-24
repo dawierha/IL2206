@@ -1,3 +1,53 @@
+
+
+####################### 3.1 C and Assembler ####################################
+
+Calcualted to 12500 (4/50,000,000*count = 1/1000)
+
+Clock counter 850 (works accurate)
+
+
+Flowcharts
+	see notes
+
+
+####################### 3.2 Microcontroller architecture #######################
+
+1)
+BSP stands for Board Suport Package and it contains the HAL for the spesific
+hardware, drivers and macros. This means that it is possible to change the 
+hardware and use the same code so long as the BSP is changed for the "new" 
+hardware.
+
+2)
+	a) A soft core processor is implementad on a FPGA and it is possible change 
+	the	architecture to suit specific needs.
+
+	b) Nios2 e 32-bits
+
+	c) Clock 50 Mhz, No pipeline, No cahes, No branch prediction
+
+3)
+	a) The processor access periphials through registers maped to pins on the 
+	FPGA
+
+	b) Bus
+
+4)
+
+	a) sdram
+5)
+
+
+####################### 3.3.1 PIO macros #######################################
+
+1)
+
+2)
+
+3)
+
+
 ####################### 5.1 Time measurment ####################################
 
 Timespamt timer:
@@ -11,24 +61,23 @@ Mean average error 	=  90.6us
 
 ####################### 5.2 Compiler optimizations #############################
 
-+-----------+---------------+---------------+
-|	Flag	|	Time (us)	|	Size (Kb)	|
-+-----------+---------------+---------------+
-|	-O0		|	54141.13	|		78		|
-|	-O1		|	12281.22	|		78		|
-|	-O2		|	10732.97	|		78		|
-|	-O3		|	-11.01		|		78		|
-|	-Os		|	10811.75	|		78		|
-+-----------+---------------+---------------+
+				+-----------+---------------+---------------+
+				|	Flag	|	Time (us)	|	Size (b)	|
+				+-----------+---------------+---------------+
+				|	-O0		|	54141.13	|	80612		|
+				|	-O1		|	12281.22	|	80144		|
+				|	-O2		|	10732.97	|	80148		|
+				|	-Os		|	10811.75	|	80104		|
+				+-----------+---------------+---------------+				
 
 ####################### 5.3 Memory Technologies ################################
 
 0)
-+-----------+-------------------+-------------------+-----------+
-|	SDRAM	|	External SRAM	|	On-chip RAM 	|	Cache	|
-+-----------+-------------------+-------------------+-----------+
-|	17ns	|	0.5-4 ns		|					|	20ns	|
-+-----------+-------------------+-------------------+-----------+
+		+-----------+-------------------+-------------------+-----------+
+		|	SDRAM	|	External SRAM	|	On-chip RAM 	|	Cache	|
+		+-----------+-------------------+-------------------+-----------+
+		|	17ns	|	0.5-4 ns		|					|	20ns	|
+		+-----------+-------------------+-------------------+-----------+
 
 1)
 It is cheaper and the space it takes up is smaller than SRAM. 
