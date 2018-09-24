@@ -24,8 +24,8 @@ float microseconds(int ticks)
 int main ()
 {
 	int i,j,k;
-	int size = 50;
-	int memories[3] = {SDRAM_BASE, SRAM_BASE, ONCHIP_MEMORY_BASE};
+	int size = 512;
+	int memories[3] = {SDRAM_BASE+62000, SRAM_BASE, ONCHIP_MEMORY_BASE};
 	PERF_RESET (P_COUNTER_BASE);
 	for(i=0; i<3; i++){
 		int src = memories[i];
