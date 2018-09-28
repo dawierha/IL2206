@@ -20,7 +20,7 @@ JDI_FILE=/home/student/Desktop/IL2206/hardware/DE2-pre-built/IL2206_DE2_Nios2.jd
 # SOF_FILE=../../hardware/DE2-115-pre-built/IL2206_DE2_115_Nios2.sof
 # JDI_FILE=../../hardware/DE2-115-pre-built/IL2206_DE2_115_Nios2.jdi
 
-APP_NAME=hello_ucosii
+APP_NAME=lab2-rtos
 CPU_NAME=nios2
 BSP_PATH=../../bsp/il2206-pre-built-ucosii
 SRC_PATH=./src

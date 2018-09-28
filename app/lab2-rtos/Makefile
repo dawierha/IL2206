@@ -1,4 +1,4 @@
-APP_NAME := hello_ucosii
+APP_NAME := lab2-rtos
 
 # paths
 # DE2-35 sources
