@@ -31,6 +31,10 @@
 	time specified in hours, minutes, seconds, and milliseconds. This format is 
 	more convenient and natural than ticks. Reschedul-ing always occurs when at 
 	least one of the parameters is nonzero.
+
+	Removing OSTimeDlyHMSM() makes a task to sleep and removing it means that 
+	the task newer will go to sleep.
+
 3)
 4)
 5)
