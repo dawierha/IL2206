@@ -1,0 +1,41 @@
+####################### 2.2 Questions ##########################################
+1)
+	a)
+	b)
+	c)
+	d)
+	e)
+	f)
+
+2)
+
+3)
+
+4)
+
+5)
+
+####################### 3.1 Accessing a Shared Resource: I/O ###################
+
+1)
+    printStackSize("Task1", TASK1_PRIORITY);
+    printStackSize("Task2", TASK2_PRIORITY);
+    printStackSize("StatisticTask", TASK_STAT_PRIORITY);
+	"Hello from Task1\n"
+	"Hello from Task2\n"
+2)
+	it only prints:	
+	Hello from Task1
+
+	OSTimeDlyHMSM() allows a task to delay itself for a user-specified amount of 
+	time specified in hours, minutes, seconds, and milliseconds. This format is 
+	more convenient and natural than ticks. Reschedul-ing always occurs when at 
+	least one of the parameters is nonzero.
+3)
+4)
+5)
+6)
+7)
+
+####################### 3.3 Shared Memory Communication ########################
+

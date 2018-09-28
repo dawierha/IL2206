@@ -890,7 +890,7 @@ Disassembly of section .text:
   100270:	80bfed36 	bltu	r16,r2,100228 <task1+0x50>
   100274:	0009883a 	mov	r4,zero
   100278:	000b883a 	mov	r5,zero
-  10027c:	000d883a 	mov	r6,zero
+  10027c:	01800084 	movi	r6,2
   100280:	01c002c4 	movi	r7,11
   100284:	010ea240 	call	10ea24 <OSTimeDlyHMSM>
   100288:	003fd906 	br	1001f0 <task1+0x18>
@@ -937,7 +937,7 @@ Disassembly of section .text:
   100324:	80bfed36 	bltu	r16,r2,1002dc <task2+0x50>
   100328:	0009883a 	mov	r4,zero
   10032c:	000b883a 	mov	r5,zero
-  100330:	000d883a 	mov	r6,zero
+  100330:	01800084 	movi	r6,2
   100334:	01c00104 	movi	r7,4
   100338:	010ea240 	call	10ea24 <OSTimeDlyHMSM>
   10033c:	003fd906 	br	1002a4 <task2+0x18>
