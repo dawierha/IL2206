@@ -49,7 +49,7 @@ void task1(void* pdata)
     { 
 	OSSemPend(sem_task0,0,&err);
 
-	//while(1){
+	while(1){
 		char text1[] = "Task 0 - state  \n";
 		text1[15] = own_state + 0x30;
 		int i;
@@ -57,17 +57,17 @@ void task1(void* pdata)
 		for (i = 0; i < strlen(text1); i++)
 			putchar(text1[i]);
 
-		}
+		
 
 		if (own_state == 0){
 			own_state = 1;
 			OSSemPost(sem_task1);
-			//break;		
+			break;		
 		}
 		else {
 			own_state = 0;
 		}
-	//}
+	}}
 }
 
 /* Prints a message and sleeps for given time interval */
@@ -78,7 +78,8 @@ void task2(void* pdata)
     { 
 	OSSemPend(sem_task1,0,&err);
 	
-	//while(1){
+	while(1){
+
       char text1[] = "Task 1 - state  \n";
 	  text1[15] = own_state + 0x30;
       int i;
@@ -86,17 +87,18 @@ void task2(void* pdata)
       for (i = 0; i < strlen(text1); i++)
 		putchar(text1[i]);
 
-		}
+		
 
 		if (own_state == 1){
 			own_state = 0;
 			OSSemPost(sem_task0);
-			//break;
+			break;
+			
 		}
 		else {
 			own_state = 1;
 		}
-	//}
+	}}
 }
 
 /* Printing Statistics */
