@@ -16,7 +16,10 @@ OS_STK    stat_stk[TASK_STACKSIZE];
 /* Definition of Task Priorities */
 #define TASK1_PRIORITY      6  // highest priority
 #define TASK2_PRIORITY      7
-#define TASK_STAT_PRIORITY 12  // lowest priority 
+#define TASK_STAT_PRIORITY 12  // lowest priority
+
+//Defines the semaphore to use
+OS_EVENT 
 
 void printStackSize(char* name, INT8U prio) 
 {

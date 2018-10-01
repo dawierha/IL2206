@@ -1,19 +1,35 @@
 ####################### 2.2 Questions ##########################################
 1)
-	a)
-	b)
-	c)
-	d)
-	e)
-	f)
+	a) Non-blocking write,
 
-2)
+	b) Blocking write with timeout, No
+
+	c) Blocking write, 
+
+	d) Non-blocking read, Yes, OSQAccept
+
+	e) Blocking read with timeout, Yes, OSQPend
+
+	f) Blocking read, No
+
+2) 	OSMemCreate => malloc() , OSMemPut => free(). The memory functions works by
+	partioning the memory into different partitions. The advantage over the 
+	standard c funcitons are that the memory get less fragemented which is 
+	important in embedded systems.
 
 3)
+	a) A void pointer is a pointer with non-specified datatype which desired
+	datatype later.
+	
+	b) 
 
-4)
+4) skip many libraries, small c library, gcc -0s. Putchar instead of printf.
 
 5)
+	a) OSTaskStkChk()-Returns data about the stack, such as free and used memory
+	b) 0SMemQuery()-Returns data about the given memory partition, free memory,
+		used memory, pointer to the beginning of the memory partition, pointer 
+		to the beginning of the free memory partition. 
 
 ####################### 3.1 Accessing a Shared Resource: I/O ###################
 
@@ -24,22 +40,33 @@
 	"Hello from Task1\n"
 	"Hello from Task2\n"
 2)
-	it only prints:	
-	Hello from Task1
-
-	OSTimeDlyHMSM() allows a task to delay itself for a user-specified amount of 
-	time specified in hours, minutes, seconds, and milliseconds. This format is 
-	more convenient and natural than ticks. Reschedul-ing always occurs when at 
-	least one of the parameters is nonzero.
-
-	Removing OSTimeDlyHMSM() makes a task to sleep and removing it means that 
-	the task newer will go to sleep.
+	It prints in the wrong order. Because Task1 gets run again before 
+	statisticstask can finnish.
 
 3)
+	Removing OSTimeDlyHMSM() makes a task go to sleep and removing it means that 
+	the task with lower priority will go to sleep. Since it has the highest 
+	priority no other task will get printed.
 4)
+	Page 78. Semaphores are used to delegate a resource to different task where the tasks
+	can have different priorities. If a task is using a resource, it will not
+	be interrupted by another task that wants to use the same resource.
 5)
+	Declare Semaphore - Declare pointer to the semaphore struct.
+	Creating a Semaphore - OSSemCreate()
 6)
+	The semaphore protects the code by guaranteeing that the code will be 
+	executed and not interrupted  by another task.
 7)
+	The task using the semaphore is the only one who can lock and release it.
+8)
+	a) OSSemPost() - Gives the semaphore to the next task with the highest 
+		priority and if there is no more waiting tasks it releases the semaphore
+		by incrementing its value.
+	
+	b) OSSemPend() - Waits on the semaphore until it's available. I.e the tasks 
+		gets blocked until the resource is free to use. A timer is often used 
+		so that the task doesn't wait for the resource indefinitly
 
 ####################### 3.3 Shared Memory Communication ########################
 

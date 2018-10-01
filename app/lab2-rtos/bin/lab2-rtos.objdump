@@ -37,41 +37,41 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_pubnames 000023ab  00000000  00000000  00016ec0  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_info   0002c881  00000000  00000000  0001926b  2**0
+  9 .debug_info   0002c88b  00000000  00000000  0001926b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_abbrev 0000a160  00000000  00000000  00045aec  2**0
+ 10 .debug_abbrev 0000a160  00000000  00000000  00045af6  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_line   0001c263  00000000  00000000  0004fc4c  2**0
+ 11 .debug_line   0001c263  00000000  00000000  0004fc56  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_frame  00002340  00000000  00000000  0006beb0  2**2
+ 12 .debug_frame  00002340  00000000  00000000  0006bebc  2**2
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_str    0000423b  00000000  00000000  0006e1f0  2**0
+ 13 .debug_str    0000423d  00000000  00000000  0006e1fc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_loc    00010fb9  00000000  00000000  0007242b  2**0
+ 14 .debug_loc    00010fb9  00000000  00000000  00072439  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_alt_sim_info 00000010  00000000  00000000  000833e4  2**2
+ 15 .debug_alt_sim_info 00000010  00000000  00000000  000833f4  2**2
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_ranges 00000f98  00000000  00000000  000833f8  2**3
+ 16 .debug_ranges 00000f98  00000000  00000000  00083408  2**3
                   CONTENTS, READONLY, DEBUGGING
- 17 .thread_model 00000006  00000000  00000000  00088f22  2**0
+ 17 .thread_model 00000006  00000000  00000000  00088f32  2**0
                   CONTENTS, READONLY
- 18 .cpu          00000005  00000000  00000000  00088f28  2**0
+ 18 .cpu          00000005  00000000  00000000  00088f38  2**0
                   CONTENTS, READONLY
- 19 .qsys         00000001  00000000  00000000  00088f2d  2**0
+ 19 .qsys         00000001  00000000  00000000  00088f3d  2**0
                   CONTENTS, READONLY
- 20 .simulation_enabled 00000001  00000000  00000000  00088f2e  2**0
+ 20 .simulation_enabled 00000001  00000000  00000000  00088f3e  2**0
                   CONTENTS, READONLY
- 21 .stderr_dev   0000000b  00000000  00000000  00088f2f  2**0
+ 21 .stderr_dev   0000000b  00000000  00000000  00088f3f  2**0
                   CONTENTS, READONLY
- 22 .stdin_dev    0000000b  00000000  00000000  00088f3a  2**0
+ 22 .stdin_dev    0000000b  00000000  00000000  00088f4a  2**0
                   CONTENTS, READONLY
- 23 .stdout_dev   0000000b  00000000  00000000  00088f45  2**0
+ 23 .stdout_dev   0000000b  00000000  00000000  00088f55  2**0
                   CONTENTS, READONLY
- 24 .sopc_system_name 0000000f  00000000  00000000  00088f50  2**0
+ 24 .sopc_system_name 0000000f  00000000  00000000  00088f60  2**0
                   CONTENTS, READONLY
- 25 .jdi          0000509f  00000000  00000000  00088f5f  2**0
+ 25 .jdi          0000509f  00000000  00000000  00088f6f  2**0
                   CONTENTS, READONLY
- 26 .sopcinfo     0007119e  00000000  00000000  0008dffe  2**0
+ 26 .sopcinfo     0007119e  00000000  00000000  0008e00e  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 01000000 l    d  .entry	00000000 .entry
@@ -890,7 +890,7 @@ Disassembly of section .text:
   100270:	80bfed36 	bltu	r16,r2,100228 <task1+0x50>
   100274:	0009883a 	mov	r4,zero
   100278:	000b883a 	mov	r5,zero
-  10027c:	01800084 	movi	r6,2
+  10027c:	000d883a 	mov	r6,zero
   100280:	01c002c4 	movi	r7,11
   100284:	010ea240 	call	10ea24 <OSTimeDlyHMSM>
   100288:	003fd906 	br	1001f0 <task1+0x18>
@@ -937,7 +937,7 @@ Disassembly of section .text:
   100324:	80bfed36 	bltu	r16,r2,1002dc <task2+0x50>
   100328:	0009883a 	mov	r4,zero
   10032c:	000b883a 	mov	r5,zero
-  100330:	01800084 	movi	r6,2
+  100330:	000d883a 	mov	r6,zero
   100334:	01c00104 	movi	r7,4
   100338:	010ea240 	call	10ea24 <OSTimeDlyHMSM>
   10033c:	003fd906 	br	1002a4 <task2+0x18>
