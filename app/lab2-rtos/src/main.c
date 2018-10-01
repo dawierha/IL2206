@@ -46,7 +46,7 @@ void task1(void* pdata)
 
       for (i = 0; i < strlen(text1); i++)
 	putchar(text1[i]);
-      OSTimeDlyHMSM(0, 0, 2, 11); /* Context Switch to next task
+      OSTimeDlyHMSM(0, 0, 0, 11); /* Context Switch to next task
 				   * Task will go to the ready state
 				   * after the specified delay
 				   */
@@ -63,7 +63,7 @@ void task2(void* pdata)
 
       for (i = 0; i < strlen(text2); i++)
 	putchar(text2[i]);
-      OSTimeDlyHMSM(0, 0, 2, 4);
+      OSTimeDlyHMSM(0, 0, 0, 4);
     }
 }
 
