@@ -16,7 +16,11 @@ OS_STK    stat_stk[TASK_STACKSIZE];
 /* Definition of Task Priorities */
 #define TASK1_PRIORITY      6  // highest priority
 #define TASK2_PRIORITY      7
-#define TASK_STAT_PRIORITY 12  // lowest priority 
+#define TASK_STAT_PRIORITY 12  // lowest priority
+
+//Defines the semaphore to use
+OS_EVENT *semaphore;
+INT8U *error;
 
 void printStackSize(char* name, INT8U prio) 
 {
@@ -26,8 +30,10 @@ void printStackSize(char* name, INT8U prio)
   err = OSTaskStkChk(prio, &stk_data);
   if (err == OS_NO_ERR) {
     if (DEBUG == 1)
+	OSSemAccept(semaphore);
       printf("%s (priority %d) - Used: %d; Free: %d\n", 
-	     name, prio, stk_data.OSUsed, stk_data.OSFree);
+	    	 name, prio, stk_data.OSUsed, stk_data.OSFree);
+	OSSemPost(semaphore);
   }
   else
     {
@@ -41,11 +47,14 @@ void task1(void* pdata)
 {
   while (1)
     { 
+	 
       char text1[] = "Hello from Task1\n";
       int i;
 
+	OSSemAccept(semaphore);
       for (i = 0; i < strlen(text1); i++)
 	putchar(text1[i]);
+	OSSemPost(semaphore);
       OSTimeDlyHMSM(0, 0, 0, 11); /* Context Switch to next task
 				   * Task will go to the ready state
 				   * after the specified delay
@@ -58,11 +67,14 @@ void task2(void* pdata)
 {
   while (1)
     { 
+	
       char text2[] = "Hello from Task2\n";
       int i;
 
+	OSSemAccept(semaphore);
       for (i = 0; i < strlen(text2); i++)
 	putchar(text2[i]);
+	OSSemPost(semaphore);
       OSTimeDlyHMSM(0, 0, 0, 4);
     }
 }
@@ -72,9 +84,11 @@ void statisticTask(void* pdata)
 {
   while(1)
     {
+	OSSemAccept(semaphore);
       printStackSize("Task1", TASK1_PRIORITY);
       printStackSize("Task2", TASK2_PRIORITY);
       printStackSize("StatisticTask", TASK_STAT_PRIORITY);
+	OSSemPost(semaphore);
     }
 }
 
@@ -82,6 +96,8 @@ void statisticTask(void* pdata)
 int main(void)
 {
   printf("Lab 3 - Two Tasks\n");
+  
+  semaphore = OSSemCreate(1);
 
   OSTaskCreateExt
     ( task1,                        // Pointer to task code
