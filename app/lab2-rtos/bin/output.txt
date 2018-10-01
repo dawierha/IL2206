@@ -3,2515 +3,1042 @@ nios2-terminal: "USB-Blaster [2-1]", device 1, instance 0
 nios2-terminal: (Use the IDE stop button or Ctrl-C to terminate)
 
 Lab 3 - Two Tasks
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1264; Free: 6928
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4096; Free: 4096
-Hello from Task1
-Hello from Task2
-Task1 (priority 6) - Used: 1356; Free: 6836
-Task2 (priority 7) - Used: 1356; Free: 6836
-StatisticTask (priority 12) - Used: 4100; Free: 4092
-Hello from Task1
-Hello from Task2
+Task 0 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 - state 0
+Task 1 -

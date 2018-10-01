@@ -3,8 +3,9 @@
 #include <stdio.h>
 #include "includes.h"
 #include <string.h>
+#include "stdint.h"
 
-#define DEBUG 1
+#define DEBUG 0
 
 /* Definition of Task Stacks */
 /* Stack grows from HIGH to LOW memory */
@@ -16,7 +17,11 @@ OS_STK    stat_stk[TASK_STACKSIZE];
 /* Definition of Task Priorities */
 #define TASK1_PRIORITY      6  // highest priority
 #define TASK2_PRIORITY      7
-#define TASK_STAT_PRIORITY 12  // lowest priority 
+#define TASK_STAT_PRIORITY 12  // lowest priority
+
+OS_EVENT *sem_task0, *sem_task1;
+
+INT8U err; 
 
 void printStackSize(char* name, INT8U prio) 
 {
@@ -39,32 +44,59 @@ void printStackSize(char* name, INT8U prio)
 /* Prints a message and sleeps for given time interval */
 void task1(void* pdata)
 {
+  uint8_t own_state = 0;
   while (1)
     { 
-      char text1[] = "Hello from Task1\n";
-      int i;
+	OSSemPend(sem_task0,0,&err);
 
-      for (i = 0; i < strlen(text1); i++)
-	putchar(text1[i]);
-      OSTimeDlyHMSM(0, 0, 0, 11); /* Context Switch to next task
-				   * Task will go to the ready state
-				   * after the specified delay
-				   */
-    }
+	//while(1){
+		char text1[] = "Task 0 - state  \n";
+		text1[15] = own_state + 0x30;
+		int i;
+
+		for (i = 0; i < strlen(text1); i++)
+			putchar(text1[i]);
+
+		}
+
+		if (own_state == 0){
+			own_state = 1;
+			OSSemPost(sem_task1);
+			//break;		
+		}
+		else {
+			own_state = 0;
+		}
+	//}
 }
 
 /* Prints a message and sleeps for given time interval */
 void task2(void* pdata)
 {
+  uint8_t own_state = 0;
   while (1)
     { 
-      char text2[] = "Hello from Task2\n";
+	OSSemPend(sem_task1,0,&err);
+	
+	//while(1){
+      char text1[] = "Task 1 - state  \n";
+	  text1[15] = own_state + 0x30;
       int i;
 
-      for (i = 0; i < strlen(text2); i++)
-	putchar(text2[i]);
-      OSTimeDlyHMSM(0, 0, 0, 4);
-    }
+      for (i = 0; i < strlen(text1); i++)
+		putchar(text1[i]);
+
+		}
+
+		if (own_state == 1){
+			own_state = 0;
+			OSSemPost(sem_task0);
+			//break;
+		}
+		else {
+			own_state = 1;
+		}
+	//}
 }
 
 /* Printing Statistics */
@@ -82,6 +114,9 @@ void statisticTask(void* pdata)
 int main(void)
 {
   printf("Lab 3 - Two Tasks\n");
+
+  sem_task0 = OSSemCreate(1);
+  sem_task1 = OSSemCreate(1);
 
   OSTaskCreateExt
     ( task1,                        // Pointer to task code
