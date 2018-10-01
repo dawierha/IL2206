@@ -19,8 +19,9 @@ OS_STK    stat_stk[TASK_STACKSIZE];
 #define TASK_STAT_PRIORITY 12  // lowest priority
 
 //Defines the semaphore to use
-OS_EVENT *semaphore;
-INT8U *error;
+OS_EVENT *T1T2, *T1TS, *T2TS;
+
+INT8U error;
 
 void printStackSize(char* name, INT8U prio) 
 {
@@ -30,11 +31,10 @@ void printStackSize(char* name, INT8U prio)
   err = OSTaskStkChk(prio, &stk_data);
   if (err == OS_NO_ERR) {
     if (DEBUG == 1)
-	OSSemAccept(semaphore);
+
       printf("%s (priority %d) - Used: %d; Free: %d\n", 
 	    	 name, prio, stk_data.OSUsed, stk_data.OSFree);
-	OSSemPost(semaphore);
-  }
+  }	
   else
     {
       if (DEBUG == 1)
@@ -51,11 +51,13 @@ void task1(void* pdata)
       char text1[] = "Hello from Task1\n";
       int i;
 
-	OSSemAccept(semaphore);
       for (i = 0; i < strlen(text1); i++)
 	putchar(text1[i]);
-	OSSemPost(semaphore);
-      OSTimeDlyHMSM(0, 0, 0, 11); /* Context Switch to next task
+
+	OSSemPend(T1T2, 0, &error);
+	OSSemPend(T1TS, 0, &error);
+
+      /*OSTimeDlyHMSM(0, 0, 0, 11); /* Context Switch to next task
 				   * Task will go to the ready state
 				   * after the specified delay
 				   */
@@ -71,11 +73,12 @@ void task2(void* pdata)
       char text2[] = "Hello from Task2\n";
       int i;
 
-	OSSemAccept(semaphore);
       for (i = 0; i < strlen(text2); i++)
 	putchar(text2[i]);
-	OSSemPost(semaphore);
-      OSTimeDlyHMSM(0, 0, 0, 4);
+
+	OSSemPend(T2TS, 0, &error);
+	OSSemPost(T1T2);
+      //OSTimeDlyHMSM(0, 0, 0, 4);
     }
 }
 
@@ -84,11 +87,12 @@ void statisticTask(void* pdata)
 {
   while(1)
     {
-	OSSemAccept(semaphore);
+
       printStackSize("Task1", TASK1_PRIORITY);
       printStackSize("Task2", TASK2_PRIORITY);
       printStackSize("StatisticTask", TASK_STAT_PRIORITY);
-	OSSemPost(semaphore);
+	OSSemPost(T1TS);
+	OSSemPost(T2TS);
     }
 }
 
@@ -97,7 +101,9 @@ int main(void)
 {
   printf("Lab 3 - Two Tasks\n");
   
-  semaphore = OSSemCreate(1);
+  T1T2 = OSSemCreate(0);
+  T1TS = OSSemCreate(0);
+  T2TS = OSSemCreate(0);
 
   OSTaskCreateExt
     ( task1,                        // Pointer to task code
