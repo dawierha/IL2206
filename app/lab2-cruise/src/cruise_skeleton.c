@@ -234,7 +234,7 @@ void show_position(INT16U position)
 		redled &= 0x0003;
 		redled |= 0x00020000;
 	}
-    IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, redled);
+    //IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, redled);
 }
 
 /*
@@ -377,7 +377,13 @@ void ControlTask(void* pdata)
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, ((greenled>>1)<<1));
 		show_target_velocity((INT8U)0);
 	  }
-	
+	  
+	  if(gas_pedal == on){
+
+	 	temp_throttle += 1;
+
+	  }
+		
 	  if(is_cruise_control){ //TODO anti windup code
 		vel_error = desired_vel - *current_velocity;
 
