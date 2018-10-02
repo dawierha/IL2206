@@ -3,2382 +3,2457 @@ nios2-terminal: "USB-Blaster [2-1]", device 1, instance 0
 nios2-terminal: (Use the IDE stop button or Ctrl-C to terminate)
 
 Lab 3 - Two Tasks
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 T- state 0
-ask 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - state 1
-Task 0 - state 1
-Task 0 - state 0
-Task 1 - state 0
-Task 1 - stat
+Sending : 1
+Recieving : -1
+Sending : 2
+Recieving : -2
+Sending : 3
+Recieving : -3
+Sending : 4
+Recieving : -4
+Sending : 5
+Recieving : -5
+Sending : 6
+Recieving : -6
+Sending : 7
+Recieving : -7
+Sending : 8
+Recieving : -8
+Sending : 9
+Recieving : -9
+Sending : 10
+Recieving : -10
+Sending : 11
+Recieving : -11
+Sending : 12
+Recieving : -12
+Sending : 13
+Recieving : -13
+Sending : 14
+Recieving : -14
+Sending : 15
+Recieving : -15
+Sending : 16
+Recieving : -16
+Sending : 17
+Recieving : -17
+Sending : 18
+Recieving : -18
+Sending : 19
+Recieving : -19
+Sending : 20
+Recieving : -20
+Sending : 21
+Recieving : -21
+Sending : 22
+Recieving : -22
+Sending : 23
+Recieving : -23
+Sending : 24
+Recieving : -24
+Sending : 25
+Recieving : -25
+Sending : 26
+Recieving : -26
+Sending : 27
+Recieving : -27
+Sending : 28
+Recieving : -28
+Sending : 29
+Recieving : -29
+Sending : 30
+Recieving : -30
+Sending : 31
+Recieving : -31
+Sending : 32
+Recieving : -32
+Sending : 33
+Recieving : -33
+Sending : 34
+Recieving : -34
+Sending : 35
+Recieving : -35
+Sending : 36
+Recieving : -36
+Sending : 37
+Recieving : -37
+Sending : 38
+Recieving : -38
+Sending : 39
+Recieving : -39
+Sending : 40
+Recieving : -40
+Sending : 41
+Recieving : -41
+Sending : 42
+Recieving : -42
+Sending : 43
+Recieving : -43
+Sending : 44
+Recieving : -44
+Sending : 45
+Recieving : -45
+Sending : 46
+Recieving : -46
+Sending : 47
+Recieving : -47
+Sending : 48
+Recieving : -48
+Sending : 49
+Recieving : -49
+Sending : 50
+Recieving : -50
+Sending : 51
+Recieving : -51
+Sending : 52
+Recieving : -52
+Sending : 53
+Recieving : -53
+Sending : 54
+Recieving : -54
+Sending : 55
+Recieving : -55
+Sending : 56
+Recieving : -56
+Sending : 57
+Recieving : -57
+Sending : 58
+Recieving : -58
+Sending : 59
+Recieving : -59
+Sending : 60
+Recieving : -60
+Sending : 61
+Recieving : -61
+Sending : 62
+Recieving : -62
+Sending : 63
+Recieving : -63
+Sending : 64
+Recieving : -64
+Sending : 65
+Recieving : -65
+Sending : 66
+Recieving : -66
+Sending : 67
+Recieving : -67
+Sending : 68
+Recieving : -68
+Sending : 69
+Recieving : -69
+Sending : 70
+Recieving : -70
+Sending : 71
+Recieving : -71
+Sending : 72
+Recieving : -72
+Sending : 73
+Recieving : -73
+Sending : 74
+Recieving : -74
+Sending : 75
+Recieving : -75
+Sending : 76
+Recieving : -76
+Sending : 77
+Recieving : -77
+Sending : 78
+Recieving : -78
+Sending : 79
+Recieving : -79
+Sending : 80
+Recieving : -80
+Sending : 81
+Recieving : -81
+Sending : 82
+Recieving : -82
+Sending : 83
+Recieving : -83
+Sending : 84
+Recieving : -84
+Sending : 85
+Recieving : -85
+Sending : 86
+Recieving : -86
+Sending : 87
+Recieving : -87
+Sending : 88
+Recieving : -88
+Sending : 89
+Recieving : -89
+Sending : 90
+Recieving : -90
+Sending : 91
+Recieving : -91
+Sending : 92
+Recieving : -92
+Sending : 93
+Recieving : -93
+Sending : 94
+Recieving : -94
+Sending : 95
+Recieving : -95
+Sending : 96
+Recieving : -96
+Sending : 97
+Recieving : -97
+Sending : 98
+Recieving : -98
+Sending : 99
+Recieving : -99
+Sending : 100
+Recieving : -100
+Sending : 101
+Recieving : -101
+Sending : 102
+Recieving : -102
+Sending : 103
+Recieving : -103
+Sending : 104
+Recieving : -104
+Sending : 105
+Recieving : -105
+Sending : 106
+Recieving : -106
+Sending : 107
+Recieving : -107
+Sending : 108
+Recieving : -108
+Sending : 109
+Recieving : -109
+Sending : 110
+Recieving : -110
+Sending : 111
+Recieving : -111
+Sending : 112
+Recieving : -112
+Sending : 113
+Recieving : -113
+Sending : 114
+Recieving : -114
+Sending : 115
+Recieving : -115
+Sending : 116
+Recieving : -116
+Sending : 117
+Recieving : -117
+Sending : 118
+Recieving : -118
+Sending : 119
+Recieving : -119
+Sending : 120
+Recieving : -120
+Sending : 121
+Recieving : -121
+Sending : 122
+Recieving : -122
+Sending : 123
+Recieving : -123
+Sending : 124
+Recieving : -124
+Sending : 125
+Recieving : -125
+Sending : 126
+Recieving : -126
+Sending : 127
+Recieving : -127
+Sending : 128
+Recieving : -128
+Sending : 129
+Recieving : -129
+Sending : 130
+Recieving : -130
+Sending : 131
+Recieving : -131
+Sending : 132
+Recieving : -132
+Sending : 133
+Recieving : -133
+Sending : 134
+Recieving : -134
+Sending : 135
+Recieving : -135
+Sending : 136
+Recieving : -136
+Sending : 137
+Recieving : -137
+Sending : 138
+Recieving : -138
+Sending : 139
+Recieving : -139
+Sending : 140
+Recieving : -140
+Sending : 141
+Recieving : -141
+Sending : 142
+Recieving : -142
+Sending : 143
+Recieving : -143
+Sending : 144
+Recieving : -144
+Sending : 145
+Recieving : -145
+Sending : 146
+Recieving : -146
+Sending : 147
+Recieving : -147
+Sending : 148
+Recieving : -148
+Sending : 149
+Recieving : -149
+Sending : 150
+Recieving : -150
+Sending : 151
+Recieving : -151
+Sending : 152
+Recieving : -152
+Sending : 153
+Recieving : -153
+Sending : 154
+Recieving : -154
+Sending : 155
+Recieving : -155
+Sending : 156
+Recieving : -156
+Sending : 157
+Recieving : -157
+Sending : 158
+Recieving : -158
+Sending : 159
+Recieving : -159
+Sending : 160
+Recieving : -160
+Sending : 161
+Recieving : -161
+Sending : 162
+Recieving : -162
+Sending : 163
+Recieving : -163
+Sending : 164
+Recieving : -164
+Sending : 165
+Recieving : -165
+Sending : 166
+Recieving : -166
+Sending : 167
+Recieving : -167
+Sending : 168
+Recieving : -168
+Sending : 169
+Recieving : -169
+Sending : 170
+Recieving : -170
+Sending : 171
+Recieving : -171
+Sending : 172
+Recieving : -172
+Sending : 173
+Recieving : -173
+Sending : 174
+Recieving : -174
+Sending : 175
+Recieving : -175
+Sending : 176
+Recieving : -176
+Sending : 177
+Recieving : -177
+Sending : 178
+Recieving : -178
+Sending : 179
+Recieving : -179
+Sending : 180
+Recieving : -180
+Sending : 181
+Recieving : -181
+Sending : 182
+Recieving : -182
+Sending : 183
+Recieving : -183
+Sending : 184
+Recieving : -184
+Sending : 185
+Recieving : -185
+Sending : 186
+Recieving : -186
+Sending : 187
+Recieving : -187
+Sending : 188
+Recieving : -188
+Sending : 189
+Recieving : -189
+Sending : 190
+Recieving : -190
+Sending : 191
+Recieving : -191
+Sending : 192
+Recieving : -192
+Sending : 193
+Recieving : -193
+Sending : 194
+Recieving : -194
+Sending : 195
+Recieving : -195
+Sending : 196
+Recieving : -196
+Sending : 197
+Recieving : -197
+Sending : 198
+Recieving : -198
+Sending : 199
+Recieving : -199
+Sending : 200
+Recieving : -200
+Sending : 201
+Recieving : -201
+Sending : 202
+Recieving : -202
+Sending : 203
+Recieving : -203
+Sending : 204
+Recieving : -204
+Sending : 205
+Recieving : -205
+Sending : 206
+Recieving : -206
+Sending : 207
+Recieving : -207
+Sending : 208
+Recieving : -208
+Sending : 209
+Recieving : -209
+Sending : 210
+Recieving : -210
+Sending : 211
+Recieving : -211
+Sending : 212
+Recieving : -212
+Sending : 213
+Recieving : -213
+Sending : 214
+Recieving : -214
+Sending : 215
+Recieving : -215
+Sending : 216
+Recieving : -216
+Sending : 217
+Recieving : -217
+Sending : 218
+Recieving : -218
+Sending : 219
+Recieving : -219
+Sending : 220
+Recieving : -220
+Sending : 221
+Recieving : -221
+Sending : 222
+Recieving : -222
+Sending : 223
+Recieving : -223
+Sending : 224
+Recieving : -224
+Sending : 225
+Recieving : -225
+Sending : 226
+Recieving : -226
+Sending : 227
+Recieving : -227
+Sending : 228
+Recieving : -228
+Sending : 229
+Recieving : -229
+Sending : 230
+Recieving : -230
+Sending : 231
+Recieving : -231
+Sending : 232
+Recieving : -232
+Sending : 233
+Recieving : -233
+Sending : 234
+Recieving : -234
+Sending : 235
+Recieving : -235
+Sending : 236
+Recieving : -236
+Sending : 237
+Recieving : -237
+Sending : 238
+Recieving : -238
+Sending : 239
+Recieving : -239
+Sending : 240
+Recieving : -240
+Sending : 241
+Recieving : -241
+Sending : 242
+Recieving : -242
+Sending : 243
+Recieving : -243
+Sending : 244
+Recieving : -244
+Sending : 245
+Recieving : -245
+Sending : 246
+Recieving : -246
+Sending : 247
+Recieving : -247
+Sending : 248
+Recieving : -248
+Sending : 249
+Recieving : -249
+Sending : 250
+Recieving : -250
+Sending : 251
+Recieving : -251
+Sending : 252
+Recieving : -252
+Sending : 253
+Recieving : -253
+Sending : 254
+Recieving : -254
+Sending : 255
+Recieving : -255
+Sending : 256
+Recieving : -256
+Sending : 257
+Recieving : -257
+Sending : 258
+Recieving : -258
+Sending : 259
+Recieving : -259
+Sending : 260
+Recieving : -260
+Sending : 261
+Recieving : -261
+Sending : 262
+Recieving : -262
+Sending : 263
+Recieving : -263
+Sending : 264
+Recieving : -264
+Sending : 265
+Recieving : -265
+Sending : 266
+Recieving : -266
+Sending : 267
+Recieving : -267
+Sending : 268
+Recieving : -268
+Sending : 269
+Recieving : -269
+Sending : 270
+Recieving : -270
+Sending : 271
+Recieving : -271
+Sending : 272
+Recieving : -272
+Sending : 273
+Recieving : -273
+Sending : 274
+Recieving : -274
+Sending : 275
+Recieving : -275
+Sending : 276
+Recieving : -276
+Sending : 277
+Recieving : -277
+Sending : 278
+Recieving : -278
+Sending : 279
+Recieving : -279
+Sending : 280
+Recieving : -280
+Sending : 281
+Recieving : -281
+Sending : 282
+Recieving : -282
+Sending : 283
+Recieving : -283
+Sending : 284
+Recieving : -284
+Sending : 285
+Recieving : -285
+Sending : 286
+Recieving : -286
+Sending : 287
+Recieving : -287
+Sending : 288
+Recieving : -288
+Sending : 289
+Recieving : -289
+Sending : 290
+Recieving : -290
+Sending : 291
+Recieving : -291
+Sending : 292
+Recieving : -292
+Sending : 293
+Recieving : -293
+Sending : 294
+Recieving : -294
+Sending : 295
+Recieving : -295
+Sending : 296
+Recieving : -296
+Sending : 297
+Recieving : -297
+Sending : 298
+Recieving : -298
+Sending : 299
+Recieving : -299
+Sending : 300
+Recieving : -300
+Sending : 301
+Recieving : -301
+Sending : 302
+Recieving : -302
+Sending : 303
+Recieving : -303
+Sending : 304
+Recieving : -304
+Sending : 305
+Recieving : -305
+Sending : 306
+Recieving : -306
+Sending : 307
+Recieving : -307
+Sending : 308
+Recieving : -308
+Sending : 309
+Recieving : -309
+Sending : 310
+Recieving : -310
+Sending : 311
+Recieving : -311
+Sending : 312
+Recieving : -312
+Sending : 313
+Recieving : -313
+Sending : 314
+Recieving : -314
+Sending : 315
+Recieving : -315
+Sending : 316
+Recieving : -316
+Sending : 317
+Recieving : -317
+Sending : 318
+Recieving : -318
+Sending : 319
+Recieving : -319
+Sending : 320
+Recieving : -320
+Sending : 321
+Recieving : -321
+Sending : 322
+Recieving : -322
+Sending : 323
+Recieving : -323
+Sending : 324
+Recieving : -324
+Sending : 325
+Recieving : -325
+Sending : 326
+Recieving : -326
+Sending : 327
+Recieving : -327
+Sending : 328
+Recieving : -328
+Sending : 329
+Recieving : -329
+Sending : 330
+Recieving : -330
+Sending : 331
+Recieving : -331
+Sending : 332
+Recieving : -332
+Sending : 333
+Recieving : -333
+Sending : 334
+Recieving : -334
+Sending : 335
+Recieving : -335
+Sending : 336
+Recieving : -336
+Sending : 337
+Recieving : -337
+Sending : 338
+Recieving : -338
+Sending : 339
+Recieving : -339
+Sending : 340
+Recieving : -340
+Sending : 341
+Recieving : -341
+Sending : 342
+Recieving : -342
+Sending : 343
+Recieving : -343
+Sending : 344
+Recieving : -344
+Sending : 345
+Recieving : -345
+Sending : 346
+Recieving : -346
+Sending : 347
+Recieving : -347
+Sending : 348
+Recieving : -348
+Sending : 349
+Recieving : -349
+Sending : 350
+Recieving : -350
+Sending : 351
+Recieving : -351
+Sending : 352
+Recieving : -352
+Sending : 353
+Recieving : -353
+Sending : 354
+Recieving : -354
+Sending : 355
+Recieving : -355
+Sending : 356
+Recieving : -356
+Sending : 357
+Recieving : -357
+Sending : 358
+Recieving : -358
+Sending : 359
+Recieving : -359
+Sending : 360
+Recieving : -360
+Sending : 361
+Recieving : -361
+Sending : 362
+Recieving : -362
+Sending : 363
+Recieving : -363
+Sending : 364
+Recieving : -364
+Sending : 365
+Recieving : -365
+Sending : 366
+Recieving : -366
+Sending : 367
+Recieving : -367
+Sending : 368
+Recieving : -368
+Sending : 369
+Recieving : -369
+Sending : 370
+Recieving : -370
+Sending : 371
+Recieving : -371
+Sending : 372
+Recieving : -372
+Sending : 373
+Recieving : -373
+Sending : 374
+Recieving : -374
+Sending : 375
+Recieving : -375
+Sending : 376
+Recieving : -376
+Sending : 377
+Recieving : -377
+Sending : 378
+Recieving : -378
+Sending : 379
+Recieving : -379
+Sending : 380
+Recieving : -380
+Sending : 381
+Recieving : -381
+Sending : 382
+Recieving : -382
+Sending : 383
+Recieving : -383
+Sending : 384
+Recieving : -384
+Sending : 385
+Recieving : -385
+Sending : 386
+Recieving : -386
+Sending : 387
+Recieving : -387
+Sending : 388
+Recieving : -388
+Sending : 389
+Recieving : -389
+Sending : 390
+Recieving : -390
+Sending : 391
+Recieving : -391
+Sending : 392
+Recieving : -392
+Sending : 393
+Recieving : -393
+Sending : 394
+Recieving : -394
+Sending : 395
+Recieving : -395
+Sending : 396
+Recieving : -396
+Sending : 397
+Recieving : -397
+Sending : 398
+Recieving : -398
+Sending : 399
+Recieving : -399
+Sending : 400
+Recieving : -400
+Sending : 401
+Recieving : -401
+Sending : 402
+Recieving : -402
+Sending : 403
+Recieving : -403
+Sending : 404
+Recieving : -404
+Sending : 405
+Recieving : -405
+Sending : 406
+Recieving : -406
+Sending : 407
+Recieving : -407
+Sending : 408
+Recieving : -408
+Sending : 409
+Recieving : -409
+Sending : 410
+Recieving : -410
+Sending : 411
+Recieving : -411
+Sending : 412
+Recieving : -412
+Sending : 413
+Recieving : -413
+Sending : 414
+Recieving : -414
+Sending : 415
+Recieving : -415
+Sending : 416
+Recieving : -416
+Sending : 417
+Recieving : -417
+Sending : 418
+Recieving : -418
+Sending : 419
+Recieving : -419
+Sending : 420
+Recieving : -420
+Sending : 421
+Recieving : -421
+Sending : 422
+Recieving : -422
+Sending : 423
+Recieving : -423
+Sending : 424
+Recieving : -424
+Sending : 425
+Recieving : -425
+Sending : 426
+Recieving : -426
+Sending : 427
+Recieving : -427
+Sending : 428
+Recieving : -428
+Sending : 429
+Recieving : -429
+Sending : 430
+Recieving : -430
+Sending : 431
+Recieving : -431
+Sending : 432
+Recieving : -432
+Sending : 433
+Recieving : -433
+Sending : 434
+Recieving : -434
+Sending : 435
+Recieving : -435
+Sending : 436
+Recieving : -436
+Sending : 437
+Recieving : -437
+Sending : 438
+Recieving : -438
+Sending : 439
+Recieving : -439
+Sending : 440
+Recieving : -440
+Sending : 441
+Recieving : -441
+Sending : 442
+Recieving : -442
+Sending : 443
+Recieving : -443
+Sending : 444
+Recieving : -444
+Sending : 445
+Recieving : -445
+Sending : 446
+Recieving : -446
+Sending : 447
+Recieving : -447
+Sending : 448
+Recieving : -448
+Sending : 449
+Recieving : -449
+Sending : 450
+Recieving : -450
+Sending : 451
+Recieving : -451
+Sending : 452
+Recieving : -452
+Sending : 453
+Recieving : -453
+Sending : 454
+Recieving : -454
+Sending : 455
+Recieving : -455
+Sending : 456
+Recieving : -456
+Sending : 457
+Recieving : -457
+Sending : 458
+Recieving : -458
+Sending : 459
+Recieving : -459
+Sending : 460
+Recieving : -460
+Sending : 461
+Recieving : -461
+Sending : 462
+Recieving : -462
+Sending : 463
+Recieving : -463
+Sending : 464
+Recieving : -464
+Sending : 465
+Recieving : -465
+Sending : 466
+Recieving : -466
+Sending : 467
+Recieving : -467
+Sending : 468
+Recieving : -468
+Sending : 469
+Recieving : -469
+Sending : 470
+Recieving : -470
+Sending : 471
+Recieving : -471
+Sending : 472
+Recieving : -472
+Sending : 473
+Recieving : -473
+Sending : 474
+Recieving : -474
+Sending : 475
+Recieving : -475
+Sending : 476
+Recieving : -476
+Sending : 477
+Recieving : -477
+Sending : 478
+Recieving : -478
+Sending : 479
+Recieving : -479
+Sending : 480
+Recieving : -480
+Sending : 481
+Recieving : -481
+Sending : 482
+Recieving : -482
+Sending : 483
+Recieving : -483
+Sending : 484
+Recieving : -484
+Sending : 485
+Recieving : -485
+Sending : 486
+Recieving : -486
+Sending : 487
+Recieving : -487
+Sending : 488
+Recieving : -488
+Sending : 489
+Recieving : -489
+Sending : 490
+Recieving : -490
+Sending : 491
+Recieving : -491
+Sending : 492
+Recieving : -492
+Sending : 493
+Recieving : -493
+Sending : 494
+Recieving : -494
+Sending : 495
+Recieving : -495
+Sending : 496
+Recieving : -496
+Sending : 497
+Recieving : -497
+Sending : 498
+Recieving : -498
+Sending : 499
+Recieving : -499
+Sending : 500
+Recieving : -500
+Sending : 501
+Recieving : -501
+Sending : 502
+Recieving : -502
+Sending : 503
+Recieving : -503
+Sending : 504
+Recieving : -504
+Sending : 505
+Recieving : -505
+Sending : 506
+Recieving : -506
+Sending : 507
+Recieving : -507
+Sending : 508
+Recieving : -508
+Sending : 509
+Recieving : -509
+Sending : 510
+Recieving : -510
+Sending : 511
+Recieving : -511
+Sending : 512
+Recieving : -512
+Sending : 513
+Recieving : -513
+Sending : 514
+Recieving : -514
+Sending : 515
+Recieving : -515
+Sending : 516
+Recieving : -516
+Sending : 517
+Recieving : -517
+Sending : 518
+Recieving : -518
+Sending : 519
+Recieving : -519
+Sending : 520
+Recieving : -520
+Sending : 521
+Recieving : -521
+Sending : 522
+Recieving : -522
+Sending : 523
+Recieving : -523
+Sending : 524
+Recieving : -524
+Sending : 525
+Recieving : -525
+Sending : 526
+Recieving : -526
+Sending : 527
+Recieving : -527
+Sending : 528
+Recieving : -528
+Sending : 529
+Recieving : -529
+Sending : 530
+Recieving : -530
+Sending : 531
+Recieving : -531
+Sending : 532
+Recieving : -532
+Sending : 533
+Recieving : -533
+Sending : 534
+Recieving : -534
+Sending : 535
+Recieving : -535
+Sending : 536
+Recieving : -536
+Sending : 537
+Recieving : -537
+Sending : 538
+Recieving : -538
+Sending : 539
+Recieving : -539
+Sending : 540
+Recieving : -540
+Sending : 541
+Recieving : -541
+Sending : 542
+Recieving : -542
+Sending : 543
+Recieving : -543
+Sending : 544
+Recieving : -544
+Sending : 545
+Recieving : -545
+Sending : 546
+Recieving : -546
+Sending : 547
+Recieving : -547
+Sending : 548
+Recieving : -548
+Sending : 549
+Recieving : -549
+Sending : 550
+Recieving : -550
+Sending : 551
+Recieving : -551
+Sending : 552
+Recieving : -552
+Sending : 553
+Recieving : -553
+Sending : 554
+Recieving : -554
+Sending : 555
+Recieving : -555
+Sending : 556
+Recieving : -556
+Sending : 557
+Recieving : -557
+Sending : 558
+Recieving : -558
+Sending : 559
+Recieving : -559
+Sending : 560
+Recieving : -560
+Sending : 561
+Recieving : -561
+Sending : 562
+Recieving : -562
+Sending : 563
+Recieving : -563
+Sending : 564
+Recieving : -564
+Sending : 565
+Recieving : -565
+Sending : 566
+Recieving : -566
+Sending : 567
+Recieving : -567
+Sending : 568
+Recieving : -568
+Sending : 569
+Recieving : -569
+Sending : 570
+Recieving : -570
+Sending : 571
+Recieving : -571
+Sending : 572
+Recieving : -572
+Sending : 573
+Recieving : -573
+Sending : 574
+Recieving : -574
+Sending : 575
+Recieving : -575
+Sending : 576
+Recieving : -576
+Sending : 577
+Recieving : -577
+Sending : 578
+Recieving : -578
+Sending : 579
+Recieving : -579
+Sending : 580
+Recieving : -580
+Sending : 581
+Recieving : -581
+Sending : 582
+Recieving : -582
+Sending : 583
+Recieving : -583
+Sending : 584
+Recieving : -584
+Sending : 585
+Recieving : -585
+Sending : 586
+Recieving : -586
+Sending : 587
+Recieving : -587
+Sending : 588
+Recieving : -588
+Sending : 589
+Recieving : -589
+Sending : 590
+Recieving : -590
+Sending : 591
+Recieving : -591
+Sending : 592
+Recieving : -592
+Sending : 593
+Recieving : -593
+Sending : 594
+Recieving : -594
+Sending : 595
+Recieving : -595
+Sending : 596
+Recieving : -596
+Sending : 597
+Recieving : -597
+Sending : 598
+Recieving : -598
+Sending : 599
+Recieving : -599
+Sending : 600
+Recieving : -600
+Sending : 601
+Recieving : -601
+Sending : 602
+Recieving : -602
+Sending : 603
+Recieving : -603
+Sending : 604
+Recieving : -604
+Sending : 605
+Recieving : -605
+Sending : 606
+Recieving : -606
+Sending : 607
+Recieving : -607
+Sending : 608
+Recieving : -608
+Sending : 609
+Recieving : -609
+Sending : 610
+Recieving : -610
+Sending : 611
+Recieving : -611
+Sending : 612
+Recieving : -612
+Sending : 613
+Recieving : -613
+Sending : 614
+Recieving : -614
+Sending : 615
+Recieving : -615
+Sending : 616
+Recieving : -616
+Sending : 617
+Recieving : -617
+Sending : 618
+Recieving : -618
+Sending : 619
+Recieving : -619
+Sending : 620
+Recieving : -620
+Sending : 621
+Recieving : -621
+Sending : 622
+Recieving : -622
+Sending : 623
+Recieving : -623
+Sending : 624
+Recieving : -624
+Sending : 625
+Recieving : -625
+Sending : 626
+Recieving : -626
+Sending : 627
+Recieving : -627
+Sending : 628
+Recieving : -628
+Sending : 629
+Recieving : -629
+Sending : 630
+Recieving : -630
+Sending : 631
+Recieving : -631
+Sending : 632
+Recieving : -632
+Sending : 633
+Recieving : -633
+Sending : 634
+Recieving : -634
+Sending : 635
+Recieving : -635
+Sending : 636
+Recieving : -636
+Sending : 637
+Recieving : -637
+Sending : 638
+Recieving : -638
+Sending : 639
+Recieving : -639
+Sending : 640
+Recieving : -640
+Sending : 641
+Recieving : -641
+Sending : 642
+Recieving : -642
+Sending : 643
+Recieving : -643
+Sending : 644
+Recieving : -644
+Sending : 645
+Recieving : -645
+Sending : 646
+Recieving : -646
+Sending : 647
+Recieving : -647
+Sending : 648
+Recieving : -648
+Sending : 649
+Recieving : -649
+Sending : 650
+Recieving : -650
+Sending : 651
+Recieving : -651
+Sending : 652
+Recieving : -652
+Sending : 653
+Recieving : -653
+Sending : 654
+Recieving : -654
+Sending : 655
+Recieving : -655
+Sending : 656
+Recieving : -656
+Sending : 657
+Recieving : -657
+Sending : 658
+Recieving : -658
+Sending : 659
+Recieving : -659
+Sending : 660
+Recieving : -660
+Sending : 661
+Recieving : -661
+Sending : 662
+Recieving : -662
+Sending : 663
+Recieving : -663
+Sending : 664
+Recieving : -664
+Sending : 665
+Recieving : -665
+Sending : 666
+Recieving : -666
+Sending : 667
+Recieving : -667
+Sending : 668
+Recieving : -668
+Sending : 669
+Recieving : -669
+Sending : 670
+Recieving : -670
+Sending : 671
+Recieving : -671
+Sending : 672
+Recieving : -672
+Sending : 673
+Recieving : -673
+Sending : 674
+Recieving : -674
+Sending : 675
+Recieving : -675
+Sending : 676
+Recieving : -676
+Sending : 677
+Recieving : -677
+Sending : 678
+Recieving : -678
+Sending : 679
+Recieving : -679
+Sending : 680
+Recieving : -680
+Sending : 681
+Recieving : -681
+Sending : 682
+Recieving : -682
+Sending : 683
+Recieving : -683
+Sending : 684
+Recieving : -684
+Sending : 685
+Recieving : -685
+Sending : 686
+Recieving : -686
+Sending : 687
+Recieving : -687
+Sending : 688
+Recieving : -688
+Sending : 689
+Recieving : -689
+Sending : 690
+Recieving : -690
+Sending : 691
+Recieving : -691
+Sending : 692
+Recieving : -692
+Sending : 693
+Recieving : -693
+Sending : 694
+Recieving : -694
+Sending : 695
+Recieving : -695
+Sending : 696
+Recieving : -696
+Sending : 697
+Recieving : -697
+Sending : 698
+Recieving : -698
+Sending : 699
+Recieving : -699
+Sending : 700
+Recieving : -700
+Sending : 701
+Recieving : -701
+Sending : 702
+Recieving : -702
+Sending : 703
+Recieving : -703
+Sending : 704
+Recieving : -704
+Sending : 705
+Recieving : -705
+Sending : 706
+Recieving : -706
+Sending : 707
+Recieving : -707
+Sending : 708
+Recieving : -708
+Sending : 709
+Recieving : -709
+Sending : 710
+Recieving : -710
+Sending : 711
+Recieving : -711
+Sending : 712
+Recieving : -712
+Sending : 713
+Recieving : -713
+Sending : 714
+Recieving : -714
+Sending : 715
+Recieving : -715
+Sending : 716
+Recieving : -716
+Sending : 717
+Recieving : -717
+Sending : 718
+Recieving : -718
+Sending : 719
+Recieving : -719
+Sending : 720
+Recieving : -720
+Sending : 721
+Recieving : -721
+Sending : 722
+Recieving : -722
+Sending : 723
+Recieving : -723
+Sending : 724
+Recieving : -724
+Sending : 725
+Recieving : -725
+Sending : 726
+Recieving : -726
+Sending : 727
+Recieving : -727
+Sending : 728
+Recieving : -728
+Sending : 729
+Recieving : -729
+Sending : 730
+Recieving : -730
+Sending : 731
+Recieving : -731
+Sending : 732
+Recieving : -732
+Sending : 733
+Recieving : -733
+Sending : 734
+Recieving : -734
+Sending : 735
+Recieving : -735
+Sending : 736
+Recieving : -736
+Sending : 737
+Recieving : -737
+Sending : 738
+Recieving : -738
+Sending : 739
+Recieving : -739
+Sending : 740
+Recieving : -740
+Sending : 741
+Recieving : -741
+Sending : 742
+Recieving : -742
+Sending : 743
+Recieving : -743
+Sending : 744
+Recieving : -744
+Sending : 745
+Recieving : -745
+Sending : 746
+Recieving : -746
+Sending : 747
+Recieving : -747
+Sending : 748
+Recieving : -748
+Sending : 749
+Recieving : -749
+Sending : 750
+Recieving : -750
+Sending : 751
+Recieving : -751
+Sending : 752
+Recieving : -752
+Sending : 753
+Recieving : -753
+Sending : 754
+Recieving : -754
+Sending : 755
+Recieving : -755
+Sending : 756
+Recieving : -756
+Sending : 757
+Recieving : -757
+Sending : 758
+Recieving : -758
+Sending : 759
+Recieving : -759
+Sending : 760
+Recieving : -760
+Sending : 761
+Recieving : -761
+Sending : 762
+Recieving : -762
+Sending : 763
+Recieving : -763
+Sending : 764
+Recieving : -764
+Sending : 765
+Recieving : -765
+Sending : 766
+Recieving : -766
+Sending : 767
+Recieving : -767
+Sending : 768
+Recieving : -768
+Sending : 769
+Recieving : -769
+Sending : 770
+Recieving : -770
+Sending : 771
+Recieving : -771
+Sending : 772
+Recieving : -772
+Sending : 773
+Recieving : -773
+Sending : 774
+Recieving : -774
+Sending : 775
+Recieving : -775
+Sending : 776
+Recieving : -776
+Sending : 777
+Recieving : -777
+Sending : 778
+Recieving : -778
+Sending : 779
+Recieving : -779
+Sending : 780
+Recieving : -780
+Sending : 781
+Recieving : -781
+Sending : 782
+Recieving : -782
+Sending : 783
+Recieving : -783
+Sending : 784
+Recieving : -784
+Sending : 785
+Recieving : -785
+Sending : 786
+Recieving : -786
+Sending : 787
+Recieving : -787
+Sending : 788
+Recieving : -788
+Sending : 789
+Recieving : -789
+Sending : 790
+Recieving : -790
+Sending : 791
+Recieving : -791
+Sending : 792
+Recieving : -792
+Sending : 793
+Recieving : -793
+Sending : 794
+Recieving : -794
+Sending : 795
+Recieving : -795
+Sending : 796
+Recieving : -796
+Sending : 797
+Recieving : -797
+Sending : 798
+Recieving : -798
+Sending : 799
+Recieving : -799
+Sending : 800
+Recieving : -800
+Sending : 801
+Recieving : -801
+Sending : 802
+Recieving : -802
+Sending : 803
+Recieving : -803
+Sending : 804
+Recieving : -804
+Sending : 805
+Recieving : -805
+Sending : 806
+Recieving : -806
+Sending : 807
+Recieving : -807
+Sending : 808
+Recieving : -808
+Sending : 809
+Recieving : -809
+Sending : 810
+Recieving : -810
+Sending : 811
+Recieving : -811
+Sending : 812
+Recieving : -812
+Sending : 813
+Recieving : -813
+Sending : 814
+Recieving : -814
+Sending : 815
+Recieving : -815
+Sending : 816
+Recieving : -816
+Sending : 817
+Recieving : -817
+Sending : 818
+Recieving : -818
+Sending : 819
+Recieving : -819
+Sending : 820
+Recieving : -820
+Sending : 821
+Recieving : -821
+Sending : 822
+Recieving : -822
+Sending : 823
+Recieving : -823
+Sending : 824
+Recieving : -824
+Sending : 825
+Recieving : -825
+Sending : 826
+Recieving : -826
+Sending : 827
+Recieving : -827
+Sending : 828
+Recieving : -828
+Sending : 829
+Recieving : -829
+Sending : 830
+Recieving : -830
+Sending : 831
+Recieving : -831
+Sending : 832
+Recieving : -832
+Sending : 833
+Recieving : -833
+Sending : 834
+Recieving : -834
+Sending : 835
+Recieving : -835
+Sending : 836
+Recieving : -836
+Sending : 837
+Recieving : -837
+Sending : 838
+Recieving : -838
+Sending : 839
+Recieving : -839
+Sending : 840
+Recieving : -840
+Sending : 841
+Recieving : -841
+Sending : 842
+Recieving : -842
+Sending : 843
+Recieving : -843
+Sending : 844
+Recieving : -844
+Sending : 845
+Recieving : -845
+Sending : 846
+Recieving : -846
+Sending : 847
+Recieving : -847
+Sending : 848
+Recieving : -848
+Sending : 849
+Recieving : -849
+Sending : 850
+Recieving : -850
+Sending : 851
+Recieving : -851
+Sending : 852
+Recieving : -852
+Sending : 853
+Recieving : -853
+Sending : 854
+Recieving : -854
+Sending : 855
+Recieving : -855
+Sending : 856
+Recieving : -856
+Sending : 857
+Recieving : -857
+Sending : 858
+Recieving : -858
+Sending : 859
+Recieving : -859
+Sending : 860
+Recieving : -860
+Sending : 861
+Recieving : -861
+Sending : 862
+Recieving : -862
+Sending : 863
+Recieving : -863
+Sending : 864
+Recieving : -864
+Sending : 865
+Recieving : -865
+Sending : 866
+Recieving : -866
+Sending : 867
+Recieving : -867
+Sending : 868
+Recieving : -868
+Sending : 869
+Recieving : -869
+Sending : 870
+Recieving : -870
+Sending : 871
+Recieving : -871
+Sending : 872
+Recieving : -872
+Sending : 873
+Recieving : -873
+Sending : 874
+Recieving : -874
+Sending : 875
+Recieving : -875
+Sending : 876
+Recieving : -876
+Sending : 877
+Recieving : -877
+Sending : 878
+Recieving : -878
+Sending : 879
+Recieving : -879
+Sending : 880
+Recieving : -880
+Sending : 881
+Recieving : -881
+Sending : 882
+Recieving : -882
+Sending : 883
+Recieving : -883
+Sending : 884
+Recieving : -884
+Sending : 885
+Recieving : -885
+Sending : 886
+Recieving : -886
+Sending : 887
+Recieving : -887
+Sending : 888
+Recieving : -888
+Sending : 889
+Recieving : -889
+Sending : 890
+Recieving : -890
+Sending : 891
+Recieving : -891
+Sending : 892
+Recieving : -892
+Sending : 893
+Recieving : -893
+Sending : 894
+Recieving : -894
+Sending : 895
+Recieving : -895
+Sending : 896
+Recieving : -896
+Sending : 897
+Recieving : -897
+Sending : 898
+Recieving : -898
+Sending : 899
+Recieving : -899
+Sending : 900
+Recieving : -900
+Sending : 901
+Recieving : -901
+Sending : 902
+Recieving : -902
+Sending : 903
+Recieving : -903
+Sending : 904
+Recieving : -904
+Sending : 905
+Recieving : -905
+Sending : 906
+Recieving : -906
+Sending : 907
+Recieving : -907
+Sending : 908
+Recieving : -908
+Sending : 909
+Recieving : -909
+Sending : 910
+Recieving : -910
+Sending : 911
+Recieving : -911
+Sending : 912
+Recieving : -912
+Sending : 913
+Recieving : -913
+Sending : 914
+Recieving : -914
+Sending : 915
+Recieving : -915
+Sending : 916
+Recieving : -916
+Sending : 917
+Recieving : -917
+Sending : 918
+Recieving : -918
+Sending : 919
+Recieving : -919
+Sending : 920
+Recieving : -920
+Sending : 921
+Recieving : -921
+Sending : 922
+Recieving : -922
+Sending : 923
+Recieving : -923
+Sending : 924
+Recieving : -924
+Sending : 925
+Recieving : -925
+Sending : 926
+Recieving : -926
+Sending : 927
+Recieving : -927
+Sending : 928
+Recieving : -928
+Sending : 929
+Recieving : -929
+Sending : 930
+Recieving : -930
+Sending : 931
+Recieving : -931
+Sending : 932
+Recieving : -932
+Sending : 933
+Recieving : -933
+Sending : 934
+Recieving : -934
+Sending : 935
+Recieving : -935
+Sending : 936
+Recieving : -936
+Sending : 937
+Recieving : -937
+Sending : 938
+Recieving : -938
+Sending : 939
+Recieving : -939
+Sending : 940
+Recieving : -940
+Sending : 941
+Recieving : -941
+Sending : 942
+Recieving : -942
+Sending : 943
+Recieving : -943
+Sending : 944
+Recieving : -944
+Sending : 945
+Recieving : -945
+Sending : 946
+Recieving : -946
+Sending : 947
+Recieving : -947
+Sending : 948
+Recieving : -948
+Sending : 949
+Recieving : -949
+Sending : 950
+Recieving : -950
+Sending : 951
+Recieving : -951
+Sending : 952
+Recieving : -952
+Sending : 953
+Recieving : -953
+Sending : 954
+Recieving : -954
+Sending : 955
+Recieving : -955
+Sending : 956
+Recieving : -956
+Sending : 957
+Recieving : -957
+Sending : 958
+Recieving : -958
+Sending : 959
+Recieving : -959
+Sending : 960
+Recieving : -960
+Sending : 961
+Recieving : -961
+Sending : 962
+Recieving : -962
+Sending : 963
+Recieving : -963
+Sending : 964
+Recieving : -964
+Sending : 965
+Recieving : -965
+Sending : 966
+Recieving : -966
+Sending : 967
+Recieving : -967
+Sending : 968
+Recieving : -968
+Sending : 969
+Recieving : -969
+Sending : 970
+Recieving : -970
+Sending : 971
+Recieving : -971
+Sending : 972
+Recieving : -972
+Sending : 973
+Recieving : -973
+Sending : 974
+Recieving : -974
+Sending : 975
+Recieving : -975
+Sending : 976
+Recieving : -976
+Sending : 977
+Recieving : -977
+Sending : 978
+Recieving : -978
+Sending : 979
+Recieving : -979
+Sending : 980
+Recieving : -980
+Sending : 981
+Recieving : -981
+Sending : 982
+Recieving : -982
+Sending : 983
+Recieving : -983
+Sending : 984
+Recieving : -984
+Sending : 985
+Recieving : -985
+Sending : 986
+Recieving : -986
+Sending : 987
+Recieving : -987
+Sending : 988
+Recieving : -988
+Sending : 989
+Recieving : -989
+Sending : 990
+Recieving : -990
+Sending : 991
+Recieving : -991
+Sending : 992
+Recieving : -992
+Sending : 993
+Recieving : -993
+Sending : 994
+Recieving : -994
+Sending : 995
+Recieving : -995
+Sending : 996
+Recieving : -996
+Sending : 997
+Recieving : -997
+Sending : 998
+Recieving : -998
+Sending : 999
+Recieving : -999
+Sending : 1000
+Recieving : -1000
+Sending : 1001
+Recieving : -1001
+Sending : 1002
+Recieving : -1002
+Sending : 1003
+Recieving : -1003
+Sending : 1004
+Recieving : -1004
+Sending : 1005
+Recieving : -1005
+Sending : 1006
+Recieving : -1006
+Sending : 1007
+Recieving : -1007
+Sending : 1008
+Recieving : -1008
+Sending : 1009
+Recieving : -1009
+Sending : 1010
+Recieving : -1010
+Sending : 1011
+Recieving : -1011
+Sending : 1012
+Recieving : -1012
+Sending : 1013
+Recieving : -1013
+Sending : 1014
+Recieving : -1014
+Sending : 1015
+Recieving : -1015
+Sending : 1016
+Recieving : -1016
+Sending : 1017
+Recieving : -1017
+Sending : 1018
+Recieving : -1018
+Sending : 1019
+Recieving : -1019
+Sending : 1020
+Recieving : -1020
+Sending : 1021
+Recieving : -1021
+Sending : 1022
+Recieving : -1022
+Sending : 1023
+Recieving : -1023
+Sending : 1024
+Recieving : -1024
+Sending : 1025
+Recieving : -1025
+Sending : 1026
+Recieving : -1026
+Sending : 1027
+Recieving : -1027
+Sending : 1028
+Recieving : -1028
+Sending : 1029
+Recieving : -1029
+Sending : 1030
+Recieving : -1030
+Sending : 1031
+Recieving : -1031
+Sending : 1032
+Recieving : -1032
+Sending : 1033
+Recieving : -1033
+Sending : 1034
+Recieving : -1034
+Sending : 1035
+Recieving : -1035
+Sending : 1036
+Recieving : -1036
+Sending : 1037
+Recieving : -1037
+Sending : 1038
+Recieving : -1038
+Sending : 1039
+Recieving : -1039
+Sending : 1040
+Recieving : -1040
+Sending : 1041
+Recieving : -1041
+Sending : 1042
+Recieving : -1042
+Sending : 1043
+Recieving : -1043
+Sending : 1044
+Recieving : -1044
+Sending : 1045
+Recieving : -1045
+Sending : 1046
+Recieving : -1046
+Sending : 1047
+Recieving : -1047
+Sending : 1048
+Recieving : -1048
+Sending : 1049
+Recieving : -1049
+Sending : 1050
+Recieving : -1050
+Sending : 1051
+Recieving : -1051
+Sending : 1052
+Recieving : -1052
+Sending : 1053
+Recieving : -1053
+Sending : 1054
+Recieving : -1054
+Sending : 1055
+Recieving : -1055
+Sending : 1056
+Recieving : -1056
+Sending : 1057
+Recieving : -1057
+Sending : 1058
+Recieving : -1058
+Sending : 1059
+Recieving : -1059
+Sending : 1060
+Recieving : -1060
+Sending : 1061
+Recieving : -1061
+Sending : 1062
+Recieving : -1062
+Sending : 1063
+Recieving : -1063
+Sending : 1064
+Recieving : -1064
+Sending : 1065
+Recieving : -1065
+Sending : 1066
+Recieving : -1066
+Sending : 1067
+Recieving : -1067
+Sending : 1068
+Recieving : -1068
+Sending : 1069
+Recieving : -1069
+Sending : 1070
+Recieving : -1070
+Sending : 1071
+Recieving : -1071
+Sending : 1072
+Recieving : -1072
+Sending : 1073
+Recieving : -1073
+Sending : 1074
+Recieving : -1074
+Sending : 1075
+Recieving : -1075
+Sending : 1076
+Recieving : -1076
+Sending : 1077
+Recieving : -1077
+Sending : 1078
+Recieving : -1078
+Sending : 1079
+Recieving : -1079
+Sending : 1080
+Recieving : -1080
+Sending : 1081
+Recieving : -1081
+Sending : 1082
+Recieving : -1082
+Sending : 1083
+Recieving : -1083
+Sending : 1084
+Recieving : -1084
+Sending : 1085
+Recieving : -1085
+Sending : 1086
+Recieving : -1086
+Sending : 1087
+Recieving : -1087
+Sending : 1088
+Recieving : -1088
+Sending : 1089
+Recieving : -1089
+Sending : 1090
+Recieving : -1090
+Sending : 1091
+Recieving : -1091
+Sending : 1092
+Recieving : -1092
+Sending : 1093
+Recieving : -1093
+Sending : 1094
+Recieving : -1094
+Sending : 1095
+Recieving : -1095
+Sending : 1096
+Recieving : -1096
+Sending : 1097
+Recieving : -1097
+Sending : 1098
+Recieving : -1098
+Sending : 1099
+Recieving : -1099
+Sending : 1100
+Recieving : -1100
+Sending : 1101
+Recieving : -1101
+Sending : 1102
+Recieving : -1102
+Sending : 1103
+Recieving : -1103
+Sending : 1104
+Recieving : -1104
+Sending : 1105
+Recieving : -1105
+Sending : 1106
+Recieving : -1106
+Sending : 1107
+Recieving : -1107
+Sending : 1108
+Recieving : -1108
+Sending : 1109
+Recieving : -1109
+Sending : 1110
+Recieving : -1110
+Sending : 1111
+Recieving : -1111
+Sending : 1112
+Recieving : -1112
+Sending : 1113
+Recieving : -1113
+Sending : 1114
+Recieving : -1114
+Sending : 1115
+Recieving : -1115
+Sending : 1116
+Recieving : -1116
+Sending : 1117
+Recieving : -1117
+Sending : 1118
+Recieving : -1118
+Sending : 1119
+Recieving : -1119
+Sending : 1120
+Recieving : -1120
+Sending : 1121
+Recieving : -1121
+Sending : 1122
+Recieving : -1122
+Sending : 1123
+Recieving : -1123
+Sending : 1124
+Recieving : -1124
+Sending : 1125
+Recieving : -1125
+Sending : 1126
+Recieving : -1126
+Sending : 1127
+Recieving : -1127
+Sending : 1128
+Recieving : -1128
+Sending : 1129
+Recieving : -1129
+Sending : 1130
+Recieving : -1130
+Sending : 1131
+Recieving : -1131
+Sending : 1132
+Recieving : -1132
+Sending : 1133
+Recieving : -1133
+Sending : 1134
+Recieving : -1134
+Sending : 1135
+Recieving : -1135
+Sending : 1136
+Recieving : -1136
+Sending : 1137
+Recieving : -1137
+Sending : 1138
+Recieving : -1138
+Sending : 1139
+Recieving : -1139
+Sending : 1140
+Recieving : -1140
+Sending : 1141
+Recieving : -1141
+Sending : 1142
+Recieving : -1142
+Sending : 1143
+Recieving : -1143
+Sending : 1144
+Recieving : -1144
+Sending : 1145
+Recieving : -1145
+Sending : 1146
+Recieving : -1146
+Sending : 1147
+Recieving : -1147
+Sending : 1148
+Recieving : -1148
+Sending : 1149
+Recieving : -1149
+Sending : 1150
+Recieving : -1150
+Sending : 1151
+Recieving : -1151
+Sending : 1152
+Recieving : -1152
+Sending : 1153
+Recieving : -1153
+Sending : 1154
+Recieving : -1154
+Sending : 1155
+Recieving : -1155
+Sending : 1156
+Recieving : -1156
+Sending : 1157
+Recieving : -1157
+Sending : 1158
+Recieving : -1158
+Sending : 1159
+Recieving : -1159
+Sending : 1160
+Recieving : -1160
+Sending : 1161
+Recieving : -1161
+Sending : 1162
+Recieving : -1162
+Sending : 1163
+Recieving : -1163
+Sending : 1164
+Recieving : -1164
+Sending : 1165
+Recieving : -1165
+Sending : 1166
+Recieving : -1166
+Sending : 1167
+Recieving : -1167
+Sending : 1168
+Recieving : -1168
+Sending : 1169
+Recieving : -1169
+Sending : 1170
+Recieving : -1170
+Sending : 1171
+Recieving : -1171
+Sending : 1172
+Recieving : -1172
+Sending : 1173
+Recieving : -1173
+Sending : 1174
+Recieving : -1174
+Sending : 1175
+Recieving : -1175
+Sending : 1176
+Recieving : -1176
+Sending : 1177
+Recieving : -1177
+Sending : 1178
+Recieving : -1178
+Sending : 1179
+Recieving : -1179
+Sending : 1180
+Recieving : -1180
+Sending : 1181
+Recieving : -1181
+Sending : 1182
+Recieving : -1182
+Sending : 1183
+Recieving : -1183
+Sending : 1184
+Recieving : -1184
+Sending : 1185
+Recieving : -1185
+Sending : 1186
+Recieving : -1186
+Sending : 1187
+Recieving : -1187
+Sending : 1188
+Recieving : -1188
+Sending : 1189
+Recieving : -1189
+Sending : 1190
+Recieving : -1190
+Sending : 1191
+Recieving : -1191
+Sending : 1192
+Recieving : -1192
+Sending : 1193
+Recieving : -1193
+Sending : 1194
+Recieving : -1194
+Sending : 1195
+Recieving : -1195
+Sending : 1196
+Recieving : -1196
+Sending : 1197
+Recieving : -1197
+Sending : 1198
+Recieving : -1198
+Sending : 1199
+Recieving : -1199
+Sending : 1200
+Recieving : -1200
+Sending : 1201
+Recieving : -1201
+Sending : 1202
+Recieving : -1202
+Sending : 1203
+Recieving : -1203
+Sending : 1204
+Recieving : -1204
+Sending : 1205
+Recieving : -1205
+Sending : 1206
+Recieving : -1206
+Sending : 1207
+Recieving : -1207
+Sending : 1208
+Recieving : -1208
+Sending : 1209
+Recieving : -1209
+Sending : 1210
+Recieving : -1210
+Sending : 1211
+Recieving : -1211
+Sending : 1212
+Recieving : -1212
+Sending : 1213
+Recieving : -1213
+Sending : 1214
+Recieving : -1214
+Sending : 1215
+Recieving : -1215
+Sending : 1216
+Recieving : -1216
+Sending : 1217
+Recieving : -1217
+Sending : 1218
+Recieving : -1218
+Sending : 1219
+Recieving : -1219
+Sending : 1220
+Recieving : -1220
+Sending : 1221
+Recieving : -1221
+Sending : 1222
+Recieving : -1222
+Sending : 1223
+Recieving : -1223
+Sending : 1224
+Recieving : -1224
+Sending : 1225
+Recieving : -1225
+Sending : 1226
+Recieving : -1226
+Sending : 1227
+Recieving : -1
