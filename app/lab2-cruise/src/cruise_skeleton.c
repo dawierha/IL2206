@@ -316,7 +316,7 @@ void ControlTask(void* pdata)
 
 /*
  *
- * ButtonIO reads the buttons periodically.  
+ * ButtonIO reads the buttons periodically, and light up coresponding LED
  *
  */
 void ButtonIO(void* pdata)
