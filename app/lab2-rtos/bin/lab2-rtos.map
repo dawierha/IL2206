@@ -439,7 +439,7 @@ LOAD /opt/altera/13.0sp1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nio
  .text          0x00100160      0x330 obj/default/main.o
                 0x00100160                printStackSize
                 0x0010019c                task1
-                0x00100334                task2
+                0x00100324                task2
                 0x00100370                statisticTask
                 0x001003b8                main
  .text          0x00100490       0x98 /opt/altera/13.0sp1/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul/libgcc.a(_si_to_sf.o)

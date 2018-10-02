@@ -65,8 +65,6 @@ void task1(void* pdata) {
 		
 		OSSemPend(sem_task1,0,&err);
 
-		PERF_END (PERFORMANCE_COUNTER_BASE, 1);
-		PERF_STOP_MEASURING (PERFORMANCE_COUNTER_BASE);
 		int ticks = perf_get_section_time(PERFORMANCE_COUNTER_BASE, 1);
 		
 		int old_average = average;
@@ -86,6 +84,8 @@ void task1(void* pdata) {
 void task2(void* pdata) {
 	while (1) { 	
 		OSSemPend(sem_task0,0,&err);
+		PERF_END (PERFORMANCE_COUNTER_BASE, 1);
+		PERF_STOP_MEASURING (PERFORMANCE_COUNTER_BASE);
 		sharedAddress = sharedAddress*(-1);
 		OSSemPost(sem_task1);
 	}
