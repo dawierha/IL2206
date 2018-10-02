@@ -317,9 +317,14 @@ void ControlTask(void* pdata)
 	  if((top_gear == on) && (cruise_control == on) && (gas_pedal == off) && (brake_pedal == off) 			&& (*current_velocity >= 200) && !is_cruise_control){
 		is_cruise_control = 1;
 		desired_vel = *current_velocity;
+		int greenled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE);
+		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, greenled|0x0001);
+		
 
 	  } else if ((top_gear == off) || (cruise_control == off) || (gas_pedal == on) || (brake_pedal 			== on)	|| (*current_velocity <= 200)) {
 		is_cruise_control = 0;
+		int greenled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE);
+		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, ((greenled>>1)<<1));
 	  }
 	
 	  if(is_cruise_control){ //TODO anti windup code
@@ -365,11 +370,11 @@ void ButtonIO(void* pdata)
 	if(buttons&0x00000001 && !(prev_button&0x00000001) ){
 		if(cruise_control == on){
 		  cruise_control = off;
-		  greenled = greenled ^ 0x00000001;
+		  greenled = greenled ^ 0x00000004;
 		  }
 		else {
 		  cruise_control = on;
-		  greenled = greenled | 0x00000001;		  
+		  greenled = greenled | 0x00000004;		  
 		}
 	} else if(buttons&0x00000004 && !(prev_button&0x00000004)){
 		if(brake_pedal == on){
