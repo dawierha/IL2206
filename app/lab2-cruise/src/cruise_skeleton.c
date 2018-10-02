@@ -185,6 +185,38 @@ void show_target_velocity(INT8U target_vel)
  */
 void show_position(INT16U position)
 {
+	int redled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE);
+	
+	if(position >= 20000){
+		redled &= 0x0003;
+		redled |= 0x000001000;
+	}
+
+	else if(position >= 16000){
+		redled &= 0x0003;
+		redled |= 0x000002000;
+	}
+
+	else if(position >= 12000){
+		redled &= 0x0003;
+		redled |= 0x00004000;
+	}
+
+	else if(position >= 8000){
+		redled &= 0x0003;
+		redled |= 0x00008000;
+	}
+
+	else if(position >= 4000){
+		redled &= 0x0003;
+		redled |= 0x00010000;
+	}
+
+	else if(position >= 0){
+		redled &= 0x0003;
+		redled |= 0x00020000;
+	}
+    IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, redled);
 }
 
 /*
@@ -412,6 +444,7 @@ void SwitchIO(void* pdata)
     OSSemPend(switch_sem, 0, &error);
 
     int switches = switches_pressed();
+	int redled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE);
 
     if(switches&0x00000001)
       engine = on;
@@ -425,7 +458,7 @@ void SwitchIO(void* pdata)
 	if(!(switches&0x00000002))
       top_gear = off;
 
-	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, 0x0000003&switches);
+	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, (0x0000003&switches)|redled);
   }
 }
 
