@@ -55,6 +55,7 @@ OS_STK SwitchIO_Stack[TASK_STACKSIZE];
 #define VEHICLE_PERIOD  300
 
 #define MS_TO_TICKS 50000
+#define P_VALUE 5
 /*
  * Definition of Kernel Objects 
  */
@@ -295,18 +296,51 @@ void VehicleTask(void* pdata)
 void ControlTask(void* pdata)
 {
   INT8U err;
-  INT8U throttle = 80; /* Value between 0 and 80, which is interpreted as between 0.0V and 8.0V */
+  INT8U throttle = 40; /* Value between 0 and 80, which is interpreted as between 0.0V and 8.0V */
   void* msg;
   INT16S* current_velocity;
+  int is_cruise_control = 0;
+  int desired_vel = 0;
+  int vel_error = 0;
+  
 
   printf("Control Task created!\n");
 
   while(1)
     {
-      OSSemPend(control_sem, 0, &error);
+	  int temp_throttle = (int)throttle;
+      OSSemPend(control_sem, 0, &error); 	  
       msg = OSMboxPend(Mbox_Velocity, 0, &err);
       current_velocity = (INT16S*) msg;
-      
+
+	
+	  if((top_gear == on) && (cruise_control == on) && (gas_pedal == off) && (brake_pedal == off) 			&& (*current_velocity >= 200) && !is_cruise_control){
+		is_cruise_control = 1;
+		desired_vel = *current_velocity;
+
+	  } else if ((top_gear == off) || (cruise_control == off) || (gas_pedal == on) || (brake_pedal 			== on)	|| (*current_velocity <= 200)) {
+		is_cruise_control = 0;
+	  }
+	
+	  if(is_cruise_control){ //TODO anti windup code
+		vel_error = desired_vel - *current_velocity;
+
+		temp_throttle = temp_throttle + P_VALUE*vel_error/10;
+		if(temp_throttle < 0){
+			temp_throttle = 0;
+ 		} else if(temp_throttle > 80){
+			temp_throttle = 80;
+		}
+
+		throttle = (INT8U)temp_throttle;
+		printf("vel error %d \n", vel_error/10);
+		printf("vel des %d \n", desired_vel);
+		printf("current vel %d \n", *current_velocity);
+		printf("throttle %d \n", throttle);
+	  }
+
+
+
       err = OSMboxPost(Mbox_Throttle, (void *) &throttle);
 
       //OSTimeDlyHMSM(0,0,0, CONTROL_PERIOD);
@@ -347,7 +381,7 @@ void ButtonIO(void* pdata)
 		  greenled = greenled ^ 0x00000010;		  
 		}
 	} else if(buttons&0x0000008 && !(prev_button&0x00000008)){
-		if(brake_pedal == on){
+		if(gas_pedal == on){
 		  gas_pedal = off;
 		  greenled = greenled | 0x00000040;
 		  }
