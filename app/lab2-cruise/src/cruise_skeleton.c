@@ -321,14 +321,14 @@ void ControlTask(void* pdata)
  */
 void ButtonIO(void* pdata)
 {
-  
+  int prev_button = 0;
   while(1){
     OSSemPend(button_sem, 0, &error);
 	int greenled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE);
 	int buttons = buttons_pressed();
 	int cruise_button = 0; 
 
-	if(buttons&0x00000001){
+	if(buttons&0x00000001 && !(prev_button&0x00000001) ){
 		if(cruise_control == on){
 		  cruise_control = off;
 		  greenled = greenled ^ 0x00000001;
@@ -337,7 +337,7 @@ void ButtonIO(void* pdata)
 		  cruise_control = on;
 		  greenled = greenled | 0x00000001;		  
 		}
-	} else if(buttons&0x00000004){
+	} else if(buttons&0x00000004 && !(prev_button&0x00000004)){
 		if(brake_pedal == on){
 		  brake_pedal = off;
 		  greenled = greenled | 0x00000010;
@@ -346,18 +346,18 @@ void ButtonIO(void* pdata)
 		  brake_pedal = on;
 		  greenled = greenled ^ 0x00000010;		  
 		}
-	} else if(buttons&0x0000008){
+	} else if(buttons&0x0000008 && !(prev_button&0x00000008)){
 		if(brake_pedal == on){
-		  brake_pedal = off;
+		  gas_pedal = off;
 		  greenled = greenled | 0x00000040;
 		  }
 		else {
-		  brake_pedal = on;
+		  gas_pedal = on;
 		  greenled = greenled ^ 0x00000040;		  
 		}
 	}
 	
-	  
+  prev_button = buttons;
   IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, greenled);
   }
 }
