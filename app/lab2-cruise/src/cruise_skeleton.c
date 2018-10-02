@@ -38,12 +38,16 @@
 OS_STK StartTask_Stack[TASK_STACKSIZE]; 
 OS_STK ControlTask_Stack[TASK_STACKSIZE]; 
 OS_STK VehicleTask_Stack[TASK_STACKSIZE];
+OS_STK ButtonIO_Stack[TASK_STACKSIZE]; //TODO smaller stach size?
+OS_STK SwitchIO_Stack[TASK_STACKSIZE];
 
 // Task Priorities
  
 #define STARTTASK_PRIO     5
 #define VEHICLETASK_PRIO  10
 #define CONTROLTASK_PRIO  12
+#define BUTTONIO_PRIO 	  13
+#define SWITCHIO_PRIO 	  14
 
 // Task Periods
 
@@ -83,9 +87,13 @@ INT32U led_red = 0;   // Red LEDs
 
 OS_TMR *vehicle_tmr;
 OS_TMR *control_tmr;
+OS_TMR *button_tmr;
+OS_TMR *switch_tmr;
 
 OS_EVENT *vehicle_sem;
 OS_EVENT *control_sem;
+OS_EVENT *button_sem;
+OS_EVENT *switch_sem;
 
 INT8U error;
 
@@ -305,6 +313,84 @@ void ControlTask(void* pdata)
     }
 }
 
+
+/*
+ *
+ * ButtonIO reads the buttons periodically.  
+ *
+ */
+void ButtonIO(void* pdata)
+{
+  
+  while(1){
+    OSSemPend(button_sem, 0, &error);
+	int greenled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE);
+	int buttons = buttons_pressed();
+	int cruise_button = 0; 
+
+	if(buttons&0x00000001){
+		if(cruise_control == on){
+		  cruise_control = off;
+		  greenled = greenled ^ 0x00000001;
+		  }
+		else {
+		  cruise_control = on;
+		  greenled = greenled | 0x00000001;		  
+		}
+	} else if(buttons&0x00000004){
+		if(brake_pedal == on){
+		  brake_pedal = off;
+		  greenled = greenled | 0x00000010;
+		  }
+		else {
+		  brake_pedal = on;
+		  greenled = greenled ^ 0x00000010;		  
+		}
+	} else if(buttons&0x0000008){
+		if(brake_pedal == on){
+		  brake_pedal = off;
+		  greenled = greenled | 0x00000040;
+		  }
+		else {
+		  brake_pedal = on;
+		  greenled = greenled ^ 0x00000040;		  
+		}
+	}
+	
+	  
+  IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, greenled);
+  }
+}
+
+/*
+ *
+ * SwitchIO reads the Switches periodically.  
+ *
+ */
+void SwitchIO(void* pdata)
+{
+  while(1){
+    OSSemPend(switch_sem, 0, &error);
+
+    int switches = switches_pressed();
+
+    if(switches&0x00000001)
+      engine = on;
+	
+	if(!(switches&0x00000001))
+      engine = off;
+    
+	if(switches&0x00000002)
+      top_gear = on;
+    
+	if(!(switches&0x00000002))
+      top_gear = off;
+
+	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, 0x0000003&switches);
+  }
+}
+
+
 /* 
  * The task 'StartTask' creates all other tasks kernel objects and
  * deletes itself afterwards.
@@ -380,6 +466,32 @@ void StartTask(void* pdata)
 			TASK_STACKSIZE,
 			(void *) 0,
 			OS_TASK_OPT_STK_CHK);
+
+  err = OSTaskCreateExt(
+			ButtonIO, // Pointer to task code
+			NULL,        // Pointer to argument that is
+	                // passed to task
+			&ButtonIO_Stack[TASK_STACKSIZE-1], // Pointer to top
+			// of task stack
+			BUTTONIO_PRIO,
+			BUTTONIO_PRIO,
+			(void *)&ButtonIO_Stack[0],
+			TASK_STACKSIZE,
+			(void *) 0,
+			OS_TASK_OPT_STK_CHK);
+
+  err = OSTaskCreateExt(
+			SwitchIO, // Pointer to task code
+			NULL,        // Pointer to argument that is
+	                // passed to task
+			&SwitchIO_Stack[TASK_STACKSIZE-1], // Pointer to top
+			// of task stack
+			SWITCHIO_PRIO,
+			SWITCHIO_PRIO,
+			(void *)&SwitchIO_Stack[0],
+			TASK_STACKSIZE,
+			(void *) 0,
+			OS_TASK_OPT_STK_CHK);
   
   printf("All Tasks and Kernel Objects generated!\n");
 
@@ -387,6 +499,8 @@ void StartTask(void* pdata)
 
   OSTaskDel(OS_PRIO_SELF);
 }
+
+
 
 /*
  *
@@ -401,6 +515,14 @@ void TimerCallback(void *ptmr, void *callback_arg){
 
   if ((int *)callback_arg == 1){
     OSSemPost(control_sem);
+  }
+
+  if ((int *)callback_arg == 2){
+    OSSemPost(button_sem);
+  }
+
+  if ((int *)callback_arg == 3){
+    OSSemPost(switch_sem);
   }
 }
 
@@ -427,8 +549,16 @@ int main(void) {
   control_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
     TimerCallback, (void *)1, "control_tmr", &error);
 
+  button_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+    TimerCallback, (void *)2, "button_tmr", &error);
+
+  switch_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+    TimerCallback, (void *)3, "switch_tmr", &error);
+
   vehicle_sem = OSSemCreate(0);
   control_sem = OSSemCreate(0);
+  button_sem = OSSemCreate(0);
+  switch_sem = OSSemCreate(0);
  
   OSTaskCreateExt(
 		  StartTask, // Pointer to task code
@@ -445,7 +575,9 @@ int main(void) {
 
 
   OSTmrStart(vehicle_tmr, &error);         
-  OSTmrStart(control_tmr, &error);        
+  OSTmrStart(control_tmr, &error);  
+  OSTmrStart(button_tmr, &error);  
+  OSTmrStart(switch_tmr, &error);        
   OSStart();
   
   return 0;
