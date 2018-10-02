@@ -50,6 +50,7 @@ OS_STK VehicleTask_Stack[TASK_STACKSIZE];
 #define CONTROL_PERIOD  300
 #define VEHICLE_PERIOD  300
 
+#define MS_TO_TICKS 50000
 /*
  * Definition of Kernel Objects 
  */
@@ -79,6 +80,15 @@ enum active cruise_control = off;
 int delay; // Delay of HW-timer 
 INT16U led_green = 0; // Green LEDs
 INT32U led_red = 0;   // Red LEDs
+
+OS_TMR *vehicle_tmr;
+OS_TMR *control_tmr;
+
+OS_EVENT *vehicle_sem;
+OS_EVENT *control_sem;
+
+INT8U error;
+
 
 int buttons_pressed(void)
 {
@@ -229,8 +239,8 @@ void VehicleTask(void* pdata)
   while(1)
     {
       err = OSMboxPost(Mbox_Velocity, (void *) &velocity);
-
-      OSTimeDlyHMSM(0,0,0,VEHICLE_PERIOD); 
+      OSSemPend(vehicle_sem, 0, &error);
+      //OSTimeDlyHMSM(0,0,0,VEHICLE_PERIOD); 
 
       /* Non-blocking read of mailbox: 
 	 - message in mailbox: update throttle
@@ -277,7 +287,7 @@ void VehicleTask(void* pdata)
 void ControlTask(void* pdata)
 {
   INT8U err;
-  INT8U throttle = 40; /* Value between 0 and 80, which is interpreted as between 0.0V and 8.0V */
+  INT8U throttle = 80; /* Value between 0 and 80, which is interpreted as between 0.0V and 8.0V */
   void* msg;
   INT16S* current_velocity;
 
@@ -285,12 +295,13 @@ void ControlTask(void* pdata)
 
   while(1)
     {
+      OSSemPend(control_sem, 0, &error);
       msg = OSMboxPend(Mbox_Velocity, 0, &err);
       current_velocity = (INT16S*) msg;
       
       err = OSMboxPost(Mbox_Throttle, (void *) &throttle);
 
-      OSTimeDlyHMSM(0,0,0, CONTROL_PERIOD);
+      //OSTimeDlyHMSM(0,0,0, CONTROL_PERIOD);
     }
 }
 
@@ -379,6 +390,25 @@ void StartTask(void* pdata)
 
 /*
  *
+ * Callback from timer, to post semaphore.
+ *
+ */
+void TimerCallback(void *ptmr, void *callback_arg){
+
+  if ((int *)callback_arg == 0){
+    OSSemPost(vehicle_sem);
+  }
+
+  if ((int *)callback_arg == 1){
+    OSSemPost(control_sem);
+  }
+}
+
+
+
+
+/*
+ *
  * The function 'main' creates only a single task 'StartTask' and starts
  * the OS. All other tasks are started from the task 'StartTask'.
  *
@@ -387,6 +417,18 @@ void StartTask(void* pdata)
 int main(void) {
 
   printf("Lab: Cruise Control\n");
+
+
+
+ 
+  vehicle_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+    TimerCallback, (void *)0, "vehicle_tmr", &error);
+
+  control_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+    TimerCallback, (void *)1, "control_tmr", &error);
+
+  vehicle_sem = OSSemCreate(0);
+  control_sem = OSSemCreate(0);
  
   OSTaskCreateExt(
 		  StartTask, // Pointer to task code
@@ -400,7 +442,10 @@ int main(void) {
 		  TASK_STACKSIZE,
 		  (void *) 0,  
 		  OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR);
-         
+
+
+  OSTmrStart(vehicle_tmr, &error);         
+  OSTmrStart(control_tmr, &error);        
   OSStart();
   
   return 0;
