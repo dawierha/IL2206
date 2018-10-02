@@ -5,2455 +5,8055 @@ nios2-terminal: (Use the IDE stop button or Ctrl-C to terminate)
 Lab 3 - Two Tasks
 Sending : 1
 Recieving : -1
+Context switch time: 11756
+Average Context swtich time: 11756
+
 Sending : 2
 Recieving : -2
+Context switch time: 4897
+Average Context swtich time: 8326
+
 Sending : 3
 Recieving : -3
+Context switch time: 4897
+Average Context swtich time: 7183
+
 Sending : 4
 Recieving : -4
+Context switch time: 4897
+Average Context swtich time: 6611
+
 Sending : 5
 Recieving : -5
+Context switch time: 4897
+Average Context swtich time: 6268
+
 Sending : 6
 Recieving : -6
+Context switch time: 4897
+Average Context swtich time: 6039
+
 Sending : 7
 Recieving : -7
+Context switch time: 4897
+Average Context swtich time: 5875
+
 Sending : 8
 Recieving : -8
+Context switch time: 4897
+Average Context swtich time: 5752
+
 Sending : 9
 Recieving : -9
+Context switch time: 4897
+Average Context swtich time: 5657
+
 Sending : 10
 Recieving : -10
+Context switch time: 11774
+Outlier detected
+Average Context swtich time: 5657
+
 Sending : 11
 Recieving : -11
+Context switch time: 4897
+Average Context swtich time: 5587
+
 Sending : 12
 Recieving : -12
+Context switch time: 4897
+Average Context swtich time: 5529
+
 Sending : 13
 Recieving : -13
+Context switch time: 4897
+Average Context swtich time: 5480
+
 Sending : 14
 Recieving : -14
+Context switch time: 4897
+Average Context swtich time: 5438
+
 Sending : 15
 Recieving : -15
+Context switch time: 4897
+Average Context swtich time: 5401
+
 Sending : 16
 Recieving : -16
+Context switch time: 4897
+Average Context swtich time: 5369
+
 Sending : 17
 Recieving : -17
+Context switch time: 4897
+Average Context swtich time: 5341
+
 Sending : 18
 Recieving : -18
+Context switch time: 4897
+Average Context swtich time: 5316
+
 Sending : 19
 Recieving : -19
+Context switch time: 4897
+Average Context swtich time: 5293
+
 Sending : 20
 Recieving : -20
+Context switch time: 11859
+Outlier detected
+Average Context swtich time: 5293
+
 Sending : 21
 Recieving : -21
+Context switch time: 4897
+Average Context swtich time: 5274
+
 Sending : 22
 Recieving : -22
+Context switch time: 4897
+Average Context swtich time: 5256
+
 Sending : 23
 Recieving : -23
+Context switch time: 4897
+Average Context swtich time: 5240
+
 Sending : 24
 Recieving : -24
+Context switch time: 4615
+Average Context swtich time: 5213
+
 Sending : 25
 Recieving : -25
+Context switch time: 4897
+Average Context swtich time: 5200
+
 Sending : 26
 Recieving : -26
+Context switch time: 11789
+Outlier detected
+Average Context swtich time: 5200
+
 Sending : 27
 Recieving : -27
+Context switch time: 4897
+Average Context swtich time: 5188
+
 Sending : 28
 Recieving : -28
+Context switch time: 4897
+Average Context swtich time: 5177
+
 Sending : 29
 Recieving : -29
+Context switch time: 4897
+Average Context swtich time: 5167
+
 Sending : 30
 Recieving : -30
+Context switch time: 4897
+Average Context swtich time: 5158
+
 Sending : 31
 Recieving : -31
+Context switch time: 4897
+Average Context swtich time: 5149
+
 Sending : 32
 Recieving : -32
+Context switch time: 4897
+Average Context swtich time: 5141
+
 Sending : 33
 Recieving : -33
+Context switch time: 11876
+Outlier detected
+Average Context swtich time: 5141
+
 Sending : 34
 Recieving : -34
+Context switch time: 4897
+Average Context swtich time: 5133
+
 Sending : 35
 Recieving : -35
+Context switch time: 4897
+Average Context swtich time: 5126
+
 Sending : 36
 Recieving : -36
+Context switch time: 4897
+Average Context swtich time: 5119
+
 Sending : 37
 Recieving : -37
+Context switch time: 4897
+Average Context swtich time: 5113
+
 Sending : 38
 Recieving : -38
+Context switch time: 4897
+Average Context swtich time: 5107
+
 Sending : 39
 Recieving : -39
+Context switch time: 4897
+Average Context swtich time: 5101
+
 Sending : 40
 Recieving : -40
+Context switch time: 4897
+Average Context swtich time: 5095
+
 Sending : 41
 Recieving : -41
+Context switch time: 4897
+Average Context swtich time: 5090
+
 Sending : 42
 Recieving : -42
+Context switch time: 4897
+Average Context swtich time: 5085
+
 Sending : 43
 Recieving : -43
+Context switch time: 4897
+Average Context swtich time: 5080
+
 Sending : 44
 Recieving : -44
+Context switch time: 4897
+Average Context swtich time: 5075
+
 Sending : 45
 Recieving : -45
+Context switch time: 4897
+Average Context swtich time: 5071
+
 Sending : 46
 Recieving : -46
+Context switch time: 4897
+Average Context swtich time: 5067
+
 Sending : 47
 Recieving : -47
+Context switch time: 11787
+Outlier detected
+Average Context swtich time: 5067
+
 Sending : 48
 Recieving : -48
+Context switch time: 4897
+Average Context swtich time: 5063
+
 Sending : 49
 Recieving : -49
+Context switch time: 11789
+Outlier detected
+Average Context swtich time: 5063
+
 Sending : 50
 Recieving : -50
+Context switch time: 11792
+Outlier detected
+Average Context swtich time: 5063
+
 Sending : 51
 Recieving : -51
+Context switch time: 4897
+Average Context swtich time: 5059
+
 Sending : 52
 Recieving : -52
+Context switch time: 10900
+Outlier detected
+Average Context swtich time: 5059
+
 Sending : 53
 Recieving : -53
+Context switch time: 5793
+Average Context swtich time: 5072
+
 Sending : 54
 Recieving : -54
+Context switch time: 4897
+Average Context swtich time: 5068
+
 Sending : 55
 Recieving : -55
+Context switch time: 4897
+Average Context swtich time: 5064
+
 Sending : 56
 Recieving : -56
+Context switch time: 4897
+Average Context swtich time: 5061
+
 Sending : 57
 Recieving : -57
+Context switch time: 10951
+Outlier detected
+Average Context swtich time: 5061
+
 Sending : 58
 Recieving : -58
+Context switch time: 5793
+Average Context swtich time: 5073
+
 Sending : 59
 Recieving : -59
+Context switch time: 11858
+Outlier detected
+Average Context swtich time: 5073
+
 Sending : 60
 Recieving : -60
+Context switch time: 4897
+Average Context swtich time: 5070
+
 Sending : 61
 Recieving : -61
+Context switch time: 11851
+Outlier detected
+Average Context swtich time: 5070
+
 Sending : 62
 Recieving : -62
+Context switch time: 4897
+Average Context swtich time: 5067
+
 Sending : 63
 Recieving : -63
+Context switch time: 4897
+Average Context swtich time: 5064
+
 Sending : 64
 Recieving : -64
+Context switch time: 4897
+Average Context swtich time: 5061
+
 Sending : 65
 Recieving : -65
+Context switch time: 4897
+Average Context swtich time: 5058
+
 Sending : 66
 Recieving : -66
+Context switch time: 4897
+Average Context swtich time: 5055
+
 Sending : 67
 Recieving : -67
+Context switch time: 4897
+Average Context swtich time: 5052
+
 Sending : 68
 Recieving : -68
+Context switch time: 4897
+Average Context swtich time: 5049
+
 Sending : 69
 Recieving : -69
+Context switch time: 4897
+Average Context swtich time: 5046
+
 Sending : 70
 Recieving : -70
+Context switch time: 11765
+Outlier detected
+Average Context swtich time: 5046
+
 Sending : 71
 Recieving : -71
+Context switch time: 4897
+Average Context swtich time: 5043
+
 Sending : 72
 Recieving : -72
+Context switch time: 4897
+Average Context swtich time: 5040
+
 Sending : 73
 Recieving : -73
+Context switch time: 4897
+Average Context swtich time: 5038
+
 Sending : 74
 Recieving : -74
+Context switch time: 4897
+Average Context swtich time: 5036
+
 Sending : 75
 Recieving : -75
+Context switch time: 4897
+Average Context swtich time: 5034
+
 Sending : 76
 Recieving : -76
+Context switch time: 125652
+Outlier detected
+Average Context swtich time: 5034
+
 Sending : 77
 Recieving : -77
+Context switch time: 4897
+Average Context swtich time: 5032
+
 Sending : 78
 Recieving : -78
+Context switch time: 10951
+Outlier detected
+Average Context swtich time: 5032
+
 Sending : 79
 Recieving : -79
+Context switch time: 5793
+Average Context swtich time: 5041
+
 Sending : 80
 Recieving : -80
+Context switch time: 4897
+Average Context swtich time: 5039
+
 Sending : 81
 Recieving : -81
+Context switch time: 4897
+Average Context swtich time: 5037
+
 Sending : 82
 Recieving : -82
+Context switch time: 4897
+Average Context swtich time: 5035
+
 Sending : 83
 Recieving : -83
+Context switch time: 4897
+Average Context swtich time: 5033
+
 Sending : 84
 Recieving : -84
+Context switch time: 4897
+Average Context swtich time: 5031
+
 Sending : 85
 Recieving : -85
+Context switch time: 4897
+Average Context swtich time: 5029
+
 Sending : 86
 Recieving : -86
+Context switch time: 4897
+Average Context swtich time: 5027
+
 Sending : 87
 Recieving : -87
+Context switch time: 4897
+Average Context swtich time: 5025
+
 Sending : 88
 Recieving : -88
+Context switch time: 4897
+Average Context swtich time: 5023
+
 Sending : 89
 Recieving : -89
+Context switch time: 4897
+Average Context swtich time: 5021
+
 Sending : 90
 Recieving : -90
+Context switch time: 4897
+Average Context swtich time: 5019
+
 Sending : 91
 Recieving : -91
+Context switch time: 4897
+Average Context swtich time: 5017
+
 Sending : 92
 Recieving : -92
+Context switch time: 4897
+Average Context swtich time: 5015
+
 Sending : 93
 Recieving : -93
+Context switch time: 4897
+Average Context swtich time: 5013
+
 Sending : 94
 Recieving : -94
+Context switch time: 4897
+Average Context swtich time: 5011
+
 Sending : 95
 Recieving : -95
+Context switch time: 4897
+Average Context swtich time: 5009
+
 Sending : 96
 Recieving : -96
+Context switch time: 4897
+Average Context swtich time: 5007
+
 Sending : 97
 Recieving : -97
+Context switch time: 4897
+Average Context swtich time: 5005
+
 Sending : 98
 Recieving : -98
+Context switch time: 4897
+Average Context swtich time: 5003
+
 Sending : 99
 Recieving : -99
+Context switch time: 4897
+Average Context swtich time: 5001
+
 Sending : 100
 Recieving : -100
+Context switch time: 11843
+Outlier detected
+Average Context swtich time: 5001
+
 Sending : 101
 Recieving : -101
+Context switch time: 4897
+Average Context swtich time: 4999
+
 Sending : 102
 Recieving : -102
+Context switch time: 4897
+Average Context swtich time: 4998
+
 Sending : 103
 Recieving : -103
+Context switch time: 4897
+Average Context swtich time: 4997
+
 Sending : 104
 Recieving : -104
+Context switch time: 4897
+Average Context swtich time: 4996
+
 Sending : 105
 Recieving : -105
+Context switch time: 4897
+Average Context swtich time: 4995
+
 Sending : 106
 Recieving : -106
+Context switch time: 4897
+Average Context swtich time: 4994
+
 Sending : 107
 Recieving : -107
+Context switch time: 4897
+Average Context swtich time: 4993
+
 Sending : 108
 Recieving : -108
+Context switch time: 4897
+Average Context swtich time: 4992
+
 Sending : 109
 Recieving : -109
+Context switch time: 4897
+Average Context swtich time: 4991
+
 Sending : 110
 Recieving : -110
+Context switch time: 4897
+Average Context swtich time: 4990
+
 Sending : 111
 Recieving : -111
+Context switch time: 4897
+Average Context swtich time: 4989
+
 Sending : 112
 Recieving : -112
+Context switch time: 4897
+Average Context swtich time: 4988
+
 Sending : 113
 Recieving : -113
+Context switch time: 4897
+Average Context swtich time: 4987
+
 Sending : 114
 Recieving : -114
+Context switch time: 4897
+Average Context swtich time: 4986
+
 Sending : 115
 Recieving : -115
+Context switch time: 4897
+Average Context swtich time: 4985
+
 Sending : 116
 Recieving : -116
+Context switch time: 4897
+Average Context swtich time: 4984
+
 Sending : 117
 Recieving : -117
+Context switch time: 4897
+Average Context swtich time: 4983
+
 Sending : 118
 Recieving : -118
+Context switch time: 4897
+Average Context swtich time: 4982
+
 Sending : 119
 Recieving : -119
+Context switch time: 4897
+Average Context swtich time: 4981
+
 Sending : 120
 Recieving : -120
+Context switch time: 4897
+Average Context swtich time: 4980
+
 Sending : 121
 Recieving : -121
+Context switch time: 4897
+Average Context swtich time: 4979
+
 Sending : 122
 Recieving : -122
+Context switch time: 4897
+Average Context swtich time: 4978
+
 Sending : 123
 Recieving : -123
+Context switch time: 4897
+Average Context swtich time: 4977
+
 Sending : 124
 Recieving : -124
+Context switch time: 4897
+Average Context swtich time: 4976
+
 Sending : 125
 Recieving : -125
+Context switch time: 4897
+Average Context swtich time: 4975
+
 Sending : 126
 Recieving : -126
+Context switch time: 4897
+Average Context swtich time: 4974
+
 Sending : 127
 Recieving : -127
+Context switch time: 4897
+Average Context swtich time: 4973
+
 Sending : 128
 Recieving : -128
+Context switch time: 4897
+Average Context swtich time: 4972
+
 Sending : 129
 Recieving : -129
+Context switch time: 4897
+Average Context swtich time: 4971
+
 Sending : 130
 Recieving : -130
+Context switch time: 4897
+Average Context swtich time: 4970
+
 Sending : 131
 Recieving : -131
+Context switch time: 4897
+Average Context swtich time: 4969
+
 Sending : 132
 Recieving : -132
+Context switch time: 4897
+Average Context swtich time: 4968
+
 Sending : 133
 Recieving : -133
+Context switch time: 4897
+Average Context swtich time: 4967
+
 Sending : 134
 Recieving : -134
+Context switch time: 4897
+Average Context swtich time: 4966
+
 Sending : 135
 Recieving : -135
+Context switch time: 4897
+Average Context swtich time: 4965
+
 Sending : 136
 Recieving : -136
+Context switch time: 4897
+Average Context swtich time: 4964
+
 Sending : 137
 Recieving : -137
+Context switch time: 4897
+Average Context swtich time: 4963
+
 Sending : 138
 Recieving : -138
+Context switch time: 4897
+Average Context swtich time: 4962
+
 Sending : 139
 Recieving : -139
+Context switch time: 4897
+Average Context swtich time: 4961
+
 Sending : 140
 Recieving : -140
+Context switch time: 4897
+Average Context swtich time: 4960
+
 Sending : 141
 Recieving : -141
+Context switch time: 4897
+Average Context swtich time: 4959
+
 Sending : 142
 Recieving : -142
+Context switch time: 4897
+Average Context swtich time: 4958
+
 Sending : 143
 Recieving : -143
+Context switch time: 4897
+Average Context swtich time: 4957
+
 Sending : 144
 Recieving : -144
+Context switch time: 4897
+Average Context swtich time: 4956
+
 Sending : 145
 Recieving : -145
+Context switch time: 4897
+Average Context swtich time: 4955
+
 Sending : 146
 Recieving : -146
+Context switch time: 4897
+Average Context swtich time: 4954
+
 Sending : 147
 Recieving : -147
+Context switch time: 4897
+Average Context swtich time: 4953
+
 Sending : 148
 Recieving : -148
+Context switch time: 4897
+Average Context swtich time: 4952
+
 Sending : 149
 Recieving : -149
+Context switch time: 4897
+Average Context swtich time: 4951
+
 Sending : 150
 Recieving : -150
+Context switch time: 4897
+Average Context swtich time: 4950
+
 Sending : 151
 Recieving : -151
+Context switch time: 4897
+Average Context swtich time: 4949
+
 Sending : 152
 Recieving : -152
+Context switch time: 4897
+Average Context swtich time: 4948
+
 Sending : 153
 Recieving : -153
+Context switch time: 243409
+Outlier detected
+Average Context swtich time: 4948
+
 Sending : 154
 Recieving : -154
+Context switch time: 4897
+Average Context swtich time: 4947
+
 Sending : 155
 Recieving : -155
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4947
+
 Sending : 156
 Recieving : -156
+Context switch time: 4897
+Average Context swtich time: 4946
+
 Sending : 157
 Recieving : -157
+Context switch time: 4897
+Average Context swtich time: 4945
+
 Sending : 158
 Recieving : -158
+Context switch time: 4897
+Average Context swtich time: 4944
+
 Sending : 159
 Recieving : -159
+Context switch time: 4897
+Average Context swtich time: 4943
+
 Sending : 160
 Recieving : -160
+Context switch time: 4897
+Average Context swtich time: 4942
+
 Sending : 161
 Recieving : -161
+Context switch time: 4897
+Average Context swtich time: 4941
+
 Sending : 162
 Recieving : -162
+Context switch time: 4897
+Average Context swtich time: 4940
+
 Sending : 163
 Recieving : -163
+Context switch time: 4897
+Average Context swtich time: 4939
+
 Sending : 164
 Recieving : -164
+Context switch time: 4897
+Average Context swtich time: 4938
+
 Sending : 165
 Recieving : -165
+Context switch time: 4897
+Average Context swtich time: 4937
+
 Sending : 166
 Recieving : -166
+Context switch time: 4897
+Average Context swtich time: 4936
+
 Sending : 167
 Recieving : -167
+Context switch time: 4897
+Average Context swtich time: 4935
+
 Sending : 168
 Recieving : -168
+Context switch time: 4897
+Average Context swtich time: 4934
+
 Sending : 169
 Recieving : -169
+Context switch time: 4897
+Average Context swtich time: 4933
+
 Sending : 170
 Recieving : -170
+Context switch time: 4897
+Average Context swtich time: 4932
+
 Sending : 171
 Recieving : -171
+Context switch time: 4897
+Average Context swtich time: 4931
+
 Sending : 172
 Recieving : -172
+Context switch time: 4897
+Average Context swtich time: 4930
+
 Sending : 173
 Recieving : -173
+Context switch time: 4897
+Average Context swtich time: 4929
+
 Sending : 174
 Recieving : -174
+Context switch time: 4897
+Average Context swtich time: 4928
+
 Sending : 175
 Recieving : -175
+Context switch time: 4897
+Average Context swtich time: 4927
+
 Sending : 176
 Recieving : -176
+Context switch time: 4897
+Average Context swtich time: 4926
+
 Sending : 177
 Recieving : -177
+Context switch time: 4897
+Average Context swtich time: 4925
+
 Sending : 178
 Recieving : -178
+Context switch time: 4897
+Average Context swtich time: 4924
+
 Sending : 179
 Recieving : -179
+Context switch time: 4897
+Average Context swtich time: 4923
+
 Sending : 180
 Recieving : -180
+Context switch time: 4897
+Average Context swtich time: 4922
+
 Sending : 181
 Recieving : -181
+Context switch time: 4897
+Average Context swtich time: 4921
+
 Sending : 182
 Recieving : -182
+Context switch time: 4897
+Average Context swtich time: 4920
+
 Sending : 183
 Recieving : -183
+Context switch time: 11855
+Outlier detected
+Average Context swtich time: 4920
+
 Sending : 184
 Recieving : -184
+Context switch time: 4897
+Average Context swtich time: 4919
+
 Sending : 185
 Recieving : -185
+Context switch time: 4897
+Average Context swtich time: 4918
+
 Sending : 186
 Recieving : -186
+Context switch time: 10927
+Outlier detected
+Average Context swtich time: 4918
+
 Sending : 187
 Recieving : -187
+Context switch time: 5740
+Average Context swtich time: 4922
+
 Sending : 188
 Recieving : -188
+Context switch time: 4897
+Average Context swtich time: 4921
+
 Sending : 189
 Recieving : -189
+Context switch time: 4897
+Average Context swtich time: 4920
+
 Sending : 190
 Recieving : -190
+Context switch time: 4897
+Average Context swtich time: 4919
+
 Sending : 191
 Recieving : -191
+Context switch time: 4897
+Average Context swtich time: 4918
+
 Sending : 192
 Recieving : -192
+Context switch time: 4897
+Average Context swtich time: 4917
+
 Sending : 193
 Recieving : -193
+Context switch time: 4897
+Average Context swtich time: 4916
+
 Sending : 194
 Recieving : -194
+Context switch time: 4897
+Average Context swtich time: 4915
+
 Sending : 195
 Recieving : -195
+Context switch time: 4897
+Average Context swtich time: 4914
+
 Sending : 196
 Recieving : -196
+Context switch time: 4897
+Average Context swtich time: 4913
+
 Sending : 197
 Recieving : -197
+Context switch time: 4897
+Average Context swtich time: 4912
+
 Sending : 198
 Recieving : -198
+Context switch time: 4897
+Average Context swtich time: 4911
+
 Sending : 199
 Recieving : -199
+Context switch time: 4897
+Average Context swtich time: 4910
+
 Sending : 200
 Recieving : -200
+Context switch time: 4897
+Average Context swtich time: 4909
+
 Sending : 201
 Recieving : -201
+Context switch time: 4897
+Average Context swtich time: 4908
+
 Sending : 202
 Recieving : -202
+Context switch time: 4897
+Average Context swtich time: 4907
+
 Sending : 203
 Recieving : -203
+Context switch time: 4897
+Average Context swtich time: 4906
+
 Sending : 204
 Recieving : -204
+Context switch time: 4897
+Average Context swtich time: 4905
+
 Sending : 205
 Recieving : -205
+Context switch time: 4897
+Average Context swtich time: 4904
+
 Sending : 206
 Recieving : -206
+Context switch time: 4897
+Average Context swtich time: 4903
+
 Sending : 207
 Recieving : -207
+Context switch time: 11772
+Outlier detected
+Average Context swtich time: 4903
+
 Sending : 208
 Recieving : -208
+Context switch time: 4897
+Average Context swtich time: 4902
+
 Sending : 209
 Recieving : -209
+Context switch time: 4897
+Average Context swtich time: 4901
+
 Sending : 210
 Recieving : -210
+Context switch time: 4897
+Average Context swtich time: 4900
+
 Sending : 211
 Recieving : -211
+Context switch time: 4897
+Average Context swtich time: 4899
+
 Sending : 212
 Recieving : -212
+Context switch time: 293345
+Outlier detected
+Average Context swtich time: 4899
+
 Sending : 213
 Recieving : -213
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 214
 Recieving : -214
+Context switch time: 11777
+Outlier detected
+Average Context swtich time: 4898
+
 Sending : 215
 Recieving : -215
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 216
 Recieving : -216
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 217
 Recieving : -217
+Context switch time: 11772
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 218
 Recieving : -218
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 219
 Recieving : -219
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 220
 Recieving : -220
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 221
 Recieving : -221
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 222
 Recieving : -222
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 223
 Recieving : -223
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 224
 Recieving : -224
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 225
 Recieving : -225
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 226
 Recieving : -226
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 227
 Recieving : -227
+Context switch time: 11771
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 228
 Recieving : -228
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 229
 Recieving : -229
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 230
 Recieving : -230
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 231
 Recieving : -231
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 232
 Recieving : -232
+Context switch time: 116028
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 233
 Recieving : -233
+Context switch time: 5800
+Average Context swtich time: 4900
+
 Sending : 234
 Recieving : -234
+Context switch time: 4897
+Average Context swtich time: 4899
+
 Sending : 235
 Recieving : -235
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 236
 Recieving : -236
+Context switch time: 10884
+Outlier detected
+Average Context swtich time: 4898
+
 Sending : 237
 Recieving : -237
+Context switch time: 5795
+Average Context swtich time: 4901
+
 Sending : 238
 Recieving : -238
+Context switch time: 4897
+Average Context swtich time: 4900
+
 Sending : 239
 Recieving : -239
+Context switch time: 11774
+Outlier detected
+Average Context swtich time: 4900
+
 Sending : 240
 Recieving : -240
+Context switch time: 4897
+Average Context swtich time: 4899
+
 Sending : 241
 Recieving : -241
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 242
 Recieving : -242
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 243
 Recieving : -243
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 244
 Recieving : -244
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 245
 Recieving : -245
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 246
 Recieving : -246
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 247
 Recieving : -247
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 248
 Recieving : -248
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 249
 Recieving : -249
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 250
 Recieving : -250
+Context switch time: 11783
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 251
 Recieving : -251
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 252
 Recieving : -252
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 253
 Recieving : -253
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 254
 Recieving : -254
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 255
 Recieving : -255
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 256
 Recieving : -256
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 257
 Recieving : -257
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 258
 Recieving : -258
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 259
 Recieving : -259
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 260
 Recieving : -260
+Context switch time: 11850
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 261
 Recieving : -261
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 262
 Recieving : -262
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 263
 Recieving : -263
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 264
 Recieving : -264
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 265
 Recieving : -265
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 266
 Recieving : -266
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 267
 Recieving : -267
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 268
 Recieving : -268
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 269
 Recieving : -269
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 270
 Recieving : -270
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 271
 Recieving : -271
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 272
 Recieving : -272
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 273
 Recieving : -273
+Context switch time: 11773
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 274
 Recieving : -274
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 275
 Recieving : -275
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 276
 Recieving : -276
+Context switch time: 11770
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 277
 Recieving : -277
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 278
 Recieving : -278
+Context switch time: 10878
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 279
 Recieving : -279
+Context switch time: 5791
+Average Context swtich time: 4900
+
 Sending : 280
 Recieving : -280
+Context switch time: 19418
+Outlier detected
+Average Context swtich time: 4900
+
 Sending : 281
 Recieving : -281
+Context switch time: 4897
+Average Context swtich time: 4899
+
 Sending : 282
 Recieving : -282
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 283
 Recieving : -283
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 284
 Recieving : -284
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 285
 Recieving : -285
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 286
 Recieving : -286
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 287
 Recieving : -287
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 288
 Recieving : -288
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 289
 Recieving : -289
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 290
 Recieving : -290
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 291
 Recieving : -291
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 292
 Recieving : -292
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 293
 Recieving : -293
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 294
 Recieving : -294
+Context switch time: 11771
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 295
 Recieving : -295
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 296
 Recieving : -296
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 297
 Recieving : -297
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 298
 Recieving : -298
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 299
 Recieving : -299
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 300
 Recieving : -300
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 301
 Recieving : -301
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 302
 Recieving : -302
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 303
 Recieving : -303
+Context switch time: 11847
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 304
 Recieving : -304
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 305
 Recieving : -305
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 306
 Recieving : -306
+Context switch time: 18528
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 307
 Recieving : -307
+Context switch time: 5793
+Average Context swtich time: 4899
+
 Sending : 308
 Recieving : -308
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 309
 Recieving : -309
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 310
 Recieving : -310
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 311
 Recieving : -311
+Context switch time: 11768
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 312
 Recieving : -312
+Context switch time: 436950
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 313
 Recieving : -313
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 314
 Recieving : -314
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 315
 Recieving : -315
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 316
 Recieving : -316
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 317
 Recieving : -317
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 318
 Recieving : -318
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 319
 Recieving : -319
+Context switch time: 11855
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 320
 Recieving : -320
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 321
 Recieving : -321
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 322
 Recieving : -322
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 323
 Recieving : -323
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 324
 Recieving : -324
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 325
 Recieving : -325
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 326
 Recieving : -326
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 327
 Recieving : -327
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 328
 Recieving : -328
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 329
 Recieving : -329
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 330
 Recieving : -330
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 331
 Recieving : -331
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 332
 Recieving : -332
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 333
 Recieving : -333
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 334
 Recieving : -334
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 335
 Recieving : -335
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 336
 Recieving : -336
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 337
 Recieving : -337
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 338
 Recieving : -338
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 339
 Recieving : -339
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 340
 Recieving : -340
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 341
 Recieving : -341
+Context switch time: 11843
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 342
 Recieving : -342
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 343
 Recieving : -343
+Context switch time: 338161
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 344
 Recieving : -344
+Context switch time: 5791
+Average Context swtich time: 4899
+
 Sending : 345
 Recieving : -345
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 346
 Recieving : -346
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 347
 Recieving : -347
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 348
 Recieving : -348
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 349
 Recieving : -349
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 350
 Recieving : -350
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 351
 Recieving : -351
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 352
 Recieving : -352
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 353
 Recieving : -353
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 354
 Recieving : -354
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 355
 Recieving : -355
+Context switch time: 11765
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 356
 Recieving : -356
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 357
 Recieving : -357
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 358
 Recieving : -358
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 359
 Recieving : -359
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 360
 Recieving : -360
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 361
 Recieving : -361
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 362
 Recieving : -362
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 363
 Recieving : -363
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 364
 Recieving : -364
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 365
 Recieving : -365
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 366
 Recieving : -366
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 367
 Recieving : -367
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 368
 Recieving : -368
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 369
 Recieving : -369
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 370
 Recieving : -370
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 371
 Recieving : -371
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 372
 Recieving : -372
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 373
 Recieving : -373
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 374
 Recieving : -374
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 375
 Recieving : -375
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 376
 Recieving : -376
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 377
 Recieving : -377
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 378
 Recieving : -378
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 379
 Recieving : -379
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 380
 Recieving : -380
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 381
 Recieving : -381
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 382
 Recieving : -382
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 383
 Recieving : -383
+Context switch time: 11874
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 384
 Recieving : -384
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 385
 Recieving : -385
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 386
 Recieving : -386
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 387
 Recieving : -387
+Context switch time: 11847
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 388
 Recieving : -388
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 389
 Recieving : -389
+Context switch time: 10881
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 390
 Recieving : -390
+Context switch time: 5791
+Average Context swtich time: 4899
+
 Sending : 391
 Recieving : -391
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 392
 Recieving : -392
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 393
 Recieving : -393
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 394
 Recieving : -394
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 395
 Recieving : -395
+Context switch time: 11789
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 396
 Recieving : -396
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 397
 Recieving : -397
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 398
 Recieving : -398
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 399
 Recieving : -399
+Context switch time: 11784
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 400
 Recieving : -400
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 401
 Recieving : -401
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 402
 Recieving : -402
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 403
 Recieving : -403
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 404
 Recieving : -404
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 405
 Recieving : -405
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 406
 Recieving : -406
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 407
 Recieving : -407
+Context switch time: 11846
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 408
 Recieving : -408
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 409
 Recieving : -409
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 410
 Recieving : -410
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 411
 Recieving : -411
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 412
 Recieving : -412
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 413
 Recieving : -413
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 414
 Recieving : -414
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 415
 Recieving : -415
+Context switch time: 19412
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 416
 Recieving : -416
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 417
 Recieving : -417
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 418
 Recieving : -418
+Context switch time: 11782
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 419
 Recieving : -419
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 420
 Recieving : -420
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 421
 Recieving : -421
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 422
 Recieving : -422
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 423
 Recieving : -423
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 424
 Recieving : -424
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 425
 Recieving : -425
+Context switch time: 11847
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 426
 Recieving : -426
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 427
 Recieving : -427
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 428
 Recieving : -428
+Context switch time: 11777
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 429
 Recieving : -429
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 430
 Recieving : -430
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 431
 Recieving : -431
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 432
 Recieving : -432
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 433
 Recieving : -433
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 434
 Recieving : -434
+Context switch time: 19433
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 435
 Recieving : -435
+Context switch time: 10948
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 436
 Recieving : -436
+Context switch time: 11702
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 437
 Recieving : -437
+Context switch time: 5795
+Average Context swtich time: 4899
+
 Sending : 438
 Recieving : -438
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 439
 Recieving : -439
+Context switch time: 11767
+Outlier detected
+Average Context swtich time: 4898
+
 Sending : 440
 Recieving : -440
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 441
 Recieving : -441
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 442
 Recieving : -442
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 443
 Recieving : -443
+Context switch time: 11849
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 444
 Recieving : -444
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 445
 Recieving : -445
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 446
 Recieving : -446
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 447
 Recieving : -447
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 448
 Recieving : -448
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 449
 Recieving : -449
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 450
 Recieving : -450
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 451
 Recieving : -451
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 452
 Recieving : -452
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 453
 Recieving : -453
+Context switch time: 11771
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 454
 Recieving : -454
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 455
 Recieving : -455
+Context switch time: 19421
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 456
 Recieving : -456
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 457
 Recieving : -457
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 458
 Recieving : -458
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 459
 Recieving : -459
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 460
 Recieving : -460
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 461
 Recieving : -461
+Context switch time: 10957
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 462
 Recieving : -462
+Context switch time: 5799
+Average Context swtich time: 4898
+
 Sending : 463
 Recieving : -463
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 464
 Recieving : -464
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 465
 Recieving : -465
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 466
 Recieving : -466
+Context switch time: 11867
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 467
 Recieving : -467
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 468
 Recieving : -468
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 469
 Recieving : -469
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 470
 Recieving : -470
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 471
 Recieving : -471
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 472
 Recieving : -472
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 473
 Recieving : -473
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 474
 Recieving : -474
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 475
 Recieving : -475
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 476
 Recieving : -476
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 477
 Recieving : -477
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 478
 Recieving : -478
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 479
 Recieving : -479
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 480
 Recieving : -480
+Context switch time: 10958
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 481
 Recieving : -481
+Context switch time: 12756
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 482
 Recieving : -482
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 483
 Recieving : -483
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 484
 Recieving : -484
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 485
 Recieving : -485
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 486
 Recieving : -486
+Context switch time: 11846
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 487
 Recieving : -487
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 488
 Recieving : -488
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 489
 Recieving : -489
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 490
 Recieving : -490
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 491
 Recieving : -491
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 492
 Recieving : -492
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 493
 Recieving : -493
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 494
 Recieving : -494
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 495
 Recieving : -495
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 496
 Recieving : -496
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 497
 Recieving : -497
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 498
 Recieving : -498
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 499
 Recieving : -499
+Context switch time: 10888
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 500
 Recieving : -500
+Context switch time: 5798
+Average Context swtich time: 4898
+
 Sending : 501
 Recieving : -501
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 502
 Recieving : -502
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 503
 Recieving : -503
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 504
 Recieving : -504
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 505
 Recieving : -505
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 506
 Recieving : -506
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 507
 Recieving : -507
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 508
 Recieving : -508
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 509
 Recieving : -509
+Context switch time: 11774
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 510
 Recieving : -510
+Context switch time: 10941
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 511
 Recieving : -511
+Context switch time: 5738
+Average Context swtich time: 4898
+
 Sending : 512
 Recieving : -512
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 513
 Recieving : -513
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 514
 Recieving : -514
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 515
 Recieving : -515
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 516
 Recieving : -516
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 517
 Recieving : -517
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 518
 Recieving : -518
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 519
 Recieving : -519
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 520
 Recieving : -520
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 521
 Recieving : -521
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 522
 Recieving : -522
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 523
 Recieving : -523
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 524
 Recieving : -524
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 525
 Recieving : -525
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 526
 Recieving : -526
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 527
 Recieving : -527
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 528
 Recieving : -528
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 529
 Recieving : -529
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 530
 Recieving : -530
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 531
 Recieving : -531
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 532
 Recieving : -532
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 533
 Recieving : -533
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 534
 Recieving : -534
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 535
 Recieving : -535
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 536
 Recieving : -536
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 537
 Recieving : -537
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 538
 Recieving : -538
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 539
 Recieving : -539
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 540
 Recieving : -540
+Context switch time: 11765
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 541
 Recieving : -541
+Context switch time: 11773
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 542
 Recieving : -542
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 543
 Recieving : -543
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 544
 Recieving : -544
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 545
 Recieving : -545
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 546
 Recieving : -546
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 547
 Recieving : -547
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 548
 Recieving : -548
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 549
 Recieving : -549
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 550
 Recieving : -550
+Context switch time: 11853
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 551
 Recieving : -551
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 552
 Recieving : -552
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 553
 Recieving : -553
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 554
 Recieving : -554
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 555
 Recieving : -555
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 556
 Recieving : -556
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 557
 Recieving : -557
+Context switch time: 11764
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 558
 Recieving : -558
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 559
 Recieving : -559
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 560
 Recieving : -560
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 561
 Recieving : -561
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 562
 Recieving : -562
+Context switch time: 11768
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 563
 Recieving : -563
+Context switch time: 11854
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 564
 Recieving : -564
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 565
 Recieving : -565
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 566
 Recieving : -566
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 567
 Recieving : -567
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 568
 Recieving : -568
+Context switch time: 11856
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 569
 Recieving : -569
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 570
 Recieving : -570
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 571
 Recieving : -571
+Context switch time: 23670
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 572
 Recieving : -572
+Context switch time: 5800
+Average Context swtich time: 4898
+
 Sending : 573
 Recieving : -573
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 574
 Recieving : -574
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 575
 Recieving : -575
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 576
 Recieving : -576
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 577
 Recieving : -577
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 578
 Recieving : -578
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 579
 Recieving : -579
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 580
 Recieving : -580
+Context switch time: 11766
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 581
 Recieving : -581
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 582
 Recieving : -582
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 583
 Recieving : -583
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 584
 Recieving : -584
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 585
 Recieving : -585
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 586
 Recieving : -586
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 587
 Recieving : -587
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 588
 Recieving : -588
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 589
 Recieving : -589
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 590
 Recieving : -590
+Context switch time: 10876
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 591
 Recieving : -591
+Context switch time: 5800
+Average Context swtich time: 4898
+
 Sending : 592
 Recieving : -592
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 593
 Recieving : -593
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 594
 Recieving : -594
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 595
 Recieving : -595
+Context switch time: 11774
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 596
 Recieving : -596
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 597
 Recieving : -597
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 598
 Recieving : -598
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 599
 Recieving : -599
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 600
 Recieving : -600
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 601
 Recieving : -601
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 602
 Recieving : -602
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 603
 Recieving : -603
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 604
 Recieving : -604
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 605
 Recieving : -605
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 606
 Recieving : -606
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 607
 Recieving : -607
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 608
 Recieving : -608
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 609
 Recieving : -609
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 610
 Recieving : -610
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 611
 Recieving : -611
+Context switch time: 10881
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 612
 Recieving : -612
+Context switch time: 5791
+Average Context swtich time: 4898
+
 Sending : 613
 Recieving : -613
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 614
 Recieving : -614
+Context switch time: 11764
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 615
 Recieving : -615
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 616
 Recieving : -616
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 617
 Recieving : -617
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 618
 Recieving : -618
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 619
 Recieving : -619
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 620
 Recieving : -620
+Context switch time: 11769
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 621
 Recieving : -621
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 622
 Recieving : -622
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 623
 Recieving : -623
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 624
 Recieving : -624
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 625
 Recieving : -625
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 626
 Recieving : -626
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 627
 Recieving : -627
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 628
 Recieving : -628
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 629
 Recieving : -629
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 630
 Recieving : -630
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 631
 Recieving : -631
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 632
 Recieving : -632
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 633
 Recieving : -633
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 634
 Recieving : -634
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 635
 Recieving : -635
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 636
 Recieving : -636
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 637
 Recieving : -637
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 638
 Recieving : -638
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 639
 Recieving : -639
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 640
 Recieving : -640
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 641
 Recieving : -641
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 642
 Recieving : -642
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 643
 Recieving : -643
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 644
 Recieving : -644
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 645
 Recieving : -645
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 646
 Recieving : -646
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 647
 Recieving : -647
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 648
 Recieving : -648
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 649
 Recieving : -649
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 650
 Recieving : -650
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 651
 Recieving : -651
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 652
 Recieving : -652
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 653
 Recieving : -653
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 654
 Recieving : -654
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 655
 Recieving : -655
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 656
 Recieving : -656
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 657
 Recieving : -657
+Context switch time: 11766
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 658
 Recieving : -658
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 659
 Recieving : -659
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 660
 Recieving : -660
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 661
 Recieving : -661
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 662
 Recieving : -662
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 663
 Recieving : -663
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 664
 Recieving : -664
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 665
 Recieving : -665
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 666
 Recieving : -666
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 667
 Recieving : -667
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 668
 Recieving : -668
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 669
 Recieving : -669
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 670
 Recieving : -670
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 671
 Recieving : -671
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 672
 Recieving : -672
+Context switch time: 11777
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 673
 Recieving : -673
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 674
 Recieving : -674
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 675
 Recieving : -675
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 676
 Recieving : -676
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 677
 Recieving : -677
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 678
 Recieving : -678
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 679
 Recieving : -679
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 680
 Recieving : -680
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 681
 Recieving : -681
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 682
 Recieving : -682
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 683
 Recieving : -683
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 684
 Recieving : -684
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 685
 Recieving : -685
+Context switch time: 11846
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 686
 Recieving : -686
+Context switch time: 10966
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 687
 Recieving : -687
+Context switch time: 5795
+Average Context swtich time: 4898
+
 Sending : 688
 Recieving : -688
+Context switch time: 286619
+Outlier detected
+Average Context swtich time: 4898
+
 Sending : 689
 Recieving : -689
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 690
 Recieving : -690
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 691
 Recieving : -691
+Context switch time: 11784
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 692
 Recieving : -692
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 693
 Recieving : -693
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 694
 Recieving : -694
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 695
 Recieving : -695
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 696
 Recieving : -696
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 697
 Recieving : -697
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 698
 Recieving : -698
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 699
 Recieving : -699
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 700
 Recieving : -700
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 701
 Recieving : -701
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 702
 Recieving : -702
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 703
 Recieving : -703
+Context switch time: 11848
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 704
 Recieving : -704
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 705
 Recieving : -705
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 706
 Recieving : -706
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 707
 Recieving : -707
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 708
 Recieving : -708
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 709
 Recieving : -709
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 710
 Recieving : -710
+Context switch time: 11777
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 711
 Recieving : -711
+Context switch time: 11786
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 712
 Recieving : -712
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 713
 Recieving : -713
+Context switch time: 10872
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 714
 Recieving : -714
+Context switch time: 5791
+Average Context swtich time: 4898
+
 Sending : 715
 Recieving : -715
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 716
 Recieving : -716
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 717
 Recieving : -717
+Context switch time: 11772
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 718
 Recieving : -718
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 719
 Recieving : -719
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 720
 Recieving : -720
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 721
 Recieving : -721
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 722
 Recieving : -722
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 723
 Recieving : -723
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 724
 Recieving : -724
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 725
 Recieving : -725
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 726
 Recieving : -726
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 727
 Recieving : -727
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 728
 Recieving : -728
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 729
 Recieving : -729
+Context switch time: 11850
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 730
 Recieving : -730
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 731
 Recieving : -731
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 732
 Recieving : -732
+Context switch time: 24588
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 733
 Recieving : -733
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 734
 Recieving : -734
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 735
 Recieving : -735
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 736
 Recieving : -736
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 737
 Recieving : -737
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 738
 Recieving : -738
+Context switch time: 23684
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 739
 Recieving : -739
+Context switch time: 5793
+Average Context swtich time: 4898
+
 Sending : 740
 Recieving : -740
+Context switch time: 10889
+Outlier detected
+Average Context swtich time: 4898
+
 Sending : 741
 Recieving : -741
+Context switch time: 5803
+Average Context swtich time: 4899
+
 Sending : 742
 Recieving : -742
+Context switch time: 4897
+Average Context swtich time: 4898
+
 Sending : 743
 Recieving : -743
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4898
+
 Sending : 744
 Recieving : -744
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4898
+
 Sending : 745
 Recieving : -745
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 746
 Recieving : -746
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 747
 Recieving : -747
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 748
 Recieving : -748
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 749
 Recieving : -749
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 750
 Recieving : -750
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 751
 Recieving : -751
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 752
 Recieving : -752
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 753
 Recieving : -753
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 754
 Recieving : -754
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 755
 Recieving : -755
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 756
 Recieving : -756
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 757
 Recieving : -757
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 758
 Recieving : -758
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 759
 Recieving : -759
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 760
 Recieving : -760
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 761
 Recieving : -761
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 762
 Recieving : -762
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 763
 Recieving : -763
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 764
 Recieving : -764
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 765
 Recieving : -765
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 766
 Recieving : -766
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 767
 Recieving : -767
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 768
 Recieving : -768
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 769
 Recieving : -769
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 770
 Recieving : -770
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 771
 Recieving : -771
+Context switch time: 11784
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 772
 Recieving : -772
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 773
 Recieving : -773
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 774
 Recieving : -774
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 775
 Recieving : -775
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 776
 Recieving : -776
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 777
 Recieving : -777
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 778
 Recieving : -778
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 779
 Recieving : -779
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 780
 Recieving : -780
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 781
 Recieving : -781
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 782
 Recieving : -782
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 783
 Recieving : -783
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 784
 Recieving : -784
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 785
 Recieving : -785
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 786
 Recieving : -786
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 787
 Recieving : -787
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 788
 Recieving : -788
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 789
 Recieving : -789
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 790
 Recieving : -790
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 791
 Recieving : -791
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 792
 Recieving : -792
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 793
 Recieving : -793
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 794
 Recieving : -794
+Context switch time: 11773
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 795
 Recieving : -795
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 796
 Recieving : -796
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 797
 Recieving : -797
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 798
 Recieving : -798
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 799
 Recieving : -799
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 800
 Recieving : -800
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 801
 Recieving : -801
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 802
 Recieving : -802
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 803
 Recieving : -803
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 804
 Recieving : -804
+Context switch time: 11856
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 805
 Recieving : -805
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 806
 Recieving : -806
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 807
 Recieving : -807
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 808
 Recieving : -808
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 809
 Recieving : -809
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 810
 Recieving : -810
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 811
 Recieving : -811
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 812
 Recieving : -812
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 813
 Recieving : -813
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 814
 Recieving : -814
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 815
 Recieving : -815
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 816
 Recieving : -816
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 817
 Recieving : -817
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 818
 Recieving : -818
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 819
 Recieving : -819
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 820
 Recieving : -820
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 821
 Recieving : -821
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 822
 Recieving : -822
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 823
 Recieving : -823
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 824
 Recieving : -824
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 825
 Recieving : -825
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 826
 Recieving : -826
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 827
 Recieving : -827
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 828
 Recieving : -828
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 829
 Recieving : -829
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 830
 Recieving : -830
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 831
 Recieving : -831
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 832
 Recieving : -832
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 833
 Recieving : -833
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 834
 Recieving : -834
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 835
 Recieving : -835
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 836
 Recieving : -836
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 837
 Recieving : -837
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 838
 Recieving : -838
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 839
 Recieving : -839
+Context switch time: 349532
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 840
 Recieving : -840
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 841
 Recieving : -841
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 842
 Recieving : -842
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 843
 Recieving : -843
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 844
 Recieving : -844
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 845
 Recieving : -845
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 846
 Recieving : -846
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 847
 Recieving : -847
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 848
 Recieving : -848
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 849
 Recieving : -849
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 850
 Recieving : -850
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 851
 Recieving : -851
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 852
 Recieving : -852
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 853
 Recieving : -853
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 854
 Recieving : -854
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 855
 Recieving : -855
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 856
 Recieving : -856
+Context switch time: 10878
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 857
 Recieving : -857
+Context switch time: 5793
+Average Context swtich time: 4898
+
 Sending : 858
 Recieving : -858
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 859
 Recieving : -859
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 860
 Recieving : -860
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 861
 Recieving : -861
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 862
 Recieving : -862
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 863
 Recieving : -863
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 864
 Recieving : -864
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 865
 Recieving : -865
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 866
 Recieving : -866
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 867
 Recieving : -867
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 868
 Recieving : -868
+Context switch time: 11779
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 869
 Recieving : -869
+Context switch time: 11776
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 870
 Recieving : -870
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 871
 Recieving : -871
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 872
 Recieving : -872
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 873
 Recieving : -873
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 874
 Recieving : -874
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 875
 Recieving : -875
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 876
 Recieving : -876
+Context switch time: 10869
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 877
 Recieving : -877
+Context switch time: 5800
+Average Context swtich time: 4898
+
 Sending : 878
 Recieving : -878
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 879
 Recieving : -879
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 880
 Recieving : -880
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 881
 Recieving : -881
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 882
 Recieving : -882
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 883
 Recieving : -883
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 884
 Recieving : -884
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 885
 Recieving : -885
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 886
 Recieving : -886
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 887
 Recieving : -887
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 888
 Recieving : -888
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 889
 Recieving : -889
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 890
 Recieving : -890
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 891
 Recieving : -891
+Context switch time: 11771
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 892
 Recieving : -892
+Context switch time: 10876
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 893
 Recieving : -893
+Context switch time: 5803
+Average Context swtich time: 4898
+
 Sending : 894
 Recieving : -894
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 895
 Recieving : -895
+Context switch time: 11766
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 896
 Recieving : -896
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 897
 Recieving : -897
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 898
 Recieving : -898
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 899
 Recieving : -899
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 900
 Recieving : -900
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 901
 Recieving : -901
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 902
 Recieving : -902
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 903
 Recieving : -903
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 904
 Recieving : -904
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 905
 Recieving : -905
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 906
 Recieving : -906
+Context switch time: 10957
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 907
 Recieving : -907
+Context switch time: 5793
+Average Context swtich time: 4897
+
 Sending : 908
 Recieving : -908
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 909
 Recieving : -909
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 910
 Recieving : -910
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 911
 Recieving : -911
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 912
 Recieving : -912
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 913
 Recieving : -913
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 914
 Recieving : -914
+Context switch time: 10876
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 915
 Recieving : -915
+Context switch time: 5798
+Average Context swtich time: 4897
+
 Sending : 916
 Recieving : -916
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 917
 Recieving : -917
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 918
 Recieving : -918
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 919
 Recieving : -919
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 920
 Recieving : -920
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 921
 Recieving : -921
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 922
 Recieving : -922
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 923
 Recieving : -923
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 924
 Recieving : -924
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 925
 Recieving : -925
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 926
 Recieving : -926
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 927
 Recieving : -927
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 928
 Recieving : -928
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 929
 Recieving : -929
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 930
 Recieving : -930
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 931
 Recieving : -931
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 932
 Recieving : -932
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 933
 Recieving : -933
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 934
 Recieving : -934
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 935
 Recieving : -935
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 936
 Recieving : -936
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 937
 Recieving : -937
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 938
 Recieving : -938
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 939
 Recieving : -939
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 940
 Recieving : -940
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 941
 Recieving : -941
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 942
 Recieving : -942
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 943
 Recieving : -943
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 944
 Recieving : -944
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 945
 Recieving : -945
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 946
 Recieving : -946
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 947
 Recieving : -947
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 948
 Recieving : -948
+Context switch time: 17164
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 949
 Recieving : -949
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 950
 Recieving : -950
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 951
 Recieving : -951
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 952
 Recieving : -952
+Context switch time: 10871
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 953
 Recieving : -953
+Context switch time: 5796
+Average Context swtich time: 4897
+
 Sending : 954
 Recieving : -954
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 955
 Recieving : -955
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 956
 Recieving : -956
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 957
 Recieving : -957
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 958
 Recieving : -958
+Context switch time: 11761
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 959
 Recieving : -959
+Context switch time: 11782
+Outlier detected
+Average Context swtich time: 4897
+
 Sending : 960
 Recieving : -960
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 961
 Recieving : -961
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 962
 Recieving : -962
+Context switch time: 4897
+Average Context swtich time: 4897
+
 Sending : 963
 Recieving : -963
+Context switch time: 4615
+Average Context swtich time: 4896
+
 Sending : 964
 Recieving : -964
+Context switch time: 11788
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 965
 Recieving : -965
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 966
 Recieving : -966
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 967
 Recieving : -967
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 968
 Recieving : -968
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 969
 Recieving : -969
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 970
 Recieving : -970
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 971
 Recieving : -971
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 972
 Recieving : -972
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 973
 Recieving : -973
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 974
 Recieving : -974
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 975
 Recieving : -975
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 976
 Recieving : -976
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 977
 Recieving : -977
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 978
 Recieving : -978
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 979
 Recieving : -979
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 980
 Recieving : -980
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 981
 Recieving : -981
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 982
 Recieving : -982
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 983
 Recieving : -983
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 984
 Recieving : -984
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 985
 Recieving : -985
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 986
 Recieving : -986
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 987
 Recieving : -987
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 988
 Recieving : -988
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 989
 Recieving : -989
+Context switch time: 10899
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 990
 Recieving : -990
+Context switch time: 5800
+Average Context swtich time: 4896
+
 Sending : 991
 Recieving : -991
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 992
 Recieving : -992
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 993
 Recieving : -993
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 994
 Recieving : -994
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 995
 Recieving : -995
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 996
 Recieving : -996
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 997
 Recieving : -997
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 998
 Recieving : -998
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 999
 Recieving : -999
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1000
 Recieving : -1000
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1001
 Recieving : -1001
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1002
 Recieving : -1002
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1003
 Recieving : -1003
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1004
 Recieving : -1004
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1005
 Recieving : -1005
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1006
 Recieving : -1006
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1007
 Recieving : -1007
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1008
 Recieving : -1008
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1009
 Recieving : -1009
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1010
 Recieving : -1010
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1011
 Recieving : -1011
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1012
 Recieving : -1012
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1013
 Recieving : -1013
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1014
 Recieving : -1014
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1015
 Recieving : -1015
+Context switch time: 10967
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1016
 Recieving : -1016
+Context switch time: 5786
+Average Context swtich time: 4896
+
 Sending : 1017
 Recieving : -1017
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1018
 Recieving : -1018
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1019
 Recieving : -1019
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1020
 Recieving : -1020
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1021
 Recieving : -1021
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1022
 Recieving : -1022
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1023
 Recieving : -1023
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1024
 Recieving : -1024
+Context switch time: 272622
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1025
 Recieving : -1025
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1026
 Recieving : -1026
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1027
 Recieving : -1027
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1028
 Recieving : -1028
+Context switch time: 11777
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1029
 Recieving : -1029
+Context switch time: 11777
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1030
 Recieving : -1030
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1031
 Recieving : -1031
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1032
 Recieving : -1032
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1033
 Recieving : -1033
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1034
 Recieving : -1034
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1035
 Recieving : -1035
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1036
 Recieving : -1036
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1037
 Recieving : -1037
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1038
 Recieving : -1038
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1039
 Recieving : -1039
+Context switch time: 11765
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1040
 Recieving : -1040
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1041
 Recieving : -1041
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1042
 Recieving : -1042
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1043
 Recieving : -1043
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1044
 Recieving : -1044
+Context switch time: 11761
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1045
 Recieving : -1045
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1046
 Recieving : -1046
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1047
 Recieving : -1047
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1048
 Recieving : -1048
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1049
 Recieving : -1049
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1050
 Recieving : -1050
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1051
 Recieving : -1051
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1052
 Recieving : -1052
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1053
 Recieving : -1053
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1054
 Recieving : -1054
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1055
 Recieving : -1055
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1056
 Recieving : -1056
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1057
 Recieving : -1057
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1058
 Recieving : -1058
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1059
 Recieving : -1059
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1060
 Recieving : -1060
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1061
 Recieving : -1061
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1062
 Recieving : -1062
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1063
 Recieving : -1063
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1064
 Recieving : -1064
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1065
 Recieving : -1065
+Context switch time: 11764
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1066
 Recieving : -1066
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1067
 Recieving : -1067
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1068
 Recieving : -1068
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1069
 Recieving : -1069
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1070
 Recieving : -1070
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1071
 Recieving : -1071
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1072
 Recieving : -1072
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1073
 Recieving : -1073
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1074
 Recieving : -1074
+Context switch time: 11854
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1075
 Recieving : -1075
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1076
 Recieving : -1076
+Context switch time: 11774
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1077
 Recieving : -1077
+Context switch time: 11765
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1078
 Recieving : -1078
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1079
 Recieving : -1079
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1080
 Recieving : -1080
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1081
 Recieving : -1081
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1082
 Recieving : -1082
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1083
 Recieving : -1083
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1084
 Recieving : -1084
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1085
 Recieving : -1085
+Context switch time: 11778
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1086
 Recieving : -1086
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1087
 Recieving : -1087
+Context switch time: 10877
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1088
 Recieving : -1088
+Context switch time: 5801
+Average Context swtich time: 4896
+
 Sending : 1089
 Recieving : -1089
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1090
 Recieving : -1090
+Context switch time: 11847
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1091
 Recieving : -1091
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1092
 Recieving : -1092
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1093
 Recieving : -1093
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1094
 Recieving : -1094
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1095
 Recieving : -1095
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1096
 Recieving : -1096
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1097
 Recieving : -1097
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1098
 Recieving : -1098
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1099
 Recieving : -1099
+Context switch time: 11778
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1100
 Recieving : -1100
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1101
 Recieving : -1101
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1102
 Recieving : -1102
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1103
 Recieving : -1103
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1104
 Recieving : -1104
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1105
 Recieving : -1105
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1106
 Recieving : -1106
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1107
 Recieving : -1107
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1108
 Recieving : -1108
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1109
 Recieving : -1109
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1110
 Recieving : -1110
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1111
 Recieving : -1111
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1112
 Recieving : -1112
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1113
 Recieving : -1113
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1114
 Recieving : -1114
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1115
 Recieving : -1115
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1116
 Recieving : -1116
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1117
 Recieving : -1117
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1118
 Recieving : -1118
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1119
 Recieving : -1119
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1120
 Recieving : -1120
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1121
 Recieving : -1121
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1122
 Recieving : -1122
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1123
 Recieving : -1123
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1124
 Recieving : -1124
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1125
 Recieving : -1125
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1126
 Recieving : -1126
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1127
 Recieving : -1127
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1128
 Recieving : -1128
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1129
 Recieving : -1129
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1130
 Recieving : -1130
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1131
 Recieving : -1131
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1132
 Recieving : -1132
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1133
 Recieving : -1133
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1134
 Recieving : -1134
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1135
 Recieving : -1135
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1136
 Recieving : -1136
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1137
 Recieving : -1137
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1138
 Recieving : -1138
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1139
 Recieving : -1139
+Context switch time: 11780
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1140
 Recieving : -1140
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1141
 Recieving : -1141
+Context switch time: 11761
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1142
 Recieving : -1142
+Context switch time: 11775
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1143
 Recieving : -1143
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1144
 Recieving : -1144
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1145
 Recieving : -1145
+Context switch time: 11847
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1146
 Recieving : -1146
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1147
 Recieving : -1147
+Context switch time: 11858
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1148
 Recieving : -1148
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1149
 Recieving : -1149
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1150
 Recieving : -1150
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1151
 Recieving : -1151
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1152
 Recieving : -1152
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1153
 Recieving : -1153
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1154
 Recieving : -1154
+Context switch time: 25410
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1155
 Recieving : -1155
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1156
 Recieving : -1156
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1157
 Recieving : -1157
+Context switch time: 11773
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1158
 Recieving : -1158
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1159
 Recieving : -1159
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1160
 Recieving : -1160
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1161
 Recieving : -1161
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1162
 Recieving : -1162
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1163
 Recieving : -1163
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1164
 Recieving : -1164
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1165
 Recieving : -1165
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1166
 Recieving : -1166
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1167
 Recieving : -1167
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1168
 Recieving : -1168
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1169
 Recieving : -1169
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1170
 Recieving : -1170
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1171
 Recieving : -1171
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1172
 Recieving : -1172
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1173
 Recieving : -1173
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1174
 Recieving : -1174
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1175
 Recieving : -1175
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1176
 Recieving : -1176
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1177
 Recieving : -1177
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1178
 Recieving : -1178
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1179
 Recieving : -1179
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1180
 Recieving : -1180
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1181
 Recieving : -1181
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1182
 Recieving : -1182
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1183
 Recieving : -1183
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1184
 Recieving : -1184
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1185
 Recieving : -1185
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1186
 Recieving : -1186
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1187
 Recieving : -1187
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1188
 Recieving : -1188
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1189
 Recieving : -1189
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1190
 Recieving : -1190
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1191
 Recieving : -1191
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1192
 Recieving : -1192
+Context switch time: 10871
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1193
 Recieving : -1193
+Context switch time: 5796
+Average Context swtich time: 4896
+
 Sending : 1194
 Recieving : -1194
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1195
 Recieving : -1195
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1196
 Recieving : -1196
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1197
 Recieving : -1197
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1198
 Recieving : -1198
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1199
 Recieving : -1199
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1200
 Recieving : -1200
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1201
 Recieving : -1201
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1202
 Recieving : -1202
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1203
 Recieving : -1203
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1204
 Recieving : -1204
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1205
 Recieving : -1205
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1206
 Recieving : -1206
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1207
 Recieving : -1207
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1208
 Recieving : -1208
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1209
 Recieving : -1209
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1210
 Recieving : -1210
+Context switch time: 11768
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1211
 Recieving : -1211
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1212
 Recieving : -1212
+Context switch time: 11780
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1213
 Recieving : -1213
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1214
 Recieving : -1214
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1215
 Recieving : -1215
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1216
 Recieving : -1216
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1217
 Recieving : -1217
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1218
 Recieving : -1218
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1219
 Recieving : -1219
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1220
 Recieving : -1220
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1221
 Recieving : -1221
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1222
 Recieving : -1222
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1223
 Recieving : -1223
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1224
 Recieving : -1224
+Context switch time: 4897
+Average Context swtich time: 4896
+
 Sending : 1225
 Recieving : -1225
+Context switch time: 10959
+Outlier detected
+Average Context swtich time: 4896
+
 Sending : 1226
 Recieving : -1226
+Context switch time: 5793
+Average Context swtich time: 4896
+
 Sending : 1227
-Recieving : -1
+Recieving : -1227
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1228
+Recieving : -1228
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1229
+Recieving : -1229
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1230
+Recieving : -1230
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1231
+Recieving : -1231
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1232
+Recieving : -1232
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1233
+Recieving : -1233
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1234
+Recieving : -1234
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1235
+Recieving : -1235
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1236
+Recieving : -1236
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1237
+Recieving : -1237
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1238
+Recieving : -1238
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1239
+Recieving : -1239
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1240
+Recieving : -1240
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1241
+Recieving : -1241
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1242
+Recieving : -1242
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1243
+Recieving : -1243
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1244
+Recieving : -1244
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1245
+Recieving : -1245
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1246
+Recieving : -1246
+Context switch time: 280669
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1247
+Recieving : -1247
+Context switch time: 5800
+Average Context swtich time: 4896
+
+Sending : 1248
+Recieving : -1248
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1249
+Recieving : -1249
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1250
+Recieving : -1250
+Context switch time: 11766
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1251
+Recieving : -1251
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1252
+Recieving : -1252
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1253
+Recieving : -1253
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1254
+Recieving : -1254
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1255
+Recieving : -1255
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1256
+Recieving : -1256
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1257
+Recieving : -1257
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1258
+Recieving : -1258
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1259
+Recieving : -1259
+Context switch time: 11856
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1260
+Recieving : -1260
+Context switch time: 11860
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1261
+Recieving : -1261
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1262
+Recieving : -1262
+Context switch time: 11847
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1263
+Recieving : -1263
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1264
+Recieving : -1264
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1265
+Recieving : -1265
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1266
+Recieving : -1266
+Context switch time: 11769
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1267
+Recieving : -1267
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1268
+Recieving : -1268
+Context switch time: 11771
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1269
+Recieving : -1269
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1270
+Recieving : -1270
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1271
+Recieving : -1271
+Context switch time: 11782
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1272
+Recieving : -1272
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1273
+Recieving : -1273
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1274
+Recieving : -1274
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1275
+Recieving : -1275
+Context switch time: 11770
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1276
+Recieving : -1276
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1277
+Recieving : -1277
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1278
+Recieving : -1278
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1279
+Recieving : -1279
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1280
+Recieving : -1280
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1281
+Recieving : -1281
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1282
+Recieving : -1282
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1283
+Recieving : -1283
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1284
+Recieving : -1284
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1285
+Recieving : -1285
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1286
+Recieving : -1286
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1287
+Recieving : -1287
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1288
+Recieving : -1288
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1289
+Recieving : -1289
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1290
+Recieving : -1290
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1291
+Recieving : -1291
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1292
+Recieving : -1292
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1293
+Recieving : -1293
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1294
+Recieving : -1294
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1295
+Recieving : -1295
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1296
+Recieving : -1296
+Context switch time: 11779
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1297
+Recieving : -1297
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1298
+Recieving : -1298
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1299
+Recieving : -1299
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1300
+Recieving : -1300
+Context switch time: 11854
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1301
+Recieving : -1301
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1302
+Recieving : -1302
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1303
+Recieving : -1303
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1304
+Recieving : -1304
+Context switch time: 11782
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1305
+Recieving : -1305
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1306
+Recieving : -1306
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1307
+Recieving : -1307
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1308
+Recieving : -1308
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1309
+Recieving : -1309
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1310
+Recieving : -1310
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1311
+Recieving : -1311
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1312
+Recieving : -1312
+Context switch time: 11769
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1313
+Recieving : -1313
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1314
+Recieving : -1314
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1315
+Recieving : -1315
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1316
+Recieving : -1316
+Context switch time: 11845
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1317
+Recieving : -1317
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1318
+Recieving : -1318
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1319
+Recieving : -1319
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1320
+Recieving : -1320
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1321
+Recieving : -1321
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1322
+Recieving : -1322
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1323
+Recieving : -1323
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1324
+Recieving : -1324
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1325
+Recieving : -1325
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1326
+Recieving : -1326
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1327
+Recieving : -1327
+Context switch time: 11773
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1328
+Recieving : -1328
+Context switch time: 281157
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1329
+Recieving : -1329
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1330
+Recieving : -1330
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1331
+Recieving : -1331
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1332
+Recieving : -1332
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1333
+Recieving : -1333
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1334
+Recieving : -1334
+Context switch time: 11855
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1335
+Recieving : -1335
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1336
+Recieving : -1336
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1337
+Recieving : -1337
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1338
+Recieving : -1338
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1339
+Recieving : -1339
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1340
+Recieving : -1340
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1341
+Recieving : -1341
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1342
+Recieving : -1342
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1343
+Recieving : -1343
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1344
+Recieving : -1344
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1345
+Recieving : -1345
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1346
+Recieving : -1346
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1347
+Recieving : -1347
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1348
+Recieving : -1348
+Context switch time: 11771
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1349
+Recieving : -1349
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1350
+Recieving : -1350
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1351
+Recieving : -1351
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1352
+Recieving : -1352
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1353
+Recieving : -1353
+Context switch time: 242615
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1354
+Recieving : -1354
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1355
+Recieving : -1355
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1356
+Recieving : -1356
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1357
+Recieving : -1357
+Context switch time: 11851
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1358
+Recieving : -1358
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1359
+Recieving : -1359
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1360
+Recieving : -1360
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1361
+Recieving : -1361
+Context switch time: 11768
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1362
+Recieving : -1362
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1363
+Recieving : -1363
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1364
+Recieving : -1364
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1365
+Recieving : -1365
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1366
+Recieving : -1366
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1367
+Recieving : -1367
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1368
+Recieving : -1368
+Context switch time: 10883
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1369
+Recieving : -1369
+Context switch time: 5800
+Average Context swtich time: 4896
+
+Sending : 1370
+Recieving : -1370
+Context switch time: 10871
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1371
+Recieving : -1371
+Context switch time: 5791
+Average Context swtich time: 4896
+
+Sending : 1372
+Recieving : -1372
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1373
+Recieving : -1373
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1374
+Recieving : -1374
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1375
+Recieving : -1375
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1376
+Recieving : -1376
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1377
+Recieving : -1377
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1378
+Recieving : -1378
+Context switch time: 11781
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1379
+Recieving : -1379
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1380
+Recieving : -1380
+Context switch time: 10877
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1381
+Recieving : -1381
+Context switch time: 5793
+Average Context swtich time: 4896
+
+Sending : 1382
+Recieving : -1382
+Context switch time: 11773
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1383
+Recieving : -1383
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1384
+Recieving : -1384
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1385
+Recieving : -1385
+Context switch time: 11770
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1386
+Recieving : -1386
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1387
+Recieving : -1387
+Context switch time: 11763
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1388
+Recieving : -1388
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1389
+Recieving : -1389
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1390
+Recieving : -1390
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1391
+Recieving : -1391
+Context switch time: 10960
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1392
+Recieving : -1392
+Context switch time: 5797
+Average Context swtich time: 4896
+
+Sending : 1393
+Recieving : -1393
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1394
+Recieving : -1394
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1395
+Recieving : -1395
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1396
+Recieving : -1396
+Context switch time: 11764
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1397
+Recieving : -1397
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1398
+Recieving : -1398
+Context switch time: 11769
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1399
+Recieving : -1399
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1400
+Recieving : -1400
+Context switch time: 11767
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1401
+Recieving : -1401
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1402
+Recieving : -1402
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1403
+Recieving : -1403
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1404
+Recieving : -1404
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1405
+Recieving : -1405
+Context switch time: 11780
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1406
+Recieving : -1406
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1407
+Recieving : -1407
+Context switch time: 10887
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1408
+Recieving : -1408
+Context switch time: 5791
+Average Context swtich time: 4896
+
+Sending : 1409
+Recieving : -1409
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1410
+Recieving : -1410
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1411
+Recieving : -1411
+Context switch time: 11849
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1412
+Recieving : -1412
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1413
+Recieving : -1413
+Context switch time: 10957
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1414
+Recieving : -1414
+Context switch time: 5796
+Average Context swtich time: 4896
+
+Sending : 1415
+Recieving : -1415
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1416
+Recieving : -1416
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1417
+Recieving : -1417
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1418
+Recieving : -1418
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1419
+Recieving : -1419
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1420
+Recieving : -1420
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1421
+Recieving : -1421
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1422
+Recieving : -1422
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1423
+Recieving : -1423
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1424
+Recieving : -1424
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1425
+Recieving : -1425
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1426
+Recieving : -1426
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1427
+Recieving : -1427
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1428
+Recieving : -1428
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1429
+Recieving : -1429
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1430
+Recieving : -1430
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1431
+Recieving : -1431
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1432
+Recieving : -1432
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1433
+Recieving : -1433
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1434
+Recieving : -1434
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1435
+Recieving : -1435
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1436
+Recieving : -1436
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1437
+Recieving : -1437
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1438
+Recieving : -1438
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1439
+Recieving : -1439
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1440
+Recieving : -1440
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1441
+Recieving : -1441
+Context switch time: 11774
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1442
+Recieving : -1442
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1443
+Recieving : -1443
+Context switch time: 11773
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1444
+Recieving : -1444
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1445
+Recieving : -1445
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1446
+Recieving : -1446
+Context switch time: 11864
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1447
+Recieving : -1447
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1448
+Recieving : -1448
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1449
+Recieving : -1449
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1450
+Recieving : -1450
+Context switch time: 11843
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1451
+Recieving : -1451
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1452
+Recieving : -1452
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1453
+Recieving : -1453
+Context switch time: 11765
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1454
+Recieving : -1454
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1455
+Recieving : -1455
+Context switch time: 11776
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1456
+Recieving : -1456
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1457
+Recieving : -1457
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1458
+Recieving : -1458
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1459
+Recieving : -1459
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1460
+Recieving : -1460
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1461
+Recieving : -1461
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1462
+Recieving : -1462
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1463
+Recieving : -1463
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1464
+Recieving : -1464
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1465
+Recieving : -1465
+Context switch time: 11863
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1466
+Recieving : -1466
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1467
+Recieving : -1467
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1468
+Recieving : -1468
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1469
+Recieving : -1469
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1470
+Recieving : -1470
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1471
+Recieving : -1471
+Context switch time: 11776
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1472
+Recieving : -1472
+Context switch time: 11779
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1473
+Recieving : -1473
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1474
+Recieving : -1474
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1475
+Recieving : -1475
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1476
+Recieving : -1476
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1477
+Recieving : -1477
+Context switch time: 11771
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1478
+Recieving : -1478
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1479
+Recieving : -1479
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1480
+Recieving : -1480
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1481
+Recieving : -1481
+Context switch time: 11761
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1482
+Recieving : -1482
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1483
+Recieving : -1483
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1484
+Recieving : -1484
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1485
+Recieving : -1485
+Context switch time: 11863
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1486
+Recieving : -1486
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1487
+Recieving : -1487
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1488
+Recieving : -1488
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1489
+Recieving : -1489
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1490
+Recieving : -1490
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1491
+Recieving : -1491
+Context switch time: 10875
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1492
+Recieving : -1492
+Context switch time: 5793
+Average Context swtich time: 4896
+
+Sending : 1493
+Recieving : -1493
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1494
+Recieving : -1494
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1495
+Recieving : -1495
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1496
+Recieving : -1496
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1497
+Recieving : -1497
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1498
+Recieving : -1498
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1499
+Recieving : -1499
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1500
+Recieving : -1500
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1501
+Recieving : -1501
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1502
+Recieving : -1502
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1503
+Recieving : -1503
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1504
+Recieving : -1504
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1505
+Recieving : -1505
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1506
+Recieving : -1506
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1507
+Recieving : -1507
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1508
+Recieving : -1508
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1509
+Recieving : -1509
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1510
+Recieving : -1510
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1511
+Recieving : -1511
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1512
+Recieving : -1512
+Context switch time: 20244
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1513
+Recieving : -1513
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1514
+Recieving : -1514
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1515
+Recieving : -1515
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1516
+Recieving : -1516
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1517
+Recieving : -1517
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1518
+Recieving : -1518
+Context switch time: 11856
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1519
+Recieving : -1519
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1520
+Recieving : -1520
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1521
+Recieving : -1521
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1522
+Recieving : -1522
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1523
+Recieving : -1523
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1524
+Recieving : -1524
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1525
+Recieving : -1525
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1526
+Recieving : -1526
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1527
+Recieving : -1527
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1528
+Recieving : -1528
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1529
+Recieving : -1529
+Context switch time: 358850
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1530
+Recieving : -1530
+Context switch time: 11767
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1531
+Recieving : -1531
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1532
+Recieving : -1532
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1533
+Recieving : -1533
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1534
+Recieving : -1534
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1535
+Recieving : -1535
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1536
+Recieving : -1536
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1537
+Recieving : -1537
+Context switch time: 11856
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1538
+Recieving : -1538
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1539
+Recieving : -1539
+Context switch time: 11861
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1540
+Recieving : -1540
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1541
+Recieving : -1541
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1542
+Recieving : -1542
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1543
+Recieving : -1543
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1544
+Recieving : -1544
+Context switch time: 11776
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1545
+Recieving : -1545
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1546
+Recieving : -1546
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1547
+Recieving : -1547
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1548
+Recieving : -1548
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1549
+Recieving : -1549
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1550
+Recieving : -1550
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1551
+Recieving : -1551
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1552
+Recieving : -1552
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1553
+Recieving : -1553
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1554
+Recieving : -1554
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1555
+Recieving : -1555
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1556
+Recieving : -1556
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1557
+Recieving : -1557
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1558
+Recieving : -1558
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1559
+Recieving : -1559
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1560
+Recieving : -1560
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1561
+Recieving : -1561
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1562
+Recieving : -1562
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1563
+Recieving : -1563
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1564
+Recieving : -1564
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1565
+Recieving : -1565
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1566
+Recieving : -1566
+Context switch time: 11770
+Outlier detected
+Average Context swtich time: 4896
+
+Sending : 1567
+Recieving : -1567
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1568
+Recieving : -1568
+Context switch time: 4897
+Average Context swtich time: 4896
+
+Sending : 1569
+Recieving : -1569
+Context switch time: 11767
+Outlier d

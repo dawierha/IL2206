@@ -1,9 +1,14 @@
-// File: TwoTasks.c 
+// File: ContextSwitch.c 
 
 #include <stdio.h>
 #include "includes.h"
 #include <string.h>
 #include "stdint.h"
+#include "system.h"
+#include <time.h>
+#include <altera_avalon_performance_counter.h>
+#include <sys/alt_timestamp.h>
+#include "alt_types.h"
 
 #define DEBUG 0
 
@@ -22,6 +27,8 @@ OS_STK    stat_stk[TASK_STACKSIZE];
 OS_EVENT *sem_task0, *sem_task1;
 
 int sharedAddress;
+int average = 0;
+int average_index = 0;
 
 INT8U err; 
 
@@ -47,12 +54,31 @@ void printStackSize(char* name, INT8U prio)
 void task1(void* pdata) {
 	int send_int = 0;
 	while (1) { 
+	  	PERF_RESET (PERFORMANCE_COUNTER_BASE);
 		send_int++;
 		sharedAddress = send_int;
 		printf("Sending : %d\n", send_int);
 		OSSemPost(sem_task0);
+		
+		PERF_START_MEASURING (PERFORMANCE_COUNTER_BASE);
+		PERF_BEGIN (PERFORMANCE_COUNTER_BASE, 1);
+		
 		OSSemPend(sem_task1,0,&err);
+
+		PERF_END (PERFORMANCE_COUNTER_BASE, 1);
+		PERF_STOP_MEASURING (PERFORMANCE_COUNTER_BASE);
+		int ticks = perf_get_section_time(PERFORMANCE_COUNTER_BASE, 1);
+		
+		int old_average = average;
+		average = (average*average_index + ticks) / (average_index + 1);
+		average_index++;
 		printf("Recieving : %d\n", sharedAddress);
+		printf("Context switch time: %d\n", ticks);
+		if ((float)ticks > average*1.3)  {
+			average = old_average;
+			printf("Outlier detected\n" );
+		}
+		printf("Average Context swtich time: %d\n\n", average);
 	}
 }
 
