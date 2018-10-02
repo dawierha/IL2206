@@ -143,6 +143,8 @@ int int2seven(int inval){
  * output current velocity on the seven segement display
  */
 void show_velocity_on_sevenseg(INT8S velocity){
+
+ 
   int tmp = velocity;
   int out;
   INT8U out_high = 0;
@@ -172,6 +174,22 @@ void show_velocity_on_sevenseg(INT8S velocity){
  */
 void show_target_velocity(INT8U target_vel)
 {
+  int tmp = target_vel;
+  int out;
+  INT8U out_high = 0;
+  INT8U out_low = 0;
+  INT8U out_sign = 0;
+
+
+
+  out_high = int2seven(tmp / 10);
+  out_low = int2seven(tmp - (tmp/10) * 10);
+  
+  out = int2seven(0) << 21 |
+	int2seven(0) << 14 |
+    out_high << 7  |
+    out_low;
+  IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_HEX_HIGH28_BASE,out);
 }
 
 /*
@@ -351,12 +369,13 @@ void ControlTask(void* pdata)
 		desired_vel = *current_velocity;
 		int greenled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE);
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, greenled|0x0001);
-		
+		show_target_velocity((INT8U) (desired_vel/10));
 
 	  } else if ((top_gear == off) || (cruise_control == off) || (gas_pedal == on) || (brake_pedal 			== on)	|| (*current_velocity <= 200)) {
 		is_cruise_control = 0;
 		int greenled = IORD_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE);
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, ((greenled>>1)<<1));
+		show_target_velocity((INT8U)0);
 	  }
 	
 	  if(is_cruise_control){ //TODO anti windup code
@@ -369,11 +388,14 @@ void ControlTask(void* pdata)
 			temp_throttle = 80;
 		}
 
+		
 		throttle = (INT8U)temp_throttle;
+		/*
 		printf("vel error %d \n", vel_error/10);
 		printf("vel des %d \n", desired_vel);
 		printf("current vel %d \n", *current_velocity);
 		printf("throttle %d \n", throttle);
+		*/
 	  }
 
 
