@@ -377,16 +377,19 @@ void ControlTask(void* pdata)
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, ((greenled>>1)<<1));
 		show_target_velocity((INT8U)0);
 	  }
-	  /*
+	  
 	  if(gas_pedal == on){
 
 		if(top_gear == on){
 		 	temp_throttle += 1;
 		} else {
-			temp_throttle += 1;
+			temp_throttle += 5;
 		}
+	  }
 
-	  }*/
+	  if(brake_pedal == on){
+		temp_throttle = 0;
+	  }
 		
 	  if(is_cruise_control){ //TODO anti windup code
 		vel_error = desired_vel - *current_velocity;
@@ -442,20 +445,20 @@ void ButtonIO(void* pdata)
 	} else if(buttons&0x00000004 && !(prev_button&0x00000004)){
 		if(brake_pedal == on){
 		  brake_pedal = off;
-		  greenled = greenled | 0x00000010;
+		  greenled = greenled ^ 0x00000010;
 		  }
 		else {
 		  brake_pedal = on;
-		  greenled = greenled ^ 0x00000010;		  
+		  greenled = greenled | 0x00000010;		  
 		}
 	} else if(buttons&0x0000008 && !(prev_button&0x00000008)){
 		if(gas_pedal == on){
 		  gas_pedal = off;
-		  greenled = greenled | 0x00000040;
+		  greenled = greenled ^ 0x00000040;
 		  }
 		else {
 		  gas_pedal = on;
-		  greenled = greenled ^ 0x00000040;		  
+		  greenled = greenled | 0x00000040;		  
 		}
 	}
 	
