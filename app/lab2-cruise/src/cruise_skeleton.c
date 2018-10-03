@@ -52,7 +52,7 @@ OS_STK ExtraLoad_Stack[TASK_STACKSIZE];
 #define BUTTONIO_PRIO 	  13
 #define SWITCHIO_PRIO 	  15
 #define WATCHDOG_PRIO 	   6
-#define EXTRALOAD_PRIO    13
+#define EXTRALOAD_PRIO    9
 #define DETECTION_PRIO	  11
 
 // Task Periods
@@ -513,6 +513,7 @@ void SwitchIO(void* pdata)
 void Watchdog_task(void* pdata){
 
 	while(1){
+
 		OSSemPend(watchdog_sem, 0, &error);
 		
 		if(!cpu_ok){
@@ -525,17 +526,25 @@ void Watchdog_task(void* pdata){
 void ExtraLoad_task(void* pdata){
 
 	while(1){
+
 		OSSemPend(extraLoad_sem, 0, &error);
 		int switches = switches_pressed();
 		switches = (switches>>4)&0x003f;
+		int a;
+		int i;
+		for(i = 0; i < 220*switches; i++){
+			a = i;
+		}
+					
 	}
 }
 
 void Detection_task(void* pdata){
 
 	while(1){
-		OSSemPend(detection_sem, 0, &error);
 
+		OSSemPend(detection_sem, 0, &error);
+printf("usage %d\n\n", OSCPUUsage);
 		if(OSCPUUsage<100){
 			cpu_ok = 1;
 		}
@@ -799,7 +808,8 @@ int main(void) {
   OSTmrStart(switch_tmr, &error);        
   OSTmrStart(watchdog_tmr, &error);        
   OSTmrStart(extraLoad_tmr, &error);        
-  OSTmrStart(detection_tmr, &error);        
+  OSTmrStart(detection_tmr, &error); 
+       
   OSStart();
   
   return 0;
