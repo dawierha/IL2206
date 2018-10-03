@@ -41,37 +41,37 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  10 .debug_abbrev 0000a790  00000000  00000000  0004714f  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_line   0001d1eb  00000000  00000000  000518df  2**0
+ 11 .debug_line   0001d1e3  00000000  00000000  000518df  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_frame  0000258c  00000000  00000000  0006eacc  2**2
+ 12 .debug_frame  0000258c  00000000  00000000  0006eac4  2**2
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_str    000042fe  00000000  00000000  00071058  2**0
+ 13 .debug_str    000042fe  00000000  00000000  00071050  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_loc    0001163b  00000000  00000000  00075356  2**0
+ 14 .debug_loc    0001163b  00000000  00000000  0007534e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_alt_sim_info 00000010  00000000  00000000  00086994  2**2
+ 15 .debug_alt_sim_info 00000010  00000000  00000000  0008698c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_ranges 00000ff8  00000000  00000000  000869a8  2**3
+ 16 .debug_ranges 00000ff8  00000000  00000000  000869a0  2**3
                   CONTENTS, READONLY, DEBUGGING
- 17 .thread_model 00000006  00000000  00000000  0008ca70  2**0
+ 17 .thread_model 00000006  00000000  00000000  0008ca68  2**0
                   CONTENTS, READONLY
- 18 .cpu          00000005  00000000  00000000  0008ca76  2**0
+ 18 .cpu          00000005  00000000  00000000  0008ca6e  2**0
                   CONTENTS, READONLY
- 19 .qsys         00000001  00000000  00000000  0008ca7b  2**0
+ 19 .qsys         00000001  00000000  00000000  0008ca73  2**0
                   CONTENTS, READONLY
- 20 .simulation_enabled 00000001  00000000  00000000  0008ca7c  2**0
+ 20 .simulation_enabled 00000001  00000000  00000000  0008ca74  2**0
                   CONTENTS, READONLY
- 21 .stderr_dev   0000000b  00000000  00000000  0008ca7d  2**0
+ 21 .stderr_dev   0000000b  00000000  00000000  0008ca75  2**0
                   CONTENTS, READONLY
- 22 .stdin_dev    0000000b  00000000  00000000  0008ca88  2**0
+ 22 .stdin_dev    0000000b  00000000  00000000  0008ca80  2**0
                   CONTENTS, READONLY
- 23 .stdout_dev   0000000b  00000000  00000000  0008ca93  2**0
+ 23 .stdout_dev   0000000b  00000000  00000000  0008ca8b  2**0
                   CONTENTS, READONLY
- 24 .sopc_system_name 0000000f  00000000  00000000  0008ca9e  2**0
+ 24 .sopc_system_name 0000000f  00000000  00000000  0008ca96  2**0
                   CONTENTS, READONLY
- 25 .jdi          0000509f  00000000  00000000  0008caad  2**0
+ 25 .jdi          0000509f  00000000  00000000  0008caa5  2**0
                   CONTENTS, READONLY
- 26 .sopcinfo     0007119e  00000000  00000000  00091b4c  2**0
+ 26 .sopcinfo     0007119e  00000000  00000000  00091b44  2**0
                   CONTENTS, READONLY
 SYMBOL TABLE:
 01000000 l    d  .entry	00000000 .entry
@@ -95,7 +95,7 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 alt_irq_handler.c
 00000000 l    df *ABS*	00000000 cruise_skeleton.c
 00112c00 l     O .rwdata	0000002c b2sLUT
-0011638c l     O .bss	00000018 alarm.3276
+0011638c l     O .bss	00000018 alarm.3277
 00000000 l    df *ABS*	00000000 fp-bit.c
 00000000 l    df *ABS*	00000000 fp-bit.c
 00000000 l    df *ABS*	00000000 dp-bit.c
@@ -311,14 +311,14 @@ SYMBOL TABLE:
 0010c764 g     F .text	00000184 OS_TCBInit
 01000000 g     F .entry	0000000c __reset
 00116330 g     O .bss	00000002 OSTmrUsed
-00100728 g     F .text	000002bc VehicleTask
+00100734 g     F .text	000002bc VehicleTask
 00114746 g     O .rwdata	00000002 OSTmrWheelTblSize
 00100000 g       *ABS*	00000000 __flash_exceptions_start
 001146e6 g     O .rwdata	00000002 OSEventSize
 00116332 g     O .bss	00000001 OSPrioHighRdy
 00109774 g     F .text	00000074 _fstat_r
 00111e94 g     F .text	00000004 OSTaskDelHook
-001004dc g     F .text	0000010c adjust_position
+001004e8 g     F .text	0000010c adjust_position
 001162f0 g     O .bss	00000004 errno
 00101c60 g     F .text	00000038 __make_dp
 00101014 g     F .text	0000007c TimerCallback
@@ -332,7 +332,7 @@ SYMBOL TABLE:
 001162fc g     O .bss	00000004 alt_argv
 0011c680 g       *ABS*	00000000 _gp
 0010f444 g     F .text	0000010c OSTaskCreate
-00100d80 g     F .text	000000b0 SwitchIO
+00100d74 g     F .text	000000bc SwitchIO
 0010f1a8 g     F .text	0000029c OSTaskChangePrio
 00116318 g     O .bss	00000004 alt_heapsem
 0010ca78 g     F .text	00000004 OSDebugInit
@@ -386,7 +386,7 @@ SYMBOL TABLE:
 001162b8 g     O .bss	00000004 button_tmr
 0011470c g     O .rwdata	00000002 OSQMax
 001216bc g     O .bss	00000800 OSTaskStatStk
-001005e8 g     F .text	00000140 adjust_velocity
+001005f4 g     F .text	00000140 adjust_velocity
 0010df5c g     F .text	0000009c OSMemNameGet
 001146ec g     O .rwdata	00000002 OSFlagEn
 001098d0 g     F .text	00000078 _read_r
@@ -610,7 +610,7 @@ SYMBOL TABLE:
 00112668 g       *ABS*	00000000 __DTOR_LIST__
 0010eb78 g     F .text	0000008c OSSemCreate
 00114744 g     O .rwdata	00000002 OSTmrWheelSize
-001003d0 g     F .text	0000010c show_position
+001003d0 g     F .text	00000118 show_position
 001162c8 g     O .bss	00000004 delay
 0010aa60 g     F .text	00000088 __nedf2
 00114688 g     O .rwdata	00000004 top_gear
@@ -662,7 +662,7 @@ SYMBOL TABLE:
 00114706 g     O .rwdata	00000002 OSMutexEn
 00114750 g       *ABS*	00000000 _edata
 001243d0 g       *ABS*	00000000 _end
-001009e4 g     F .text	00000238 ControlTask
+001009f0 g     F .text	00000220 ControlTask
 00116364 g     O .bss	00000001 OSIntNesting
 01000144 g       *ABS*	00000000 __ram_exceptions_end
 001111fc g     F .text	0000007c altera_avalon_jtag_uart_ioctl
@@ -681,7 +681,7 @@ SYMBOL TABLE:
 00106d24 g     F .text	000000c8 _fwalk_reent
 001082f0 g     F .text	0000018c __mdiff
 00101d74 g     F .text	00000060 __modsi3
-00100c1c g     F .text	00000164 ButtonIO
+00100c10 g     F .text	00000164 ButtonIO
 0010d754 g     F .text	00000038 OSMboxAccept
 00180000 g       *ABS*	00000000 __alt_data_end
 01000020 g     F .exceptions	00000000 alt_exception
@@ -1095,619 +1095,619 @@ Disassembly of section .text:
   1004c0:	e0bffe17 	ldw	r2,-8(fp)
   1004c4:	108000b4 	orhi	r2,r2,2
   1004c8:	e0bffe15 	stw	r2,-8(fp)
-  1004cc:	e037883a 	mov	sp,fp
-  1004d0:	df000017 	ldw	fp,0(sp)
-  1004d4:	dec00104 	addi	sp,sp,4
-  1004d8:	f800283a 	ret
+  1004cc:	00e44814 	movui	r3,37152
+  1004d0:	e0bffe17 	ldw	r2,-8(fp)
+  1004d4:	18800035 	stwio	r2,0(r3)
+  1004d8:	e037883a 	mov	sp,fp
+  1004dc:	df000017 	ldw	fp,0(sp)
+  1004e0:	dec00104 	addi	sp,sp,4
+  1004e4:	f800283a 	ret
 
-001004dc <adjust_position>:
-  1004dc:	defff704 	addi	sp,sp,-36
-  1004e0:	dfc00815 	stw	ra,32(sp)
-  1004e4:	df000715 	stw	fp,28(sp)
-  1004e8:	dc400615 	stw	r17,24(sp)
-  1004ec:	dc000515 	stw	r16,20(sp)
-  1004f0:	df000504 	addi	fp,sp,20
-  1004f4:	e13ffc0d 	sth	r4,-16(fp)
-  1004f8:	e17ffd0d 	sth	r5,-12(fp)
-  1004fc:	e1bffe05 	stb	r6,-8(fp)
-  100500:	e1ffff0d 	sth	r7,-4(fp)
-  100504:	e13ffd0f 	ldh	r4,-12(fp)
-  100508:	e17fff0b 	ldhu	r5,-4(fp)
-  10050c:	0101de40 	call	101de4 <__mulsi3>
-  100510:	1009883a 	mov	r4,r2
-  100514:	0140fa04 	movi	r5,1000
-  100518:	0101d140 	call	101d14 <__divsi3>
-  10051c:	1007883a 	mov	r3,r2
-  100520:	e0bffc0b 	ldhu	r2,-16(fp)
-  100524:	1885883a 	add	r2,r3,r2
-  100528:	1023883a 	mov	r17,r2
-  10052c:	e0fffe07 	ldb	r3,-8(fp)
-  100530:	1804d7fa 	srli	r2,r3,31
-  100534:	10c5883a 	add	r2,r2,r3
-  100538:	1005d07a 	srai	r2,r2,1
-  10053c:	14003fcc 	andi	r16,r2,255
-  100540:	8400201c 	xori	r16,r16,128
-  100544:	843fe004 	addi	r16,r16,-128
-  100548:	e13fff0b 	ldhu	r4,-4(fp)
-  10054c:	0140fa04 	movi	r5,1000
-  100550:	0101dd40 	call	101dd4 <__udivsi3>
-  100554:	117fffcc 	andi	r5,r2,65535
-  100558:	8009883a 	mov	r4,r16
-  10055c:	0101de40 	call	101de4 <__mulsi3>
-  100560:	1021883a 	mov	r16,r2
-  100564:	e13fff0b 	ldhu	r4,-4(fp)
-  100568:	0140fa04 	movi	r5,1000
-  10056c:	0101dd40 	call	101dd4 <__udivsi3>
-  100570:	117fffcc 	andi	r5,r2,65535
-  100574:	8009883a 	mov	r4,r16
-  100578:	0101de40 	call	101de4 <__mulsi3>
-  10057c:	8885883a 	add	r2,r17,r2
-  100580:	e0bffb0d 	sth	r2,-20(fp)
-  100584:	e0bffb0f 	ldh	r2,-20(fp)
-  100588:	10977050 	cmplti	r2,r2,24001
-  10058c:	1000041e 	bne	r2,zero,1005a0 <adjust_position+0xc4>
-  100590:	e0bffb0b 	ldhu	r2,-20(fp)
-  100594:	10a89004 	addi	r2,r2,-24000
-  100598:	e0bffb0d 	sth	r2,-20(fp)
-  10059c:	00000606 	br	1005b8 <adjust_position+0xdc>
-  1005a0:	e0bffb0f 	ldh	r2,-20(fp)
-  1005a4:	1004403a 	cmpge	r2,r2,zero
-  1005a8:	1000031e 	bne	r2,zero,1005b8 <adjust_position+0xdc>
-  1005ac:	e0bffb0b 	ldhu	r2,-20(fp)
-  1005b0:	10977004 	addi	r2,r2,24000
-  1005b4:	e0bffb0d 	sth	r2,-20(fp)
+001004e8 <adjust_position>:
+  1004e8:	defff704 	addi	sp,sp,-36
+  1004ec:	dfc00815 	stw	ra,32(sp)
+  1004f0:	df000715 	stw	fp,28(sp)
+  1004f4:	dc400615 	stw	r17,24(sp)
+  1004f8:	dc000515 	stw	r16,20(sp)
+  1004fc:	df000504 	addi	fp,sp,20
+  100500:	e13ffc0d 	sth	r4,-16(fp)
+  100504:	e17ffd0d 	sth	r5,-12(fp)
+  100508:	e1bffe05 	stb	r6,-8(fp)
+  10050c:	e1ffff0d 	sth	r7,-4(fp)
+  100510:	e13ffd0f 	ldh	r4,-12(fp)
+  100514:	e17fff0b 	ldhu	r5,-4(fp)
+  100518:	0101de40 	call	101de4 <__mulsi3>
+  10051c:	1009883a 	mov	r4,r2
+  100520:	0140fa04 	movi	r5,1000
+  100524:	0101d140 	call	101d14 <__divsi3>
+  100528:	1007883a 	mov	r3,r2
+  10052c:	e0bffc0b 	ldhu	r2,-16(fp)
+  100530:	1885883a 	add	r2,r3,r2
+  100534:	1023883a 	mov	r17,r2
+  100538:	e0fffe07 	ldb	r3,-8(fp)
+  10053c:	1804d7fa 	srli	r2,r3,31
+  100540:	10c5883a 	add	r2,r2,r3
+  100544:	1005d07a 	srai	r2,r2,1
+  100548:	14003fcc 	andi	r16,r2,255
+  10054c:	8400201c 	xori	r16,r16,128
+  100550:	843fe004 	addi	r16,r16,-128
+  100554:	e13fff0b 	ldhu	r4,-4(fp)
+  100558:	0140fa04 	movi	r5,1000
+  10055c:	0101dd40 	call	101dd4 <__udivsi3>
+  100560:	117fffcc 	andi	r5,r2,65535
+  100564:	8009883a 	mov	r4,r16
+  100568:	0101de40 	call	101de4 <__mulsi3>
+  10056c:	1021883a 	mov	r16,r2
+  100570:	e13fff0b 	ldhu	r4,-4(fp)
+  100574:	0140fa04 	movi	r5,1000
+  100578:	0101dd40 	call	101dd4 <__udivsi3>
+  10057c:	117fffcc 	andi	r5,r2,65535
+  100580:	8009883a 	mov	r4,r16
+  100584:	0101de40 	call	101de4 <__mulsi3>
+  100588:	8885883a 	add	r2,r17,r2
+  10058c:	e0bffb0d 	sth	r2,-20(fp)
+  100590:	e0bffb0f 	ldh	r2,-20(fp)
+  100594:	10977050 	cmplti	r2,r2,24001
+  100598:	1000041e 	bne	r2,zero,1005ac <adjust_position+0xc4>
+  10059c:	e0bffb0b 	ldhu	r2,-20(fp)
+  1005a0:	10a89004 	addi	r2,r2,-24000
+  1005a4:	e0bffb0d 	sth	r2,-20(fp)
+  1005a8:	00000606 	br	1005c4 <adjust_position+0xdc>
+  1005ac:	e0bffb0f 	ldh	r2,-20(fp)
+  1005b0:	1004403a 	cmpge	r2,r2,zero
+  1005b4:	1000031e 	bne	r2,zero,1005c4 <adjust_position+0xdc>
   1005b8:	e0bffb0b 	ldhu	r2,-20(fp)
-  1005bc:	113fffcc 	andi	r4,r2,65535
-  1005c0:	01003d00 	call	1003d0 <show_position>
+  1005bc:	10977004 	addi	r2,r2,24000
+  1005c0:	e0bffb0d 	sth	r2,-20(fp)
   1005c4:	e0bffb0b 	ldhu	r2,-20(fp)
-  1005c8:	10bfffcc 	andi	r2,r2,65535
-  1005cc:	e037883a 	mov	sp,fp
-  1005d0:	dfc00317 	ldw	ra,12(sp)
-  1005d4:	df000217 	ldw	fp,8(sp)
-  1005d8:	dc400117 	ldw	r17,4(sp)
-  1005dc:	dc000017 	ldw	r16,0(sp)
-  1005e0:	dec00404 	addi	sp,sp,16
-  1005e4:	f800283a 	ret
+  1005c8:	113fffcc 	andi	r4,r2,65535
+  1005cc:	01003d00 	call	1003d0 <show_position>
+  1005d0:	e0bffb0b 	ldhu	r2,-20(fp)
+  1005d4:	10bfffcc 	andi	r2,r2,65535
+  1005d8:	e037883a 	mov	sp,fp
+  1005dc:	dfc00317 	ldw	ra,12(sp)
+  1005e0:	df000217 	ldw	fp,8(sp)
+  1005e4:	dc400117 	ldw	r17,4(sp)
+  1005e8:	dc000017 	ldw	r16,0(sp)
+  1005ec:	dec00404 	addi	sp,sp,16
+  1005f0:	f800283a 	ret
 
-001005e8 <adjust_velocity>:
-  1005e8:	defff704 	addi	sp,sp,-36
-  1005ec:	dfc00815 	stw	ra,32(sp)
-  1005f0:	df000715 	stw	fp,28(sp)
-  1005f4:	dc400615 	stw	r17,24(sp)
-  1005f8:	dc000515 	stw	r16,20(sp)
-  1005fc:	df000504 	addi	fp,sp,20
-  100600:	e1bffe15 	stw	r6,-8(fp)
-  100604:	e13ffc0d 	sth	r4,-16(fp)
-  100608:	e17ffd05 	stb	r5,-12(fp)
-  10060c:	e1ffff0d 	sth	r7,-4(fp)
-  100610:	00bff204 	movi	r2,-56
-  100614:	e0bffb05 	stb	r2,-20(fp)
-  100618:	e0bffe17 	ldw	r2,-8(fp)
-  10061c:	10800058 	cmpnei	r2,r2,1
-  100620:	1000251e 	bne	r2,zero,1006b8 <adjust_velocity+0xd0>
-  100624:	e13ffc0f 	ldh	r4,-16(fp)
-  100628:	0101a900 	call	101a90 <__floatsidf>
-  10062c:	1021883a 	mov	r16,r2
-  100630:	1823883a 	mov	r17,r3
-  100634:	e13ffd07 	ldb	r4,-12(fp)
-  100638:	e17fff0b 	ldhu	r5,-4(fp)
-  10063c:	0101de40 	call	101de4 <__mulsi3>
-  100640:	1009883a 	mov	r4,r2
-  100644:	01012480 	call	101248 <__floatsisf>
-  100648:	1009883a 	mov	r4,r2
-  10064c:	01012e00 	call	1012e0 <__extendsfdf2>
-  100650:	100b883a 	mov	r5,r2
-  100654:	180d883a 	mov	r6,r3
-  100658:	2809883a 	mov	r4,r5
-  10065c:	300b883a 	mov	r5,r6
-  100660:	000d883a 	mov	r6,zero
-  100664:	01d023f4 	movhi	r7,16527
-  100668:	39d00004 	addi	r7,r7,16384
-  10066c:	01018380 	call	101838 <__divdf3>
-  100670:	1009883a 	mov	r4,r2
-  100674:	180b883a 	mov	r5,r3
-  100678:	2005883a 	mov	r2,r4
-  10067c:	2807883a 	mov	r3,r5
-  100680:	8009883a 	mov	r4,r16
-  100684:	880b883a 	mov	r5,r17
-  100688:	100d883a 	mov	r6,r2
-  10068c:	180f883a 	mov	r7,r3
-  100690:	01017c40 	call	1017c4 <__adddf3>
-  100694:	1009883a 	mov	r4,r2
-  100698:	180b883a 	mov	r5,r3
-  10069c:	2005883a 	mov	r2,r4
-  1006a0:	2807883a 	mov	r3,r5
-  1006a4:	1009883a 	mov	r4,r2
-  1006a8:	180b883a 	mov	r5,r3
-  1006ac:	0101b880 	call	101b88 <__fixdfsi>
-  1006b0:	e0bffb8d 	sth	r2,-18(fp)
-  1006b4:	00001406 	br	100708 <adjust_velocity+0x120>
-  1006b8:	e13ffb03 	ldbu	r4,-20(fp)
-  1006bc:	e17fff0b 	ldhu	r5,-4(fp)
-  1006c0:	0101de40 	call	101de4 <__mulsi3>
-  1006c4:	1009883a 	mov	r4,r2
-  1006c8:	0140fa04 	movi	r5,1000
-  1006cc:	0101d140 	call	101d14 <__divsi3>
-  1006d0:	1007883a 	mov	r3,r2
-  1006d4:	e0bffc0f 	ldh	r2,-16(fp)
-  1006d8:	10c0020e 	bge	r2,r3,1006e4 <adjust_velocity+0xfc>
-  1006dc:	e03ffb8d 	sth	zero,-18(fp)
-  1006e0:	00000906 	br	100708 <adjust_velocity+0x120>
-  1006e4:	e43ffc0b 	ldhu	r16,-16(fp)
-  1006e8:	e13ffb03 	ldbu	r4,-20(fp)
-  1006ec:	e17fff0b 	ldhu	r5,-4(fp)
-  1006f0:	0101de40 	call	101de4 <__mulsi3>
-  1006f4:	1009883a 	mov	r4,r2
-  1006f8:	0140fa04 	movi	r5,1000
-  1006fc:	0101d140 	call	101d14 <__divsi3>
-  100700:	8085c83a 	sub	r2,r16,r2
-  100704:	e0bffb8d 	sth	r2,-18(fp)
-  100708:	e0bffb8f 	ldh	r2,-18(fp)
-  10070c:	e037883a 	mov	sp,fp
-  100710:	dfc00317 	ldw	ra,12(sp)
-  100714:	df000217 	ldw	fp,8(sp)
-  100718:	dc400117 	ldw	r17,4(sp)
-  10071c:	dc000017 	ldw	r16,0(sp)
-  100720:	dec00404 	addi	sp,sp,16
-  100724:	f800283a 	ret
+001005f4 <adjust_velocity>:
+  1005f4:	defff704 	addi	sp,sp,-36
+  1005f8:	dfc00815 	stw	ra,32(sp)
+  1005fc:	df000715 	stw	fp,28(sp)
+  100600:	dc400615 	stw	r17,24(sp)
+  100604:	dc000515 	stw	r16,20(sp)
+  100608:	df000504 	addi	fp,sp,20
+  10060c:	e1bffe15 	stw	r6,-8(fp)
+  100610:	e13ffc0d 	sth	r4,-16(fp)
+  100614:	e17ffd05 	stb	r5,-12(fp)
+  100618:	e1ffff0d 	sth	r7,-4(fp)
+  10061c:	00bff204 	movi	r2,-56
+  100620:	e0bffb05 	stb	r2,-20(fp)
+  100624:	e0bffe17 	ldw	r2,-8(fp)
+  100628:	10800058 	cmpnei	r2,r2,1
+  10062c:	1000251e 	bne	r2,zero,1006c4 <adjust_velocity+0xd0>
+  100630:	e13ffc0f 	ldh	r4,-16(fp)
+  100634:	0101a900 	call	101a90 <__floatsidf>
+  100638:	1021883a 	mov	r16,r2
+  10063c:	1823883a 	mov	r17,r3
+  100640:	e13ffd07 	ldb	r4,-12(fp)
+  100644:	e17fff0b 	ldhu	r5,-4(fp)
+  100648:	0101de40 	call	101de4 <__mulsi3>
+  10064c:	1009883a 	mov	r4,r2
+  100650:	01012480 	call	101248 <__floatsisf>
+  100654:	1009883a 	mov	r4,r2
+  100658:	01012e00 	call	1012e0 <__extendsfdf2>
+  10065c:	100b883a 	mov	r5,r2
+  100660:	180d883a 	mov	r6,r3
+  100664:	2809883a 	mov	r4,r5
+  100668:	300b883a 	mov	r5,r6
+  10066c:	000d883a 	mov	r6,zero
+  100670:	01d023f4 	movhi	r7,16527
+  100674:	39d00004 	addi	r7,r7,16384
+  100678:	01018380 	call	101838 <__divdf3>
+  10067c:	1009883a 	mov	r4,r2
+  100680:	180b883a 	mov	r5,r3
+  100684:	2005883a 	mov	r2,r4
+  100688:	2807883a 	mov	r3,r5
+  10068c:	8009883a 	mov	r4,r16
+  100690:	880b883a 	mov	r5,r17
+  100694:	100d883a 	mov	r6,r2
+  100698:	180f883a 	mov	r7,r3
+  10069c:	01017c40 	call	1017c4 <__adddf3>
+  1006a0:	1009883a 	mov	r4,r2
+  1006a4:	180b883a 	mov	r5,r3
+  1006a8:	2005883a 	mov	r2,r4
+  1006ac:	2807883a 	mov	r3,r5
+  1006b0:	1009883a 	mov	r4,r2
+  1006b4:	180b883a 	mov	r5,r3
+  1006b8:	0101b880 	call	101b88 <__fixdfsi>
+  1006bc:	e0bffb8d 	sth	r2,-18(fp)
+  1006c0:	00001406 	br	100714 <adjust_velocity+0x120>
+  1006c4:	e13ffb03 	ldbu	r4,-20(fp)
+  1006c8:	e17fff0b 	ldhu	r5,-4(fp)
+  1006cc:	0101de40 	call	101de4 <__mulsi3>
+  1006d0:	1009883a 	mov	r4,r2
+  1006d4:	0140fa04 	movi	r5,1000
+  1006d8:	0101d140 	call	101d14 <__divsi3>
+  1006dc:	1007883a 	mov	r3,r2
+  1006e0:	e0bffc0f 	ldh	r2,-16(fp)
+  1006e4:	10c0020e 	bge	r2,r3,1006f0 <adjust_velocity+0xfc>
+  1006e8:	e03ffb8d 	sth	zero,-18(fp)
+  1006ec:	00000906 	br	100714 <adjust_velocity+0x120>
+  1006f0:	e43ffc0b 	ldhu	r16,-16(fp)
+  1006f4:	e13ffb03 	ldbu	r4,-20(fp)
+  1006f8:	e17fff0b 	ldhu	r5,-4(fp)
+  1006fc:	0101de40 	call	101de4 <__mulsi3>
+  100700:	1009883a 	mov	r4,r2
+  100704:	0140fa04 	movi	r5,1000
+  100708:	0101d140 	call	101d14 <__divsi3>
+  10070c:	8085c83a 	sub	r2,r16,r2
+  100710:	e0bffb8d 	sth	r2,-18(fp)
+  100714:	e0bffb8f 	ldh	r2,-18(fp)
+  100718:	e037883a 	mov	sp,fp
+  10071c:	dfc00317 	ldw	ra,12(sp)
+  100720:	df000217 	ldw	fp,8(sp)
+  100724:	dc400117 	ldw	r17,4(sp)
+  100728:	dc000017 	ldw	r16,0(sp)
+  10072c:	dec00404 	addi	sp,sp,16
+  100730:	f800283a 	ret
 
-00100728 <VehicleTask>:
-  100728:	defff804 	addi	sp,sp,-32
-  10072c:	dfc00715 	stw	ra,28(sp)
-  100730:	df000615 	stw	fp,24(sp)
-  100734:	df000604 	addi	fp,sp,24
-  100738:	e13fff15 	stw	r4,-4(fp)
-  10073c:	e03ffa8d 	sth	zero,-22(fp)
-  100740:	e03ffe8d 	sth	zero,-6(fp)
-  100744:	01000474 	movhi	r4,17
-  100748:	21099a04 	addi	r4,r4,9832
-  10074c:	01026280 	call	102628 <puts>
-  100750:	d1270d17 	ldw	r4,-25548(gp)
-  100754:	e17ffe84 	addi	r5,fp,-6
-  100758:	010dbd40 	call	10dbd4 <OSMboxPost>
-  10075c:	e0bffe05 	stb	r2,-8(fp)
-  100760:	d1271417 	ldw	r4,-25520(gp)
-  100764:	000b883a 	mov	r5,zero
-  100768:	d1a71304 	addi	r6,gp,-25524
-  10076c:	010ed580 	call	10ed58 <OSSemPend>
-  100770:	d1270a17 	ldw	r4,-25560(gp)
-  100774:	e1bffe04 	addi	r6,fp,-8
-  100778:	01400044 	movi	r5,1
-  10077c:	010d9600 	call	10d960 <OSMboxPend>
-  100780:	e0bffd15 	stw	r2,-12(fp)
-  100784:	e0bffe03 	ldbu	r2,-8(fp)
-  100788:	10803fcc 	andi	r2,r2,255
-  10078c:	1004c03a 	cmpne	r2,r2,zero
-  100790:	1000021e 	bne	r2,zero,10079c <VehicleTask+0x74>
-  100794:	e0bffd17 	ldw	r2,-12(fp)
-  100798:	e0bffc15 	stw	r2,-16(fp)
-  10079c:	e0bffe8b 	ldhu	r2,-6(fp)
-  1007a0:	10bfffcc 	andi	r2,r2,65535
-  1007a4:	10a0001c 	xori	r2,r2,32768
-  1007a8:	10a00004 	addi	r2,r2,-32768
-  1007ac:	10800050 	cmplti	r2,r2,1
-  1007b0:	10000f1e 	bne	r2,zero,1007f0 <VehicleTask+0xc8>
-  1007b4:	e0bffe8b 	ldhu	r2,-6(fp)
-  1007b8:	113fffcc 	andi	r4,r2,65535
-  1007bc:	2120001c 	xori	r4,r4,32768
-  1007c0:	21200004 	addi	r4,r4,-32768
-  1007c4:	e0bffe8b 	ldhu	r2,-6(fp)
-  1007c8:	117fffcc 	andi	r5,r2,65535
-  1007cc:	2960001c 	xori	r5,r5,32768
-  1007d0:	29600004 	addi	r5,r5,-32768
-  1007d4:	0101de40 	call	101de4 <__mulsi3>
-  1007d8:	1009883a 	mov	r4,r2
-  1007dc:	0149c404 	movi	r5,10000
-  1007e0:	0101d140 	call	101d14 <__divsi3>
-  1007e4:	10800044 	addi	r2,r2,1
-  1007e8:	e0bffa0d 	sth	r2,-24(fp)
-  1007ec:	00000f06 	br	10082c <VehicleTask+0x104>
-  1007f0:	e0bffe8b 	ldhu	r2,-6(fp)
-  1007f4:	10bfffcc 	andi	r2,r2,65535
-  1007f8:	10a0001c 	xori	r2,r2,32768
-  1007fc:	10a00004 	addi	r2,r2,-32768
-  100800:	0089c83a 	sub	r4,zero,r2
-  100804:	e0bffe8b 	ldhu	r2,-6(fp)
-  100808:	117fffcc 	andi	r5,r2,65535
-  10080c:	2960001c 	xori	r5,r5,32768
-  100810:	29600004 	addi	r5,r5,-32768
-  100814:	0101de40 	call	101de4 <__mulsi3>
-  100818:	1009883a 	mov	r4,r2
-  10081c:	0149c404 	movi	r5,10000
-  100820:	0101d140 	call	101d14 <__divsi3>
-  100824:	10800044 	addi	r2,r2,1
-  100828:	e0bffa0d 	sth	r2,-24(fp)
-  10082c:	e0bffa8b 	ldhu	r2,-22(fp)
-  100830:	1083e828 	cmpgeui	r2,r2,4000
-  100834:	1000031e 	bne	r2,zero,100844 <VehicleTask+0x11c>
-  100838:	e0bffa0b 	ldhu	r2,-24(fp)
-  10083c:	e0bffb05 	stb	r2,-20(fp)
-  100840:	00001e06 	br	1008bc <VehicleTask+0x194>
-  100844:	e0bffa8b 	ldhu	r2,-22(fp)
-  100848:	1087d028 	cmpgeui	r2,r2,8000
-  10084c:	1000041e 	bne	r2,zero,100860 <VehicleTask+0x138>
-  100850:	e0bffa0b 	ldhu	r2,-24(fp)
-  100854:	108003c4 	addi	r2,r2,15
-  100858:	e0bffb05 	stb	r2,-20(fp)
-  10085c:	00001706 	br	1008bc <VehicleTask+0x194>
-  100860:	e0bffa8b 	ldhu	r2,-22(fp)
-  100864:	108bb828 	cmpgeui	r2,r2,12000
-  100868:	1000041e 	bne	r2,zero,10087c <VehicleTask+0x154>
-  10086c:	e0bffa0b 	ldhu	r2,-24(fp)
-  100870:	10800644 	addi	r2,r2,25
-  100874:	e0bffb05 	stb	r2,-20(fp)
-  100878:	00001006 	br	1008bc <VehicleTask+0x194>
-  10087c:	e0bffa8b 	ldhu	r2,-22(fp)
-  100880:	108fa028 	cmpgeui	r2,r2,16000
-  100884:	1000031e 	bne	r2,zero,100894 <VehicleTask+0x16c>
-  100888:	e0bffa0b 	ldhu	r2,-24(fp)
-  10088c:	e0bffb05 	stb	r2,-20(fp)
-  100890:	00000a06 	br	1008bc <VehicleTask+0x194>
-  100894:	e0bffa8b 	ldhu	r2,-22(fp)
-  100898:	10938828 	cmpgeui	r2,r2,20000
-  10089c:	1000041e 	bne	r2,zero,1008b0 <VehicleTask+0x188>
-  1008a0:	e0bffa0b 	ldhu	r2,-24(fp)
-  1008a4:	10bffd84 	addi	r2,r2,-10
-  1008a8:	e0bffb05 	stb	r2,-20(fp)
-  1008ac:	00000306 	br	1008bc <VehicleTask+0x194>
-  1008b0:	e0bffa0b 	ldhu	r2,-24(fp)
-  1008b4:	10bffec4 	addi	r2,r2,-5
-  1008b8:	e0bffb05 	stb	r2,-20(fp)
-  1008bc:	e0bffc17 	ldw	r2,-16(fp)
-  1008c0:	10800003 	ldbu	r2,0(r2)
-  1008c4:	10803fcc 	andi	r2,r2,255
-  1008c8:	1004d07a 	srli	r2,r2,1
-  1008cc:	1007883a 	mov	r3,r2
-  1008d0:	e0bffb03 	ldbu	r2,-20(fp)
-  1008d4:	1885c83a 	sub	r2,r3,r2
-  1008d8:	e0bffb45 	stb	r2,-19(fp)
-  1008dc:	e13ffa8b 	ldhu	r4,-22(fp)
-  1008e0:	e0bffe8b 	ldhu	r2,-6(fp)
-  1008e4:	117fffcc 	andi	r5,r2,65535
-  1008e8:	2960001c 	xori	r5,r5,32768
-  1008ec:	29600004 	addi	r5,r5,-32768
-  1008f0:	e1bffb47 	ldb	r6,-19(fp)
-  1008f4:	01c04b04 	movi	r7,300
-  1008f8:	01004dc0 	call	1004dc <adjust_position>
-  1008fc:	e0bffa8d 	sth	r2,-22(fp)
-  100900:	e0bffe8b 	ldhu	r2,-6(fp)
-  100904:	113fffcc 	andi	r4,r2,65535
-  100908:	2120001c 	xori	r4,r4,32768
-  10090c:	21200004 	addi	r4,r4,-32768
-  100910:	e17ffb47 	ldb	r5,-19(fp)
-  100914:	d1a00117 	ldw	r6,-32764(gp)
-  100918:	01c04b04 	movi	r7,300
-  10091c:	01005e80 	call	1005e8 <adjust_velocity>
-  100920:	e0bffe8d 	sth	r2,-6(fp)
-  100924:	e13ffa8b 	ldhu	r4,-22(fp)
-  100928:	01400284 	movi	r5,10
-  10092c:	0101dd40 	call	101dd4 <__udivsi3>
-  100930:	117fffcc 	andi	r5,r2,65535
-  100934:	01000474 	movhi	r4,17
-  100938:	2109a004 	addi	r4,r4,9856
-  10093c:	01025100 	call	102510 <printf>
-  100940:	e0bffe8b 	ldhu	r2,-6(fp)
-  100944:	113fffcc 	andi	r4,r2,65535
-  100948:	2120001c 	xori	r4,r4,32768
-  10094c:	21200004 	addi	r4,r4,-32768
-  100950:	0101a900 	call	101a90 <__floatsidf>
-  100954:	100b883a 	mov	r5,r2
-  100958:	180d883a 	mov	r6,r3
-  10095c:	2809883a 	mov	r4,r5
-  100960:	300b883a 	mov	r5,r6
-  100964:	000d883a 	mov	r6,zero
-  100968:	01d00934 	movhi	r7,16420
-  10096c:	01018380 	call	101838 <__divdf3>
-  100970:	1009883a 	mov	r4,r2
-  100974:	180b883a 	mov	r5,r3
-  100978:	2005883a 	mov	r2,r4
-  10097c:	2807883a 	mov	r3,r5
-  100980:	01000474 	movhi	r4,17
-  100984:	2109a404 	addi	r4,r4,9872
-  100988:	100b883a 	mov	r5,r2
-  10098c:	180d883a 	mov	r6,r3
-  100990:	01025100 	call	102510 <printf>
-  100994:	e0bffc17 	ldw	r2,-16(fp)
-  100998:	10800003 	ldbu	r2,0(r2)
-  10099c:	11003fcc 	andi	r4,r2,255
-  1009a0:	01400284 	movi	r5,10
-  1009a4:	0101dd40 	call	101dd4 <__udivsi3>
-  1009a8:	11403fcc 	andi	r5,r2,255
-  1009ac:	01000474 	movhi	r4,17
-  1009b0:	2109a904 	addi	r4,r4,9892
-  1009b4:	01025100 	call	102510 <printf>
-  1009b8:	e0bffe8b 	ldhu	r2,-6(fp)
-  1009bc:	113fffcc 	andi	r4,r2,65535
-  1009c0:	2120001c 	xori	r4,r4,32768
-  1009c4:	21200004 	addi	r4,r4,-32768
-  1009c8:	01400284 	movi	r5,10
-  1009cc:	0101d140 	call	101d14 <__divsi3>
-  1009d0:	11003fcc 	andi	r4,r2,255
-  1009d4:	2100201c 	xori	r4,r4,128
-  1009d8:	213fe004 	addi	r4,r4,-128
-  1009dc:	01002180 	call	100218 <show_velocity_on_sevenseg>
-  1009e0:	003f5b06 	br	100750 <VehicleTask+0x28>
+00100734 <VehicleTask>:
+  100734:	defff804 	addi	sp,sp,-32
+  100738:	dfc00715 	stw	ra,28(sp)
+  10073c:	df000615 	stw	fp,24(sp)
+  100740:	df000604 	addi	fp,sp,24
+  100744:	e13fff15 	stw	r4,-4(fp)
+  100748:	e03ffa8d 	sth	zero,-22(fp)
+  10074c:	e03ffe8d 	sth	zero,-6(fp)
+  100750:	01000474 	movhi	r4,17
+  100754:	21099a04 	addi	r4,r4,9832
+  100758:	01026280 	call	102628 <puts>
+  10075c:	d1270d17 	ldw	r4,-25548(gp)
+  100760:	e17ffe84 	addi	r5,fp,-6
+  100764:	010dbd40 	call	10dbd4 <OSMboxPost>
+  100768:	e0bffe05 	stb	r2,-8(fp)
+  10076c:	d1271417 	ldw	r4,-25520(gp)
+  100770:	000b883a 	mov	r5,zero
+  100774:	d1a71304 	addi	r6,gp,-25524
+  100778:	010ed580 	call	10ed58 <OSSemPend>
+  10077c:	d1270a17 	ldw	r4,-25560(gp)
+  100780:	e1bffe04 	addi	r6,fp,-8
+  100784:	01400044 	movi	r5,1
+  100788:	010d9600 	call	10d960 <OSMboxPend>
+  10078c:	e0bffd15 	stw	r2,-12(fp)
+  100790:	e0bffe03 	ldbu	r2,-8(fp)
+  100794:	10803fcc 	andi	r2,r2,255
+  100798:	1004c03a 	cmpne	r2,r2,zero
+  10079c:	1000021e 	bne	r2,zero,1007a8 <VehicleTask+0x74>
+  1007a0:	e0bffd17 	ldw	r2,-12(fp)
+  1007a4:	e0bffc15 	stw	r2,-16(fp)
+  1007a8:	e0bffe8b 	ldhu	r2,-6(fp)
+  1007ac:	10bfffcc 	andi	r2,r2,65535
+  1007b0:	10a0001c 	xori	r2,r2,32768
+  1007b4:	10a00004 	addi	r2,r2,-32768
+  1007b8:	10800050 	cmplti	r2,r2,1
+  1007bc:	10000f1e 	bne	r2,zero,1007fc <VehicleTask+0xc8>
+  1007c0:	e0bffe8b 	ldhu	r2,-6(fp)
+  1007c4:	113fffcc 	andi	r4,r2,65535
+  1007c8:	2120001c 	xori	r4,r4,32768
+  1007cc:	21200004 	addi	r4,r4,-32768
+  1007d0:	e0bffe8b 	ldhu	r2,-6(fp)
+  1007d4:	117fffcc 	andi	r5,r2,65535
+  1007d8:	2960001c 	xori	r5,r5,32768
+  1007dc:	29600004 	addi	r5,r5,-32768
+  1007e0:	0101de40 	call	101de4 <__mulsi3>
+  1007e4:	1009883a 	mov	r4,r2
+  1007e8:	0149c404 	movi	r5,10000
+  1007ec:	0101d140 	call	101d14 <__divsi3>
+  1007f0:	10800044 	addi	r2,r2,1
+  1007f4:	e0bffa0d 	sth	r2,-24(fp)
+  1007f8:	00000f06 	br	100838 <VehicleTask+0x104>
+  1007fc:	e0bffe8b 	ldhu	r2,-6(fp)
+  100800:	10bfffcc 	andi	r2,r2,65535
+  100804:	10a0001c 	xori	r2,r2,32768
+  100808:	10a00004 	addi	r2,r2,-32768
+  10080c:	0089c83a 	sub	r4,zero,r2
+  100810:	e0bffe8b 	ldhu	r2,-6(fp)
+  100814:	117fffcc 	andi	r5,r2,65535
+  100818:	2960001c 	xori	r5,r5,32768
+  10081c:	29600004 	addi	r5,r5,-32768
+  100820:	0101de40 	call	101de4 <__mulsi3>
+  100824:	1009883a 	mov	r4,r2
+  100828:	0149c404 	movi	r5,10000
+  10082c:	0101d140 	call	101d14 <__divsi3>
+  100830:	10800044 	addi	r2,r2,1
+  100834:	e0bffa0d 	sth	r2,-24(fp)
+  100838:	e0bffa8b 	ldhu	r2,-22(fp)
+  10083c:	1083e828 	cmpgeui	r2,r2,4000
+  100840:	1000031e 	bne	r2,zero,100850 <VehicleTask+0x11c>
+  100844:	e0bffa0b 	ldhu	r2,-24(fp)
+  100848:	e0bffb05 	stb	r2,-20(fp)
+  10084c:	00001e06 	br	1008c8 <VehicleTask+0x194>
+  100850:	e0bffa8b 	ldhu	r2,-22(fp)
+  100854:	1087d028 	cmpgeui	r2,r2,8000
+  100858:	1000041e 	bne	r2,zero,10086c <VehicleTask+0x138>
+  10085c:	e0bffa0b 	ldhu	r2,-24(fp)
+  100860:	108003c4 	addi	r2,r2,15
+  100864:	e0bffb05 	stb	r2,-20(fp)
+  100868:	00001706 	br	1008c8 <VehicleTask+0x194>
+  10086c:	e0bffa8b 	ldhu	r2,-22(fp)
+  100870:	108bb828 	cmpgeui	r2,r2,12000
+  100874:	1000041e 	bne	r2,zero,100888 <VehicleTask+0x154>
+  100878:	e0bffa0b 	ldhu	r2,-24(fp)
+  10087c:	10800644 	addi	r2,r2,25
+  100880:	e0bffb05 	stb	r2,-20(fp)
+  100884:	00001006 	br	1008c8 <VehicleTask+0x194>
+  100888:	e0bffa8b 	ldhu	r2,-22(fp)
+  10088c:	108fa028 	cmpgeui	r2,r2,16000
+  100890:	1000031e 	bne	r2,zero,1008a0 <VehicleTask+0x16c>
+  100894:	e0bffa0b 	ldhu	r2,-24(fp)
+  100898:	e0bffb05 	stb	r2,-20(fp)
+  10089c:	00000a06 	br	1008c8 <VehicleTask+0x194>
+  1008a0:	e0bffa8b 	ldhu	r2,-22(fp)
+  1008a4:	10938828 	cmpgeui	r2,r2,20000
+  1008a8:	1000041e 	bne	r2,zero,1008bc <VehicleTask+0x188>
+  1008ac:	e0bffa0b 	ldhu	r2,-24(fp)
+  1008b0:	10bffd84 	addi	r2,r2,-10
+  1008b4:	e0bffb05 	stb	r2,-20(fp)
+  1008b8:	00000306 	br	1008c8 <VehicleTask+0x194>
+  1008bc:	e0bffa0b 	ldhu	r2,-24(fp)
+  1008c0:	10bffec4 	addi	r2,r2,-5
+  1008c4:	e0bffb05 	stb	r2,-20(fp)
+  1008c8:	e0bffc17 	ldw	r2,-16(fp)
+  1008cc:	10800003 	ldbu	r2,0(r2)
+  1008d0:	10803fcc 	andi	r2,r2,255
+  1008d4:	1004d07a 	srli	r2,r2,1
+  1008d8:	1007883a 	mov	r3,r2
+  1008dc:	e0bffb03 	ldbu	r2,-20(fp)
+  1008e0:	1885c83a 	sub	r2,r3,r2
+  1008e4:	e0bffb45 	stb	r2,-19(fp)
+  1008e8:	e13ffa8b 	ldhu	r4,-22(fp)
+  1008ec:	e0bffe8b 	ldhu	r2,-6(fp)
+  1008f0:	117fffcc 	andi	r5,r2,65535
+  1008f4:	2960001c 	xori	r5,r5,32768
+  1008f8:	29600004 	addi	r5,r5,-32768
+  1008fc:	e1bffb47 	ldb	r6,-19(fp)
+  100900:	01c04b04 	movi	r7,300
+  100904:	01004e80 	call	1004e8 <adjust_position>
+  100908:	e0bffa8d 	sth	r2,-22(fp)
+  10090c:	e0bffe8b 	ldhu	r2,-6(fp)
+  100910:	113fffcc 	andi	r4,r2,65535
+  100914:	2120001c 	xori	r4,r4,32768
+  100918:	21200004 	addi	r4,r4,-32768
+  10091c:	e17ffb47 	ldb	r5,-19(fp)
+  100920:	d1a00117 	ldw	r6,-32764(gp)
+  100924:	01c04b04 	movi	r7,300
+  100928:	01005f40 	call	1005f4 <adjust_velocity>
+  10092c:	e0bffe8d 	sth	r2,-6(fp)
+  100930:	e13ffa8b 	ldhu	r4,-22(fp)
+  100934:	01400284 	movi	r5,10
+  100938:	0101dd40 	call	101dd4 <__udivsi3>
+  10093c:	117fffcc 	andi	r5,r2,65535
+  100940:	01000474 	movhi	r4,17
+  100944:	2109a004 	addi	r4,r4,9856
+  100948:	01025100 	call	102510 <printf>
+  10094c:	e0bffe8b 	ldhu	r2,-6(fp)
+  100950:	113fffcc 	andi	r4,r2,65535
+  100954:	2120001c 	xori	r4,r4,32768
+  100958:	21200004 	addi	r4,r4,-32768
+  10095c:	0101a900 	call	101a90 <__floatsidf>
+  100960:	100b883a 	mov	r5,r2
+  100964:	180d883a 	mov	r6,r3
+  100968:	2809883a 	mov	r4,r5
+  10096c:	300b883a 	mov	r5,r6
+  100970:	000d883a 	mov	r6,zero
+  100974:	01d00934 	movhi	r7,16420
+  100978:	01018380 	call	101838 <__divdf3>
+  10097c:	1009883a 	mov	r4,r2
+  100980:	180b883a 	mov	r5,r3
+  100984:	2005883a 	mov	r2,r4
+  100988:	2807883a 	mov	r3,r5
+  10098c:	01000474 	movhi	r4,17
+  100990:	2109a404 	addi	r4,r4,9872
+  100994:	100b883a 	mov	r5,r2
+  100998:	180d883a 	mov	r6,r3
+  10099c:	01025100 	call	102510 <printf>
+  1009a0:	e0bffc17 	ldw	r2,-16(fp)
+  1009a4:	10800003 	ldbu	r2,0(r2)
+  1009a8:	11003fcc 	andi	r4,r2,255
+  1009ac:	01400284 	movi	r5,10
+  1009b0:	0101dd40 	call	101dd4 <__udivsi3>
+  1009b4:	11403fcc 	andi	r5,r2,255
+  1009b8:	01000474 	movhi	r4,17
+  1009bc:	2109a904 	addi	r4,r4,9892
+  1009c0:	01025100 	call	102510 <printf>
+  1009c4:	e0bffe8b 	ldhu	r2,-6(fp)
+  1009c8:	113fffcc 	andi	r4,r2,65535
+  1009cc:	2120001c 	xori	r4,r4,32768
+  1009d0:	21200004 	addi	r4,r4,-32768
+  1009d4:	01400284 	movi	r5,10
+  1009d8:	0101d140 	call	101d14 <__divsi3>
+  1009dc:	11003fcc 	andi	r4,r2,255
+  1009e0:	2100201c 	xori	r4,r4,128
+  1009e4:	213fe004 	addi	r4,r4,-128
+  1009e8:	01002180 	call	100218 <show_velocity_on_sevenseg>
+  1009ec:	003f5b06 	br	10075c <VehicleTask+0x28>
 
-001009e4 <ControlTask>:
-  1009e4:	defff404 	addi	sp,sp,-48
-  1009e8:	dfc00b15 	stw	ra,44(sp)
-  1009ec:	df000a15 	stw	fp,40(sp)
-  1009f0:	df000a04 	addi	fp,sp,40
-  1009f4:	e13fff15 	stw	r4,-4(fp)
-  1009f8:	00800a04 	movi	r2,40
-  1009fc:	e0bffe45 	stb	r2,-7(fp)
-  100a00:	e03ffb15 	stw	zero,-20(fp)
-  100a04:	e03ffa15 	stw	zero,-24(fp)
-  100a08:	e03ff915 	stw	zero,-28(fp)
-  100a0c:	01000474 	movhi	r4,17
-  100a10:	2109ad04 	addi	r4,r4,9908
-  100a14:	01026280 	call	102628 <puts>
-  100a18:	e0bffe43 	ldbu	r2,-7(fp)
-  100a1c:	10803fcc 	andi	r2,r2,255
-  100a20:	e0bff815 	stw	r2,-32(fp)
-  100a24:	d1271117 	ldw	r4,-25532(gp)
-  100a28:	000b883a 	mov	r5,zero
-  100a2c:	d1a71304 	addi	r6,gp,-25524
-  100a30:	010ed580 	call	10ed58 <OSSemPend>
-  100a34:	d1270d17 	ldw	r4,-25548(gp)
-  100a38:	e1bffe04 	addi	r6,fp,-8
-  100a3c:	000b883a 	mov	r5,zero
-  100a40:	010d9600 	call	10d960 <OSMboxPend>
-  100a44:	e0bffd15 	stw	r2,-12(fp)
-  100a48:	e0bffd17 	ldw	r2,-12(fp)
-  100a4c:	e0bffc15 	stw	r2,-16(fp)
-  100a50:	d0a00217 	ldw	r2,-32760(gp)
-  100a54:	1004c03a 	cmpne	r2,r2,zero
-  100a58:	1000281e 	bne	r2,zero,100afc <ControlTask+0x118>
-  100a5c:	d0a00417 	ldw	r2,-32752(gp)
+001009f0 <ControlTask>:
+  1009f0:	defff404 	addi	sp,sp,-48
+  1009f4:	dfc00b15 	stw	ra,44(sp)
+  1009f8:	df000a15 	stw	fp,40(sp)
+  1009fc:	df000a04 	addi	fp,sp,40
+  100a00:	e13fff15 	stw	r4,-4(fp)
+  100a04:	00800a04 	movi	r2,40
+  100a08:	e0bffe45 	stb	r2,-7(fp)
+  100a0c:	e03ffb15 	stw	zero,-20(fp)
+  100a10:	e03ffa15 	stw	zero,-24(fp)
+  100a14:	e03ff915 	stw	zero,-28(fp)
+  100a18:	01000474 	movhi	r4,17
+  100a1c:	2109ad04 	addi	r4,r4,9908
+  100a20:	01026280 	call	102628 <puts>
+  100a24:	e0bffe43 	ldbu	r2,-7(fp)
+  100a28:	10803fcc 	andi	r2,r2,255
+  100a2c:	e0bff815 	stw	r2,-32(fp)
+  100a30:	d1271117 	ldw	r4,-25532(gp)
+  100a34:	000b883a 	mov	r5,zero
+  100a38:	d1a71304 	addi	r6,gp,-25524
+  100a3c:	010ed580 	call	10ed58 <OSSemPend>
+  100a40:	d1270d17 	ldw	r4,-25548(gp)
+  100a44:	e1bffe04 	addi	r6,fp,-8
+  100a48:	000b883a 	mov	r5,zero
+  100a4c:	010d9600 	call	10d960 <OSMboxPend>
+  100a50:	e0bffd15 	stw	r2,-12(fp)
+  100a54:	e0bffd17 	ldw	r2,-12(fp)
+  100a58:	e0bffc15 	stw	r2,-16(fp)
+  100a5c:	d0a00217 	ldw	r2,-32760(gp)
   100a60:	1004c03a 	cmpne	r2,r2,zero
-  100a64:	1000251e 	bne	r2,zero,100afc <ControlTask+0x118>
-  100a68:	d0a00017 	ldw	r2,-32768(gp)
-  100a6c:	10800058 	cmpnei	r2,r2,1
-  100a70:	1000221e 	bne	r2,zero,100afc <ControlTask+0x118>
-  100a74:	d0a00117 	ldw	r2,-32764(gp)
+  100a64:	1000281e 	bne	r2,zero,100b08 <ControlTask+0x118>
+  100a68:	d0a00417 	ldw	r2,-32752(gp)
+  100a6c:	1004c03a 	cmpne	r2,r2,zero
+  100a70:	1000251e 	bne	r2,zero,100b08 <ControlTask+0x118>
+  100a74:	d0a00017 	ldw	r2,-32768(gp)
   100a78:	10800058 	cmpnei	r2,r2,1
-  100a7c:	10001f1e 	bne	r2,zero,100afc <ControlTask+0x118>
-  100a80:	e0bffc17 	ldw	r2,-16(fp)
-  100a84:	1080000b 	ldhu	r2,0(r2)
-  100a88:	10bfffcc 	andi	r2,r2,65535
-  100a8c:	10a0001c 	xori	r2,r2,32768
-  100a90:	10a00004 	addi	r2,r2,-32768
-  100a94:	10803210 	cmplti	r2,r2,200
-  100a98:	1000181e 	bne	r2,zero,100afc <ControlTask+0x118>
-  100a9c:	e0bffb17 	ldw	r2,-20(fp)
-  100aa0:	1004c03a 	cmpne	r2,r2,zero
-  100aa4:	1000151e 	bne	r2,zero,100afc <ControlTask+0x118>
-  100aa8:	00800044 	movi	r2,1
-  100aac:	e0bffb15 	stw	r2,-20(fp)
-  100ab0:	e0bffc17 	ldw	r2,-16(fp)
-  100ab4:	1080000b 	ldhu	r2,0(r2)
-  100ab8:	10bfffcc 	andi	r2,r2,65535
-  100abc:	10a0001c 	xori	r2,r2,32768
-  100ac0:	10a00004 	addi	r2,r2,-32768
-  100ac4:	e0bffa15 	stw	r2,-24(fp)
-  100ac8:	00a43814 	movui	r2,37088
-  100acc:	10800037 	ldwio	r2,0(r2)
-  100ad0:	e0bff715 	stw	r2,-36(fp)
-  100ad4:	e0bff717 	ldw	r2,-36(fp)
-  100ad8:	10c00054 	ori	r3,r2,1
-  100adc:	00a43814 	movui	r2,37088
-  100ae0:	10c00035 	stwio	r3,0(r2)
-  100ae4:	e13ffa17 	ldw	r4,-24(fp)
-  100ae8:	01400284 	movi	r5,10
-  100aec:	0101d140 	call	101d14 <__divsi3>
-  100af0:	11003fcc 	andi	r4,r2,255
-  100af4:	01003080 	call	100308 <show_target_velocity>
-  100af8:	00001e06 	br	100b74 <ControlTask+0x190>
-  100afc:	d0a00217 	ldw	r2,-32760(gp)
-  100b00:	10800060 	cmpeqi	r2,r2,1
-  100b04:	1000101e 	bne	r2,zero,100b48 <ControlTask+0x164>
-  100b08:	d0a00417 	ldw	r2,-32752(gp)
+  100a7c:	1000221e 	bne	r2,zero,100b08 <ControlTask+0x118>
+  100a80:	d0a00117 	ldw	r2,-32764(gp)
+  100a84:	10800058 	cmpnei	r2,r2,1
+  100a88:	10001f1e 	bne	r2,zero,100b08 <ControlTask+0x118>
+  100a8c:	e0bffc17 	ldw	r2,-16(fp)
+  100a90:	1080000b 	ldhu	r2,0(r2)
+  100a94:	10bfffcc 	andi	r2,r2,65535
+  100a98:	10a0001c 	xori	r2,r2,32768
+  100a9c:	10a00004 	addi	r2,r2,-32768
+  100aa0:	10803210 	cmplti	r2,r2,200
+  100aa4:	1000181e 	bne	r2,zero,100b08 <ControlTask+0x118>
+  100aa8:	e0bffb17 	ldw	r2,-20(fp)
+  100aac:	1004c03a 	cmpne	r2,r2,zero
+  100ab0:	1000151e 	bne	r2,zero,100b08 <ControlTask+0x118>
+  100ab4:	00800044 	movi	r2,1
+  100ab8:	e0bffb15 	stw	r2,-20(fp)
+  100abc:	e0bffc17 	ldw	r2,-16(fp)
+  100ac0:	1080000b 	ldhu	r2,0(r2)
+  100ac4:	10bfffcc 	andi	r2,r2,65535
+  100ac8:	10a0001c 	xori	r2,r2,32768
+  100acc:	10a00004 	addi	r2,r2,-32768
+  100ad0:	e0bffa15 	stw	r2,-24(fp)
+  100ad4:	00a43814 	movui	r2,37088
+  100ad8:	10800037 	ldwio	r2,0(r2)
+  100adc:	e0bff715 	stw	r2,-36(fp)
+  100ae0:	e0bff717 	ldw	r2,-36(fp)
+  100ae4:	10c00054 	ori	r3,r2,1
+  100ae8:	00a43814 	movui	r2,37088
+  100aec:	10c00035 	stwio	r3,0(r2)
+  100af0:	e13ffa17 	ldw	r4,-24(fp)
+  100af4:	01400284 	movi	r5,10
+  100af8:	0101d140 	call	101d14 <__divsi3>
+  100afc:	11003fcc 	andi	r4,r2,255
+  100b00:	01003080 	call	100308 <show_target_velocity>
+  100b04:	00001e06 	br	100b80 <ControlTask+0x190>
+  100b08:	d0a00217 	ldw	r2,-32760(gp)
   100b0c:	10800060 	cmpeqi	r2,r2,1
-  100b10:	10000d1e 	bne	r2,zero,100b48 <ControlTask+0x164>
-  100b14:	d0a00017 	ldw	r2,-32768(gp)
-  100b18:	1005003a 	cmpeq	r2,r2,zero
-  100b1c:	10000a1e 	bne	r2,zero,100b48 <ControlTask+0x164>
-  100b20:	d0a00117 	ldw	r2,-32764(gp)
+  100b10:	1000101e 	bne	r2,zero,100b54 <ControlTask+0x164>
+  100b14:	d0a00417 	ldw	r2,-32752(gp)
+  100b18:	10800060 	cmpeqi	r2,r2,1
+  100b1c:	10000d1e 	bne	r2,zero,100b54 <ControlTask+0x164>
+  100b20:	d0a00017 	ldw	r2,-32768(gp)
   100b24:	1005003a 	cmpeq	r2,r2,zero
-  100b28:	1000071e 	bne	r2,zero,100b48 <ControlTask+0x164>
-  100b2c:	e0bffc17 	ldw	r2,-16(fp)
-  100b30:	1080000b 	ldhu	r2,0(r2)
-  100b34:	10bfffcc 	andi	r2,r2,65535
-  100b38:	10a0001c 	xori	r2,r2,32768
-  100b3c:	10a00004 	addi	r2,r2,-32768
-  100b40:	10803248 	cmpgei	r2,r2,201
-  100b44:	10000b1e 	bne	r2,zero,100b74 <ControlTask+0x190>
-  100b48:	e03ffb15 	stw	zero,-20(fp)
-  100b4c:	00a43814 	movui	r2,37088
-  100b50:	10800037 	ldwio	r2,0(r2)
-  100b54:	e0bff615 	stw	r2,-40(fp)
-  100b58:	e0fff617 	ldw	r3,-40(fp)
-  100b5c:	00bfff84 	movi	r2,-2
-  100b60:	1886703a 	and	r3,r3,r2
-  100b64:	00a43814 	movui	r2,37088
-  100b68:	10c00035 	stwio	r3,0(r2)
-  100b6c:	0009883a 	mov	r4,zero
-  100b70:	01003080 	call	100308 <show_target_velocity>
-  100b74:	d0a00017 	ldw	r2,-32768(gp)
-  100b78:	1004c03a 	cmpne	r2,r2,zero
-  100b7c:	1000031e 	bne	r2,zero,100b8c <ControlTask+0x1a8>
-  100b80:	e0bff817 	ldw	r2,-32(fp)
-  100b84:	10800044 	addi	r2,r2,1
-  100b88:	e0bff815 	stw	r2,-32(fp)
-  100b8c:	e0bffb17 	ldw	r2,-20(fp)
-  100b90:	1005003a 	cmpeq	r2,r2,zero
-  100b94:	10001c1e 	bne	r2,zero,100c08 <ControlTask+0x224>
-  100b98:	e0bffc17 	ldw	r2,-16(fp)
-  100b9c:	1080000b 	ldhu	r2,0(r2)
-  100ba0:	10ffffcc 	andi	r3,r2,65535
-  100ba4:	18e0001c 	xori	r3,r3,32768
-  100ba8:	18e00004 	addi	r3,r3,-32768
-  100bac:	e0bffa17 	ldw	r2,-24(fp)
-  100bb0:	10c5c83a 	sub	r2,r2,r3
-  100bb4:	e0bff915 	stw	r2,-28(fp)
-  100bb8:	e0fff917 	ldw	r3,-28(fp)
-  100bbc:	1804d7fa 	srli	r2,r3,31
-  100bc0:	10c5883a 	add	r2,r2,r3
-  100bc4:	1005d07a 	srai	r2,r2,1
-  100bc8:	1007883a 	mov	r3,r2
+  100b28:	10000a1e 	bne	r2,zero,100b54 <ControlTask+0x164>
+  100b2c:	d0a00117 	ldw	r2,-32764(gp)
+  100b30:	1005003a 	cmpeq	r2,r2,zero
+  100b34:	1000071e 	bne	r2,zero,100b54 <ControlTask+0x164>
+  100b38:	e0bffc17 	ldw	r2,-16(fp)
+  100b3c:	1080000b 	ldhu	r2,0(r2)
+  100b40:	10bfffcc 	andi	r2,r2,65535
+  100b44:	10a0001c 	xori	r2,r2,32768
+  100b48:	10a00004 	addi	r2,r2,-32768
+  100b4c:	10803248 	cmpgei	r2,r2,201
+  100b50:	10000b1e 	bne	r2,zero,100b80 <ControlTask+0x190>
+  100b54:	e03ffb15 	stw	zero,-20(fp)
+  100b58:	00a43814 	movui	r2,37088
+  100b5c:	10800037 	ldwio	r2,0(r2)
+  100b60:	e0bff615 	stw	r2,-40(fp)
+  100b64:	e0fff617 	ldw	r3,-40(fp)
+  100b68:	00bfff84 	movi	r2,-2
+  100b6c:	1886703a 	and	r3,r3,r2
+  100b70:	00a43814 	movui	r2,37088
+  100b74:	10c00035 	stwio	r3,0(r2)
+  100b78:	0009883a 	mov	r4,zero
+  100b7c:	01003080 	call	100308 <show_target_velocity>
+  100b80:	e0bffb17 	ldw	r2,-20(fp)
+  100b84:	1005003a 	cmpeq	r2,r2,zero
+  100b88:	1000101e 	bne	r2,zero,100bcc <ControlTask+0x1dc>
+  100b8c:	e0bffc17 	ldw	r2,-16(fp)
+  100b90:	1080000b 	ldhu	r2,0(r2)
+  100b94:	10ffffcc 	andi	r3,r2,65535
+  100b98:	18e0001c 	xori	r3,r3,32768
+  100b9c:	18e00004 	addi	r3,r3,-32768
+  100ba0:	e0bffa17 	ldw	r2,-24(fp)
+  100ba4:	10c5c83a 	sub	r2,r2,r3
+  100ba8:	e0bff915 	stw	r2,-28(fp)
+  100bac:	e0fff917 	ldw	r3,-28(fp)
+  100bb0:	1804d7fa 	srli	r2,r3,31
+  100bb4:	10c5883a 	add	r2,r2,r3
+  100bb8:	1005d07a 	srai	r2,r2,1
+  100bbc:	1007883a 	mov	r3,r2
+  100bc0:	e0bff817 	ldw	r2,-32(fp)
+  100bc4:	10c5883a 	add	r2,r2,r3
+  100bc8:	e0bff815 	stw	r2,-32(fp)
   100bcc:	e0bff817 	ldw	r2,-32(fp)
-  100bd0:	10c5883a 	add	r2,r2,r3
-  100bd4:	e0bff815 	stw	r2,-32(fp)
-  100bd8:	e0bff817 	ldw	r2,-32(fp)
-  100bdc:	1004403a 	cmpge	r2,r2,zero
-  100be0:	1000021e 	bne	r2,zero,100bec <ControlTask+0x208>
-  100be4:	e03ff815 	stw	zero,-32(fp)
-  100be8:	00000506 	br	100c00 <ControlTask+0x21c>
-  100bec:	e0bff817 	ldw	r2,-32(fp)
-  100bf0:	10801450 	cmplti	r2,r2,81
-  100bf4:	1000021e 	bne	r2,zero,100c00 <ControlTask+0x21c>
-  100bf8:	00801404 	movi	r2,80
-  100bfc:	e0bff815 	stw	r2,-32(fp)
-  100c00:	e0bff817 	ldw	r2,-32(fp)
-  100c04:	e0bffe45 	stb	r2,-7(fp)
-  100c08:	d1270a17 	ldw	r4,-25560(gp)
-  100c0c:	e17ffe44 	addi	r5,fp,-7
-  100c10:	010dbd40 	call	10dbd4 <OSMboxPost>
-  100c14:	e0bffe05 	stb	r2,-8(fp)
-  100c18:	003f7f06 	br	100a18 <ControlTask+0x34>
+  100bd0:	1004403a 	cmpge	r2,r2,zero
+  100bd4:	1000021e 	bne	r2,zero,100be0 <ControlTask+0x1f0>
+  100bd8:	e03ff815 	stw	zero,-32(fp)
+  100bdc:	00000506 	br	100bf4 <ControlTask+0x204>
+  100be0:	e0bff817 	ldw	r2,-32(fp)
+  100be4:	10801450 	cmplti	r2,r2,81
+  100be8:	1000021e 	bne	r2,zero,100bf4 <ControlTask+0x204>
+  100bec:	00801404 	movi	r2,80
+  100bf0:	e0bff815 	stw	r2,-32(fp)
+  100bf4:	e0bff817 	ldw	r2,-32(fp)
+  100bf8:	e0bffe45 	stb	r2,-7(fp)
+  100bfc:	d1270a17 	ldw	r4,-25560(gp)
+  100c00:	e17ffe44 	addi	r5,fp,-7
+  100c04:	010dbd40 	call	10dbd4 <OSMboxPost>
+  100c08:	e0bffe05 	stb	r2,-8(fp)
+  100c0c:	003f8506 	br	100a24 <ControlTask+0x34>
 
-00100c1c <ButtonIO>:
-  100c1c:	defff904 	addi	sp,sp,-28
-  100c20:	dfc00615 	stw	ra,24(sp)
-  100c24:	df000515 	stw	fp,20(sp)
-  100c28:	df000504 	addi	fp,sp,20
-  100c2c:	e13fff15 	stw	r4,-4(fp)
-  100c30:	e03ffe15 	stw	zero,-8(fp)
-  100c34:	d1270c17 	ldw	r4,-25552(gp)
-  100c38:	000b883a 	mov	r5,zero
-  100c3c:	d1a71304 	addi	r6,gp,-25524
-  100c40:	010ed580 	call	10ed58 <OSSemPend>
-  100c44:	00a43814 	movui	r2,37088
-  100c48:	10800037 	ldwio	r2,0(r2)
-  100c4c:	e0bffd15 	stw	r2,-12(fp)
-  100c50:	01001600 	call	100160 <buttons_pressed>
-  100c54:	e0bffc15 	stw	r2,-16(fp)
-  100c58:	e03ffb15 	stw	zero,-20(fp)
-  100c5c:	e0bffc17 	ldw	r2,-16(fp)
-  100c60:	1080004c 	andi	r2,r2,1
-  100c64:	1080005c 	xori	r2,r2,1
-  100c68:	10803fcc 	andi	r2,r2,255
-  100c6c:	1004c03a 	cmpne	r2,r2,zero
-  100c70:	1000121e 	bne	r2,zero,100cbc <ButtonIO+0xa0>
-  100c74:	e0bffe17 	ldw	r2,-8(fp)
-  100c78:	1080004c 	andi	r2,r2,1
+00100c10 <ButtonIO>:
+  100c10:	defff904 	addi	sp,sp,-28
+  100c14:	dfc00615 	stw	ra,24(sp)
+  100c18:	df000515 	stw	fp,20(sp)
+  100c1c:	df000504 	addi	fp,sp,20
+  100c20:	e13fff15 	stw	r4,-4(fp)
+  100c24:	e03ffe15 	stw	zero,-8(fp)
+  100c28:	d1270c17 	ldw	r4,-25552(gp)
+  100c2c:	000b883a 	mov	r5,zero
+  100c30:	d1a71304 	addi	r6,gp,-25524
+  100c34:	010ed580 	call	10ed58 <OSSemPend>
+  100c38:	00a43814 	movui	r2,37088
+  100c3c:	10800037 	ldwio	r2,0(r2)
+  100c40:	e0bffd15 	stw	r2,-12(fp)
+  100c44:	01001600 	call	100160 <buttons_pressed>
+  100c48:	e0bffc15 	stw	r2,-16(fp)
+  100c4c:	e03ffb15 	stw	zero,-20(fp)
+  100c50:	e0bffc17 	ldw	r2,-16(fp)
+  100c54:	1080004c 	andi	r2,r2,1
+  100c58:	1080005c 	xori	r2,r2,1
+  100c5c:	10803fcc 	andi	r2,r2,255
+  100c60:	1004c03a 	cmpne	r2,r2,zero
+  100c64:	1000121e 	bne	r2,zero,100cb0 <ButtonIO+0xa0>
+  100c68:	e0bffe17 	ldw	r2,-8(fp)
+  100c6c:	1080004c 	andi	r2,r2,1
+  100c70:	1004c03a 	cmpne	r2,r2,zero
+  100c74:	10000e1e 	bne	r2,zero,100cb0 <ButtonIO+0xa0>
+  100c78:	d0a00417 	ldw	r2,-32752(gp)
   100c7c:	1004c03a 	cmpne	r2,r2,zero
-  100c80:	10000e1e 	bne	r2,zero,100cbc <ButtonIO+0xa0>
-  100c84:	d0a00417 	ldw	r2,-32752(gp)
-  100c88:	1004c03a 	cmpne	r2,r2,zero
-  100c8c:	1000061e 	bne	r2,zero,100ca8 <ButtonIO+0x8c>
-  100c90:	00800044 	movi	r2,1
-  100c94:	d0a00415 	stw	r2,-32752(gp)
-  100c98:	e0bffd17 	ldw	r2,-12(fp)
-  100c9c:	1080011c 	xori	r2,r2,4
-  100ca0:	e0bffd15 	stw	r2,-12(fp)
-  100ca4:	00003006 	br	100d68 <ButtonIO+0x14c>
-  100ca8:	d0200415 	stw	zero,-32752(gp)
-  100cac:	e0bffd17 	ldw	r2,-12(fp)
-  100cb0:	10800114 	ori	r2,r2,4
-  100cb4:	e0bffd15 	stw	r2,-12(fp)
-  100cb8:	00002b06 	br	100d68 <ButtonIO+0x14c>
-  100cbc:	e0bffc17 	ldw	r2,-16(fp)
-  100cc0:	1080010c 	andi	r2,r2,4
-  100cc4:	1005003a 	cmpeq	r2,r2,zero
-  100cc8:	1000121e 	bne	r2,zero,100d14 <ButtonIO+0xf8>
-  100ccc:	e0bffe17 	ldw	r2,-8(fp)
-  100cd0:	1080010c 	andi	r2,r2,4
+  100c80:	1000061e 	bne	r2,zero,100c9c <ButtonIO+0x8c>
+  100c84:	00800044 	movi	r2,1
+  100c88:	d0a00415 	stw	r2,-32752(gp)
+  100c8c:	e0bffd17 	ldw	r2,-12(fp)
+  100c90:	1080011c 	xori	r2,r2,4
+  100c94:	e0bffd15 	stw	r2,-12(fp)
+  100c98:	00003006 	br	100d5c <ButtonIO+0x14c>
+  100c9c:	d0200415 	stw	zero,-32752(gp)
+  100ca0:	e0bffd17 	ldw	r2,-12(fp)
+  100ca4:	10800114 	ori	r2,r2,4
+  100ca8:	e0bffd15 	stw	r2,-12(fp)
+  100cac:	00002b06 	br	100d5c <ButtonIO+0x14c>
+  100cb0:	e0bffc17 	ldw	r2,-16(fp)
+  100cb4:	1080010c 	andi	r2,r2,4
+  100cb8:	1005003a 	cmpeq	r2,r2,zero
+  100cbc:	1000121e 	bne	r2,zero,100d08 <ButtonIO+0xf8>
+  100cc0:	e0bffe17 	ldw	r2,-8(fp)
+  100cc4:	1080010c 	andi	r2,r2,4
+  100cc8:	1004c03a 	cmpne	r2,r2,zero
+  100ccc:	10000e1e 	bne	r2,zero,100d08 <ButtonIO+0xf8>
+  100cd0:	d0a00117 	ldw	r2,-32764(gp)
   100cd4:	1004c03a 	cmpne	r2,r2,zero
-  100cd8:	10000e1e 	bne	r2,zero,100d14 <ButtonIO+0xf8>
-  100cdc:	d0a00117 	ldw	r2,-32764(gp)
-  100ce0:	1004c03a 	cmpne	r2,r2,zero
-  100ce4:	1000061e 	bne	r2,zero,100d00 <ButtonIO+0xe4>
-  100ce8:	00800044 	movi	r2,1
-  100cec:	d0a00115 	stw	r2,-32764(gp)
-  100cf0:	e0bffd17 	ldw	r2,-12(fp)
-  100cf4:	10800414 	ori	r2,r2,16
-  100cf8:	e0bffd15 	stw	r2,-12(fp)
-  100cfc:	00001a06 	br	100d68 <ButtonIO+0x14c>
-  100d00:	d0200115 	stw	zero,-32764(gp)
-  100d04:	e0bffd17 	ldw	r2,-12(fp)
-  100d08:	1080041c 	xori	r2,r2,16
-  100d0c:	e0bffd15 	stw	r2,-12(fp)
-  100d10:	00001506 	br	100d68 <ButtonIO+0x14c>
-  100d14:	e0bffc17 	ldw	r2,-16(fp)
-  100d18:	1080020c 	andi	r2,r2,8
-  100d1c:	1005003a 	cmpeq	r2,r2,zero
-  100d20:	1000111e 	bne	r2,zero,100d68 <ButtonIO+0x14c>
-  100d24:	e0bffe17 	ldw	r2,-8(fp)
-  100d28:	1080020c 	andi	r2,r2,8
+  100cd8:	1000061e 	bne	r2,zero,100cf4 <ButtonIO+0xe4>
+  100cdc:	00800044 	movi	r2,1
+  100ce0:	d0a00115 	stw	r2,-32764(gp)
+  100ce4:	e0bffd17 	ldw	r2,-12(fp)
+  100ce8:	10800414 	ori	r2,r2,16
+  100cec:	e0bffd15 	stw	r2,-12(fp)
+  100cf0:	00001a06 	br	100d5c <ButtonIO+0x14c>
+  100cf4:	d0200115 	stw	zero,-32764(gp)
+  100cf8:	e0bffd17 	ldw	r2,-12(fp)
+  100cfc:	1080041c 	xori	r2,r2,16
+  100d00:	e0bffd15 	stw	r2,-12(fp)
+  100d04:	00001506 	br	100d5c <ButtonIO+0x14c>
+  100d08:	e0bffc17 	ldw	r2,-16(fp)
+  100d0c:	1080020c 	andi	r2,r2,8
+  100d10:	1005003a 	cmpeq	r2,r2,zero
+  100d14:	1000111e 	bne	r2,zero,100d5c <ButtonIO+0x14c>
+  100d18:	e0bffe17 	ldw	r2,-8(fp)
+  100d1c:	1080020c 	andi	r2,r2,8
+  100d20:	1004c03a 	cmpne	r2,r2,zero
+  100d24:	10000d1e 	bne	r2,zero,100d5c <ButtonIO+0x14c>
+  100d28:	d0a00017 	ldw	r2,-32768(gp)
   100d2c:	1004c03a 	cmpne	r2,r2,zero
-  100d30:	10000d1e 	bne	r2,zero,100d68 <ButtonIO+0x14c>
-  100d34:	d0a00017 	ldw	r2,-32768(gp)
-  100d38:	1004c03a 	cmpne	r2,r2,zero
-  100d3c:	1000061e 	bne	r2,zero,100d58 <ButtonIO+0x13c>
-  100d40:	00800044 	movi	r2,1
-  100d44:	d0a00015 	stw	r2,-32768(gp)
-  100d48:	e0bffd17 	ldw	r2,-12(fp)
-  100d4c:	10801014 	ori	r2,r2,64
-  100d50:	e0bffd15 	stw	r2,-12(fp)
-  100d54:	00000406 	br	100d68 <ButtonIO+0x14c>
-  100d58:	d0200015 	stw	zero,-32768(gp)
-  100d5c:	e0bffd17 	ldw	r2,-12(fp)
-  100d60:	1080101c 	xori	r2,r2,64
-  100d64:	e0bffd15 	stw	r2,-12(fp)
-  100d68:	e0bffc17 	ldw	r2,-16(fp)
-  100d6c:	e0bffe15 	stw	r2,-8(fp)
-  100d70:	00e43814 	movui	r3,37088
-  100d74:	e0bffd17 	ldw	r2,-12(fp)
-  100d78:	18800035 	stwio	r2,0(r3)
-  100d7c:	003fad06 	br	100c34 <ButtonIO+0x18>
+  100d30:	1000061e 	bne	r2,zero,100d4c <ButtonIO+0x13c>
+  100d34:	00800044 	movi	r2,1
+  100d38:	d0a00015 	stw	r2,-32768(gp)
+  100d3c:	e0bffd17 	ldw	r2,-12(fp)
+  100d40:	10801014 	ori	r2,r2,64
+  100d44:	e0bffd15 	stw	r2,-12(fp)
+  100d48:	00000406 	br	100d5c <ButtonIO+0x14c>
+  100d4c:	d0200015 	stw	zero,-32768(gp)
+  100d50:	e0bffd17 	ldw	r2,-12(fp)
+  100d54:	1080101c 	xori	r2,r2,64
+  100d58:	e0bffd15 	stw	r2,-12(fp)
+  100d5c:	e0bffc17 	ldw	r2,-16(fp)
+  100d60:	e0bffe15 	stw	r2,-8(fp)
+  100d64:	00e43814 	movui	r3,37088
+  100d68:	e0bffd17 	ldw	r2,-12(fp)
+  100d6c:	18800035 	stwio	r2,0(r3)
+  100d70:	003fad06 	br	100c28 <ButtonIO+0x18>
 
-00100d80 <SwitchIO>:
-  100d80:	defffb04 	addi	sp,sp,-20
-  100d84:	dfc00415 	stw	ra,16(sp)
-  100d88:	df000315 	stw	fp,12(sp)
-  100d8c:	df000304 	addi	fp,sp,12
-  100d90:	e13fff15 	stw	r4,-4(fp)
-  100d94:	d1270f17 	ldw	r4,-25540(gp)
-  100d98:	000b883a 	mov	r5,zero
-  100d9c:	d1a71304 	addi	r6,gp,-25524
-  100da0:	010ed580 	call	10ed58 <OSSemPend>
-  100da4:	01001880 	call	100188 <switches_pressed>
-  100da8:	e0bffe15 	stw	r2,-8(fp)
-  100dac:	00a44814 	movui	r2,37152
-  100db0:	10800037 	ldwio	r2,0(r2)
-  100db4:	e0bffd15 	stw	r2,-12(fp)
-  100db8:	e0bffe17 	ldw	r2,-8(fp)
-  100dbc:	1080004c 	andi	r2,r2,1
-  100dc0:	10803fcc 	andi	r2,r2,255
-  100dc4:	1005003a 	cmpeq	r2,r2,zero
-  100dc8:	1000011e 	bne	r2,zero,100dd0 <SwitchIO+0x50>
-  100dcc:	d0200315 	stw	zero,-32756(gp)
-  100dd0:	e0bffe17 	ldw	r2,-8(fp)
-  100dd4:	1080004c 	andi	r2,r2,1
-  100dd8:	1004c03a 	cmpne	r2,r2,zero
-  100ddc:	1000021e 	bne	r2,zero,100de8 <SwitchIO+0x68>
-  100de0:	00800044 	movi	r2,1
-  100de4:	d0a00315 	stw	r2,-32756(gp)
-  100de8:	e0bffe17 	ldw	r2,-8(fp)
-  100dec:	1080008c 	andi	r2,r2,2
-  100df0:	1005003a 	cmpeq	r2,r2,zero
-  100df4:	1000011e 	bne	r2,zero,100dfc <SwitchIO+0x7c>
-  100df8:	d0200215 	stw	zero,-32760(gp)
-  100dfc:	e0bffe17 	ldw	r2,-8(fp)
-  100e00:	1080008c 	andi	r2,r2,2
-  100e04:	1004c03a 	cmpne	r2,r2,zero
-  100e08:	1000021e 	bne	r2,zero,100e14 <SwitchIO+0x94>
-  100e0c:	00800044 	movi	r2,1
-  100e10:	d0a00215 	stw	r2,-32760(gp)
-  100e14:	e0bffe17 	ldw	r2,-8(fp)
-  100e18:	10c000cc 	andi	r3,r2,3
-  100e1c:	e0bffd17 	ldw	r2,-12(fp)
-  100e20:	1886b03a 	or	r3,r3,r2
+00100d74 <SwitchIO>:
+  100d74:	defffb04 	addi	sp,sp,-20
+  100d78:	dfc00415 	stw	ra,16(sp)
+  100d7c:	df000315 	stw	fp,12(sp)
+  100d80:	df000304 	addi	fp,sp,12
+  100d84:	e13fff15 	stw	r4,-4(fp)
+  100d88:	d1270f17 	ldw	r4,-25540(gp)
+  100d8c:	000b883a 	mov	r5,zero
+  100d90:	d1a71304 	addi	r6,gp,-25524
+  100d94:	010ed580 	call	10ed58 <OSSemPend>
+  100d98:	01001880 	call	100188 <switches_pressed>
+  100d9c:	e0bffe15 	stw	r2,-8(fp)
+  100da0:	00a44814 	movui	r2,37152
+  100da4:	10800037 	ldwio	r2,0(r2)
+  100da8:	e0bffd15 	stw	r2,-12(fp)
+  100dac:	e0bffe17 	ldw	r2,-8(fp)
+  100db0:	1080004c 	andi	r2,r2,1
+  100db4:	10803fcc 	andi	r2,r2,255
+  100db8:	1005003a 	cmpeq	r2,r2,zero
+  100dbc:	1000011e 	bne	r2,zero,100dc4 <SwitchIO+0x50>
+  100dc0:	d0200315 	stw	zero,-32756(gp)
+  100dc4:	e0bffe17 	ldw	r2,-8(fp)
+  100dc8:	1080004c 	andi	r2,r2,1
+  100dcc:	1004c03a 	cmpne	r2,r2,zero
+  100dd0:	1000021e 	bne	r2,zero,100ddc <SwitchIO+0x68>
+  100dd4:	00800044 	movi	r2,1
+  100dd8:	d0a00315 	stw	r2,-32756(gp)
+  100ddc:	e0bffe17 	ldw	r2,-8(fp)
+  100de0:	1080008c 	andi	r2,r2,2
+  100de4:	1005003a 	cmpeq	r2,r2,zero
+  100de8:	1000011e 	bne	r2,zero,100df0 <SwitchIO+0x7c>
+  100dec:	d0200215 	stw	zero,-32760(gp)
+  100df0:	e0bffe17 	ldw	r2,-8(fp)
+  100df4:	1080008c 	andi	r2,r2,2
+  100df8:	1004c03a 	cmpne	r2,r2,zero
+  100dfc:	1000021e 	bne	r2,zero,100e08 <SwitchIO+0x94>
+  100e00:	00800044 	movi	r2,1
+  100e04:	d0a00215 	stw	r2,-32760(gp)
+  100e08:	e0bffe17 	ldw	r2,-8(fp)
+  100e0c:	110000cc 	andi	r4,r2,3
+  100e10:	e0fffd17 	ldw	r3,-12(fp)
+  100e14:	00bfff04 	movi	r2,-4
+  100e18:	1884703a 	and	r2,r3,r2
+  100e1c:	2084b03a 	or	r2,r4,r2
+  100e20:	1007883a 	mov	r3,r2
   100e24:	00a44814 	movui	r2,37152
   100e28:	10c00035 	stwio	r3,0(r2)
-  100e2c:	003fd906 	br	100d94 <SwitchIO+0x14>
+  100e2c:	003fd606 	br	100d88 <SwitchIO+0x14>
 
 00100e30 <StartTask>:
   100e30:	defff604 	addi	sp,sp,-40
@@ -1762,7 +1762,7 @@ Disassembly of section .text:
   100ef4:	00800044 	movi	r2,1
   100ef8:	d8800415 	stw	r2,16(sp)
   100efc:	01000434 	movhi	r4,16
-  100f00:	21027904 	addi	r4,r4,2532
+  100f00:	21027c04 	addi	r4,r4,2544
   100f04:	000b883a 	mov	r5,zero
   100f08:	01c00304 	movi	r7,12
   100f0c:	010f5500 	call	10f550 <OSTaskCreateExt>
@@ -1780,7 +1780,7 @@ Disassembly of section .text:
   100f3c:	00800044 	movi	r2,1
   100f40:	d8800415 	stw	r2,16(sp)
   100f44:	01000434 	movhi	r4,16
-  100f48:	2101ca04 	addi	r4,r4,1832
+  100f48:	2101cd04 	addi	r4,r4,1844
   100f4c:	000b883a 	mov	r5,zero
   100f50:	01c00284 	movi	r7,10
   100f54:	010f5500 	call	10f550 <OSTaskCreateExt>
@@ -1798,7 +1798,7 @@ Disassembly of section .text:
   100f84:	00800044 	movi	r2,1
   100f88:	d8800415 	stw	r2,16(sp)
   100f8c:	01000434 	movhi	r4,16
-  100f90:	21030704 	addi	r4,r4,3100
+  100f90:	21030404 	addi	r4,r4,3088
   100f94:	000b883a 	mov	r5,zero
   100f98:	01c00344 	movi	r7,13
   100f9c:	010f5500 	call	10f550 <OSTaskCreateExt>
@@ -1816,7 +1816,7 @@ Disassembly of section .text:
   100fcc:	00800044 	movi	r2,1
   100fd0:	d8800415 	stw	r2,16(sp)
   100fd4:	01000434 	movhi	r4,16
-  100fd8:	21036004 	addi	r4,r4,3456
+  100fd8:	21035d04 	addi	r4,r4,3444
   100fdc:	000b883a 	mov	r5,zero
   100fe0:	01c00384 	movi	r7,14
   100fe4:	010f5500 	call	10f550 <OSTaskCreateExt>

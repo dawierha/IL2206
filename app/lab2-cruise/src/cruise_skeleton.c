@@ -234,7 +234,7 @@ void show_position(INT16U position)
 		redled &= 0x0003;
 		redled |= 0x00020000;
 	}
-    //IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, redled);
+    IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, redled);
 }
 
 /*
@@ -377,25 +377,23 @@ void ControlTask(void* pdata)
 		IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_GREENLED9_BASE, ((greenled>>1)<<1));
 		show_target_velocity((INT8U)0);
 	  }
-	  
+	  /*
 	  if(gas_pedal == on){
 
-	 	temp_throttle += 1;
+		if(top_gear == on){
+		 	temp_throttle += 1;
+		} else {
+			temp_throttle += 1;
+		}
 
-	  }
+	  }*/
 		
 	  if(is_cruise_control){ //TODO anti windup code
 		vel_error = desired_vel - *current_velocity;
 
 		temp_throttle = temp_throttle + P_VALUE*vel_error/10;
-		if(temp_throttle < 0){
-			temp_throttle = 0;
- 		} else if(temp_throttle > 80){
-			temp_throttle = 80;
-		}
 
 		
-		throttle = (INT8U)temp_throttle;
 		/*
 		printf("vel error %d \n", vel_error/10);
 		printf("vel des %d \n", desired_vel);
@@ -403,8 +401,13 @@ void ControlTask(void* pdata)
 		printf("throttle %d \n", throttle);
 		*/
 	  }
+		if(temp_throttle < 0){
+			temp_throttle = 0;
+ 		} else if(temp_throttle > 80){
+			temp_throttle = 80;
+		}
 
-
+	  throttle = (INT8U)temp_throttle;
 
       err = OSMboxPost(Mbox_Throttle, (void *) &throttle);
 
@@ -486,7 +489,7 @@ void SwitchIO(void* pdata)
 	if(!(switches&0x00000002))
       top_gear = off;
 
-	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, (0x0000003&switches)|redled);
+	IOWR_ALTERA_AVALON_PIO_DATA(DE2_PIO_REDLED18_BASE, (0x0000003&switches)|(redled&0xfffffffc));
   }
 }
 
