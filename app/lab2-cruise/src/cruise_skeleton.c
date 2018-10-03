@@ -1,8 +1,9 @@
-#include <stdio.h>
+//#include <stdio.h>
+#define NULL ((char *)0)
 #include "system.h"
 #include "includes.h"
 #include "altera_avalon_pio_regs.h"
-#include "sys/alt_irq.h"
+//#include "sys/alt_irq.h"
 #include "sys/alt_alarm.h"
 
 #define DEBUG 1
@@ -33,7 +34,7 @@
  * Definition of Tasks
  */
 
-#define TASK_STACKSIZE 2048
+#define TASK_STACKSIZE 512
 
 OS_STK StartTask_Stack[TASK_STACKSIZE]; 
 OS_STK ControlTask_Stack[TASK_STACKSIZE]; 
@@ -313,7 +314,7 @@ void VehicleTask(void* pdata)
   INT16S velocity = 0; /* Value between -200 and 700 (-20.0 m/s amd 70.0 m/s) */
   INT16S wind_factor;   /* Value between -10 and 20 (2.0 m/s^2 and -1.0 m/s^2) */
 
-  printf("Vehicle task created!\n");
+  ////printf("Vehicle task created!\n");
 
   while(1)
     {
@@ -351,9 +352,9 @@ void VehicleTask(void* pdata)
       acceleration = *throttle / 2 - retardation;	  
       position = adjust_position(position, velocity, acceleration, 300); 
       velocity = adjust_velocity(velocity, acceleration, brake_pedal, 300); 
-      printf("Position: %dm\n", position / 10);
-      printf("Velocity: %4.1fm/s\n", velocity /10.0);
-      printf("Throttle: %dV\n", *throttle / 10);
+      //printf("Position: %dm\n", position / 10);
+      //printf("Velocity: %4.1fm/s\n", velocity /10.0);
+      //printf("Throttle: %dV\n", *throttle / 10);
       show_velocity_on_sevenseg((INT8S) (velocity / 10));
     }
 } 
@@ -374,7 +375,7 @@ void ControlTask(void* pdata)
   int vel_error = 0;
   
 
-  printf("Control Task created!\n");
+  //printf("Control Task created!\n");
 
   while(1)
     {
@@ -517,7 +518,7 @@ void Watchdog_task(void* pdata){
 		OSSemPend(watchdog_sem, 0, &error);
 		
 		if(!cpu_ok){
-			printf("overload");
+			//printf("overload");
 		}
 		cpu_ok = 0;
 	}
@@ -544,7 +545,7 @@ void Detection_task(void* pdata){
 	while(1){
 
 		OSSemPend(detection_sem, 0, &error);
-printf("usage %d\n\n", OSCPUUsage);
+//printf("usage %d\n\n", OSCPUUsage);
 		if(OSCPUUsage<100){
 			cpu_ok = 1;
 		}
@@ -566,7 +567,7 @@ void StartTask(void* pdata)
   
   /* Base resolution for SW timer : HW_TIMER_PERIOD ms */
   delay = alt_ticks_per_second() * HW_TIMER_PERIOD / 1000; 
-  printf("delay in ticks %d\n", delay);
+  //printf("delay in ticks %d\n", delay);
 
   /* 
    * Create Hardware Timer with a period of 'delay' 
@@ -576,7 +577,7 @@ void StartTask(void* pdata)
 		       alarm_handler,
 		       context) < 0)
     {
-      printf("No system clock available!n");
+      //printf("No system clock available!n");
     }
 
   /* 
@@ -694,7 +695,7 @@ void StartTask(void* pdata)
 			OS_TASK_OPT_STK_CHK);
 
 
-  printf("All Tasks and Kernel Objects generated!\n");
+  //printf("All Tasks and Kernel Objects generated!\n");
 
   /* Task deletes itself */
 
@@ -751,7 +752,7 @@ void TimerCallback(void *ptmr, void *callback_arg){
 
 int main(void) {
 
-  printf("Lab: Cruise Control\n");
+  //printf("Lab: Cruise Control\n");
 
 
 

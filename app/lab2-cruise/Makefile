@@ -28,6 +28,6 @@ NIOS2_BSP_COMMANDS := \
       --set hal.enable_sopc_sysid_check 1 \
       --set ucosii.os_tmr_en 1
 
-MAKEFILE_COMMANDS := --set APP_CFLAGS_OPTIMIZATION -O0
+MAKEFILE_COMMANDS := --set APP_CFLAGS_OPTIMIZATION -Os
 
 include ../Makefile.in
