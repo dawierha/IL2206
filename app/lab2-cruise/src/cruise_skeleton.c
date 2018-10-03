@@ -40,6 +40,9 @@ OS_STK ControlTask_Stack[TASK_STACKSIZE];
 OS_STK VehicleTask_Stack[TASK_STACKSIZE];
 OS_STK ButtonIO_Stack[TASK_STACKSIZE]; //TODO smaller stach size?
 OS_STK SwitchIO_Stack[TASK_STACKSIZE];
+OS_STK Watchdog_Stack[TASK_STACKSIZE];
+OS_STK Detection_Stack[TASK_STACKSIZE];
+OS_STK ExtraLoad_Stack[TASK_STACKSIZE];
 
 // Task Priorities
  
@@ -47,12 +50,21 @@ OS_STK SwitchIO_Stack[TASK_STACKSIZE];
 #define VEHICLETASK_PRIO  10
 #define CONTROLTASK_PRIO  12
 #define BUTTONIO_PRIO 	  13
-#define SWITCHIO_PRIO 	  14
+#define SWITCHIO_PRIO 	  15
+#define WATCHDOG_PRIO 	   6
+#define EXTRALOAD_PRIO    13
+#define DETECTION_PRIO	  11
 
 // Task Periods
 
 #define CONTROL_PERIOD  300
 #define VEHICLE_PERIOD  300
+#define BUTTON_PERIOD 300
+#define SWITCH_PERIOD 300
+#define WATCHDOG_PERIOD 2300
+#define EXTRALOAD_PERIOD 300
+#define DETECTION_PERIOD 300
+
 
 #define MS_TO_TICKS 50000
 #define P_VALUE 5
@@ -90,13 +102,21 @@ OS_TMR *vehicle_tmr;
 OS_TMR *control_tmr;
 OS_TMR *button_tmr;
 OS_TMR *switch_tmr;
+OS_TMR *watchdog_tmr;
+OS_TMR *detection_tmr;
+OS_TMR *extraLoad_tmr;
 
 OS_EVENT *vehicle_sem;
 OS_EVENT *control_sem;
 OS_EVENT *button_sem;
 OS_EVENT *switch_sem;
+OS_EVENT *watchdog_sem;
+OS_EVENT *detection_sem;
+OS_EVENT *extraLoad_sem;
 
 INT8U error;
+
+int cpu_ok = 1;
 
 
 int buttons_pressed(void)
@@ -396,13 +416,6 @@ void ControlTask(void* pdata)
 
 		temp_throttle = temp_throttle + P_VALUE*vel_error/10;
 
-		
-		/*
-		printf("vel error %d \n", vel_error/10);
-		printf("vel des %d \n", desired_vel);
-		printf("current vel %d \n", *current_velocity);
-		printf("throttle %d \n", throttle);
-		*/
 	  }
 		if(temp_throttle < 0){
 			temp_throttle = 0;
@@ -412,9 +425,9 @@ void ControlTask(void* pdata)
 
 	  throttle = (INT8U)temp_throttle;
 
+
       err = OSMboxPost(Mbox_Throttle, (void *) &throttle);
 
-      //OSTimeDlyHMSM(0,0,0, CONTROL_PERIOD);
     }
 }
 
@@ -496,6 +509,39 @@ void SwitchIO(void* pdata)
   }
 }
 
+
+void Watchdog_task(void* pdata){
+
+	while(1){
+		OSSemPend(watchdog_sem, 0, &error);
+		
+		if(!cpu_ok){
+			printf("overload");
+		}
+		cpu_ok = 0;
+	}
+}
+
+void ExtraLoad_task(void* pdata){
+
+	while(1){
+		OSSemPend(extraLoad_sem, 0, &error);
+		int switches = switches_pressed();
+		switches = (switches>>4)&0x003f;
+	}
+}
+
+void Detection_task(void* pdata){
+
+	while(1){
+		OSSemPend(detection_sem, 0, &error);
+
+		if(OSCPUUsage<100){
+			cpu_ok = 1;
+		}
+
+	}
+}
 
 /* 
  * The task 'StartTask' creates all other tasks kernel objects and
@@ -598,7 +644,47 @@ void StartTask(void* pdata)
 			TASK_STACKSIZE,
 			(void *) 0,
 			OS_TASK_OPT_STK_CHK);
-  
+
+  err = OSTaskCreateExt(
+			Watchdog_task, // Pointer to task code
+			NULL,        // Pointer to argument that is
+	                // passed to task
+			&Watchdog_Stack[TASK_STACKSIZE-1], // Pointer to top
+			// of task stack
+			WATCHDOG_PRIO,
+			WATCHDOG_PRIO,
+			(void *)&Watchdog_Stack[0],
+			TASK_STACKSIZE,
+			(void *) 0,
+			OS_TASK_OPT_STK_CHK);
+
+    err = OSTaskCreateExt(
+			ExtraLoad_task, // Pointer to task code
+			NULL,        // Pointer to argument that is
+	                // passed to task
+			&ExtraLoad_Stack[TASK_STACKSIZE-1], // Pointer to top
+			// of task stack
+			EXTRALOAD_PRIO,
+			EXTRALOAD_PRIO,
+			(void *)&ExtraLoad_Stack[0],
+			TASK_STACKSIZE,
+			(void *) 0,
+			OS_TASK_OPT_STK_CHK);
+
+  err = OSTaskCreateExt(
+			Detection_task, // Pointer to task code
+			NULL,        // Pointer to argument that is
+	                // passed to task
+			&Detection_Stack[TASK_STACKSIZE-1], // Pointer to top
+			// of task stack
+			DETECTION_PRIO,
+			DETECTION_PRIO,
+			(void *)&Detection_Stack[0],
+			TASK_STACKSIZE,
+			(void *) 0,
+			OS_TASK_OPT_STK_CHK);
+
+
   printf("All Tasks and Kernel Objects generated!\n");
 
   /* Task deletes itself */
@@ -630,6 +716,18 @@ void TimerCallback(void *ptmr, void *callback_arg){
   if ((int *)callback_arg == 3){
     OSSemPost(switch_sem);
   }
+
+  if ((int *)callback_arg == 4){
+    OSSemPost(watchdog_sem);
+  }
+
+  if ((int *)callback_arg == 5){
+    OSSemPost(extraLoad_sem);
+  }
+
+  if ((int *)callback_arg == 6){
+    OSSemPost(detection_sem);
+  }
 }
 
 
@@ -649,22 +747,37 @@ int main(void) {
 
 
  
-  vehicle_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+  vehicle_tmr = OSTmrCreate(0, VEHICLE_PERIOD/HW_TIMER_PERIOD, OS_TMR_OPT_PERIODIC,
     TimerCallback, (void *)0, "vehicle_tmr", &error);
 
-  control_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+  control_tmr = OSTmrCreate(0, CONTROL_PERIOD/HW_TIMER_PERIOD, OS_TMR_OPT_PERIODIC,
     TimerCallback, (void *)1, "control_tmr", &error);
 
-  button_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+  button_tmr = OSTmrCreate(0, BUTTON_PERIOD/HW_TIMER_PERIOD, OS_TMR_OPT_PERIODIC,
     TimerCallback, (void *)2, "button_tmr", &error);
 
-  switch_tmr = OSTmrCreate(0, 10, OS_TMR_OPT_PERIODIC,
+  switch_tmr = OSTmrCreate(0, SWITCH_PERIOD/HW_TIMER_PERIOD, OS_TMR_OPT_PERIODIC,
     TimerCallback, (void *)3, "switch_tmr", &error);
+
+  watchdog_tmr = OSTmrCreate(0, WATCHDOG_PERIOD/HW_TIMER_PERIOD, OS_TMR_OPT_PERIODIC,
+    TimerCallback, (void *)4, "dog_tmr", &error);
+
+  extraLoad_tmr = OSTmrCreate(0, EXTRALOAD_PERIOD/HW_TIMER_PERIOD, OS_TMR_OPT_PERIODIC,
+    TimerCallback, (void *)5, "load_tmr", &error);
+
+  detection_tmr = OSTmrCreate(0, DETECTION_PERIOD/HW_TIMER_PERIOD, OS_TMR_OPT_PERIODIC,
+    TimerCallback, (void *)6, "detect_tmr", &error);
+
+
 
   vehicle_sem = OSSemCreate(0);
   control_sem = OSSemCreate(0);
   button_sem = OSSemCreate(0);
   switch_sem = OSSemCreate(0);
+  watchdog_sem = OSSemCreate(0);
+  extraLoad_sem = OSSemCreate(0);
+  detection_sem = OSSemCreate(0);
+
  
   OSTaskCreateExt(
 		  StartTask, // Pointer to task code
@@ -684,6 +797,9 @@ int main(void) {
   OSTmrStart(control_tmr, &error);  
   OSTmrStart(button_tmr, &error);  
   OSTmrStart(switch_tmr, &error);        
+  OSTmrStart(watchdog_tmr, &error);        
+  OSTmrStart(extraLoad_tmr, &error);        
+  OSTmrStart(detection_tmr, &error);        
   OSStart();
   
   return 0;
